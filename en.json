@@ -10,6 +10,7 @@
 
     "APP_NAMES": {
         "Police": "Police",
+        "Ambulance": "Ambulance",
         "Notes": "Notes",
         "Browser": "Browser",
         "Settings": "Settings",
@@ -414,7 +415,9 @@
             "OK": "OK",
             "ADD": "Add",
             "NEW": "New",
+            "PROCEED": "Proceed",
 
+            "SEARCH": "Search",
             "SEARCH_FOR": "Search for {query} to get started",
             "NO_RESULTS_FOR": "No results found for '{query}'",
             "CLEAR_HISTORY": "Clear History",
@@ -677,9 +680,46 @@
 
             "OFFENCES": {
                 "TITLE": "Offences",
-                "NO_OFFENCES_FOUND": "No Offences Found",
+                "SEARCH": "Search Offences",
                 "MONTHS": "{amount} Months",
-                "FINE": "{amount} Fine"
+                "FINE": "{amount} Fine",
+
+                "SELECT_SEVERITY": "Select Severity",
+                "SEVERITIES": {
+                    "INFRACTION": "Infraction",
+                    "MISDEMEANOR": "Misdemeanor",
+                    "FELONY": "Felony"
+                },
+                "NO_OFFENCES_FOUND": "No Offences Found",
+                "ADD_OFFENCE": {
+                    "TITLE": "Add Offence",
+                    "DESCRIPTION": "Create a new offence",
+                    "PLACEHOLDER": "Enter the offence title"
+                },
+                "SET_JAILTIME": {
+                    "TITLE": "Recommended Jail Time",
+                    "DESCRIPTION": "Set the recommended jail time for the offence",
+                    "PLACEHOLDER": "Recommended jail time (in months) (0 for fine only)"
+                },
+                "SET_FINE": {
+                    "TITLE": "Recommended Fine",
+                    "DESCRIPTION": "Set the recommended fine for the offence",
+                    "PLACEHOLDER": "Recommended fine amount (0 for jail time only)"
+                },
+
+                "DELETE_OFFENCE": {
+                    "TITLE": "Delete Offence",
+                    "DESCRIPTION": "Are you sure you want to delete this offence?"
+                },
+                "ADD_CATEGORY": {
+                    "TITLE": "Add Category",
+                    "DESCRIPTION": "Add a new category to the offences list",
+                    "PLACEHOLDER": "Enter the category name"
+                },
+                "DELETE_CATEGORY": {
+                    "TITLE": "Delete Category",
+                    "DESCRIPTION": "Are you sure you want to delete this category?"
+                }
             },
 
             "EMPLOYEES": {
@@ -874,11 +914,246 @@
                 "FORMATTED_DATE": "{day} {month} {year} at {hours}:{minutes}",
                 "CHANGE_AVATAR": "Change Avatar",
                 "REMOVE_AVATAR": "Remove Avatar",
+                "SET_CALLSIGN": "Set Callsign",
                 "CALLSIGN": {
                     "TITLE": "Callsign",
                     "DESCRIPTION": "Enter a callsign",
                     "CANCEL": "Cancel",
                     "PROCEED": "Proceed"
+                }
+            }
+        },
+        "AMBULANCE": {
+            "TITLE": "Ambulance",
+
+            "SEARCH": "Search",
+            "CANCEL": "Cancel",
+            "CLOSE": "Close",
+            "BACK": "Back",
+            "EDIT": "Edit",
+            "DELETE": "Delete",
+            "REMOVE": "Remove",
+            "SAVE": "Save",
+            "CREATE": "Create",
+            "PROCEED": "Proceed",
+            "OK": "OK",
+            "ADD": "Add",
+            "NEW": "New",
+
+            "SEARCH_FOR": "Search for {query} to get started",
+            "NO_RESULTS_FOR": "No results found for '{query}'",
+            "CLEAR_HISTORY": "Clear History",
+
+            "HOME": {
+                "TITLE": "Home",
+                "CREATE": "Create",
+
+                "RECENT_REPORTS": "Recent Reports",
+                "REPORT_FOOTER": "{timestamp} - {author}",
+                "BULLETIN_BOARD": "Bulletin Board",
+                "PIN": "Pin",
+                "UNPIN": "Unpin",
+                "SEARCH_BULLETIN": "Search Bulletin",
+                "SEARCH_UNITS": "Search Units",
+                "ADD_BULLETIN": {
+                    "TITLE": "Add Bulletin",
+                    "DESCRIPTION": "Create a new bulletin post",
+                    "PLACEHOLDER": "Title",
+                    "CONTENT": "Content",
+                    "CANCEL": "Cancel",
+                    "PROCEED": "Proceed"
+                },
+                "DELETE_BULLETIN": {
+                    "TITLE": "Delete Bulletin",
+                    "DESCRIPTION": "Are you sure you want to delete this bulletin post?",
+                    "CANCEL": "Cancel",
+                    "DELETE": "Delete"
+                },
+                "ACTIVE_UNITS": "Active Units"
+            },
+
+            "DISPATCH": {
+                "TITLE": "Dispatch",
+                "TOGGLE_EMPLOYEES": "Toggle Employees",
+                "TOGGLE_ALARMS": "Toggle Alarms",
+                "EMPLOYEES": "Employees",
+                "ALARMS": "Alarms",
+
+                "RESPOND": "Respond",
+                "COLLAPSE": "Collapse",
+                "EXPAND": "Expand",
+                "DISMISS": "Dismiss",
+                "VIEW_IN_TABLET": "View in Tablet",
+                "SET_WAYPOINT": "Set Waypoint",
+
+                "PRIORITY": {
+                    "HIGH": "High",
+                    "MEDIUM": "Medium",
+                    "LOW": "Low"
+                },
+
+                "JUST_NOW": "Just now",
+                "MINUTES_AGO": "{minutes}m ago",
+                "HOURS_AGO": "{hours}h ago"
+            },
+
+            "JOURNALS": {
+                "TITLE": "Journals",
+                "PROFILES": "Profiles",
+                "PERSON": "Person",
+                "SEARCH": "Search Profiles",
+                "REMOVE_AVATAR": "Remove Avatar",
+                "DOB": "DOB",
+                "PHONE_NR": "Phone Nr",
+                "GENDER": "Gender",
+                "JOB": "Job",
+                "MALE": "Male",
+                "FEMALE": "Female",
+                "HEIGHT": "Height",
+                "HEIGHT_FORMAT": "{height}cm",
+                "BLOOD_TYPE": "Blood Type",
+                "NOTES": "Notes",
+                "NOTES_PLACEHOLDER": "Enter notes here...",
+                "DIAGNOSES_DISEASES": "Diagnoses / Diseases",
+                "NO_DIAGNOSES": "No Diagnoses / Diseases",
+                "REPORTS": "Reports",
+                "NO_REPORTS": "No Reports",
+
+                "ADD_AVATAR": {
+                    "TITLE": "Add Avatar",
+                    "SET_PHOTO": "Set Photo",
+                    "PASTE_URL": "Paste URL",
+                    "PASTE_URL_DESCRIPTION": "Enter a URL to an image",
+                    "PASTE_URL_PLACEHOLDER": "Image URL",
+
+                    "INVALID_URL": "Invalid URL",
+                    "INVALID_URL_DESCRIPTION": "The URL you entered is not a valid image URL",
+                    "OK": "OK"
+                }
+            },
+
+            "REPORTS": {
+                "TITLE": "Reports",
+                "REPORT": "Report",
+                "SEARCH": "Search Reports",
+                "FOOTER": "{author} - Report ID: {id}",
+                "NEW_REPORT_TITLE": "New Report",
+                "TYPE": "Type",
+                "DESCRIPTION": "Description",
+                "DESCRIPTION_PLACEHOLDER": "Enter a description...",
+                "GALLERY": "Gallery",
+                "NO_ATTACHMENTS": "No Attachments",
+                "INJURIES_CONDITIONS": "Injuries / Conditions",
+                "NO_INJURIES": "No Injuries / Conditions",
+                "DOCTORS_INVOLVED": "Doctors Involved",
+                "NO_DOCTORS_INVOLVED": "No Doctors Involved",
+                "ADD_PATIENT": "Add Patient",
+
+                "REMOVE_INJURY": {
+                    "TITLE": "Remove Injury",
+                    "DESCRIPTION": "Are you sure you want to remove the injury from the report?"
+                },
+                "REMOVE_DOCTOR": {
+                    "TITLE": "Remove Doctor",
+                    "DESCRIPTION": "Are you sure you want to remove {name} from the report?"
+                },
+
+                "ERROR": {
+                    "TITLE": "Error",
+                    "NO_TYPE": "You must select a report type",
+                    "TITLE_LENGTH": "The title must be atleast 3 characters long",
+                    "DESCRIPTION_LENGTH": "The description must be atleast 10 characters long"
+                }
+            },
+
+            "EMPLOYEES": {
+                "TITLE": "Employees",
+                "SEARCH": "Search Employees"
+            },
+
+            "CHAT": {
+                "TITLE": "Chat",
+                "SEARCH": "Search Chats",
+                "PLACEHOLDER": "Send a message...",
+                "JOINED_CHATS": "Joined Chats",
+                "PUBLIC_CHATS": "Public Chats",
+                "PRIVATE_CHATS": "Private Chats",
+                "ROOM_ID": "Room ID: {id}",
+                "TOGGLE_PRIVATE": "Toggle Private",
+                "CHANGE_AVATAR": "Change Avatar",
+                "SET_AVATAR": "Set Avatar",
+                "REMOVE_AVATAR": "Remove Avatar",
+                "MANAGE": "Manage",
+                "LEAVE": {
+                    "TITLE": "Leave",
+                    "DESCRIPTION": "Are you sure you want to leave the chatroom?"
+                },
+                "KICK": {
+                    "TITLE": "Kick",
+                    "DESCRIPTION": "Are you sure you want to kick {name} from the chatroom?"
+                },
+
+                "CREATE_CHATROOM": {
+                    "TITLE": "Create Chatroom",
+                    "DESCRIPTION": "Enter a name for the chatroom",
+                    "PLACEHOLDER": "Chatroom Name",
+                    "CREATE": "Create",
+                    "SET_VISIBILITY": "Set Visibility",
+                    "PUBLIC": "Public",
+                    "PRIVATE": "Private"
+                },
+                "JOIN_CHAT": {
+                    "TITLE": "Join Chat",
+                    "DESCRIPTION": "Are you sure you want to join {channel}?",
+                    "JOIN": "Join"
+                },
+                "ERROR": {
+                    "TITLE": "Error",
+                    "FAILED_JOIN": "Failed to join chatroom",
+                    "FAILED_INVITE": "Failed to invite {name} to the chatroom",
+                    "FAILED_SET_AVATAR": "Failed to set the chatroom avatar",
+                    "FAILED_REMOVE_AVATAR": "Failed to remove the chatroom avatar",
+                    "FAILED_GET_MEMBERS": "Failed to get chatroom members",
+                    "FAILED_KICK": "Failed to kick {name} from the chatroom",
+                    "FAILED_LEAVE": "Failed to leave the chatroom"
+                },
+                "SUCCESS": {
+                    "TITLE": "Success",
+                    "INVITED": "You have invited {name} to the chatroom",
+                    "KICKED": "You have kicked {name} from the chatroom"
+                }
+            },
+
+            "CONDITIONS": {
+                "TITLE": "Conditions",
+                "CONDITION": "Condition",
+                "SEARCH": "Search Conditions",
+
+                "SELECT_SEVERITY": "Select Severity",
+                "SEVERITIES": {
+                    "MINOR": "Minor",
+                    "MODERATE": "Moderate",
+                    "SEVERE": "Severe",
+                    "CRITICAL": "Critical"
+                },
+                "NO_CONDITIONS_FOUND": "No Conditions Found",
+                "ADD_CONDITION": {
+                    "TITLE": "Add Condition",
+                    "DESCRIPTION": "Create a new condition",
+                    "PLACEHOLDER": "Enter the condition title"
+                },
+                "DELETE_CONDITION": {
+                    "TITLE": "Delete Condition",
+                    "DESCRIPTION": "Are you sure you want to delete this condition?"
+                },
+                "ADD_CATEGORY": {
+                    "TITLE": "Add Category",
+                    "DESCRIPTION": "Add a new category to the conditions list",
+                    "PLACEHOLDER": "Enter the category name"
+                },
+                "DELETE_CATEGORY": {
+                    "TITLE": "Delete Category",
+                    "DESCRIPTION": "Are you sure you want to delete this category?"
                 }
             }
         }
@@ -1032,6 +1307,100 @@
             "CHAT_MESSAGE_NOTIFICATION": {
                 "TITLE": "New Message in {channel}",
                 "CONTENT": "{message}"
+            },
+            "LOGS": {
+                "CREATE_OFFENCE_CATEGORY": {
+                    "TITLE": "Created a offence category",
+                    "DESCRIPTION": "Created the category '{name}'"
+                },
+                "DELETE_OFFENCE_CATEGORY": {
+                    "TITLE": "Deleted a offence category",
+                    "DESCRIPTION": "Deleted the category '{name}'"
+                },
+                "CREATE_OFFENCE": {
+                    "TITLE": "Created a offence",
+                    "DESCRIPTION": "Created a {class} offence '{name}' in '{category}'"
+                },
+                "DELETE_OFFENCE": {
+                    "TITLE": "Deleted a offence",
+                    "DESCRIPTION": "Deleted the offence '{name}' in '{category}'"
+                }
+            }
+        },
+        "AMBULANCE": {
+            "NOTIFICATIONS": {
+                "CHAT": {
+                    "NEW_CHANNEL": {
+                        "TITLE": "New Conversation",
+                        "CONTENT": "{channel}"
+                    },
+                    "NEW_MESSAGE": {
+                        "TITLE": "New Message in {channel}",
+                        "CONTENT": "{message}"
+                    }
+                },
+                "NEW_BULLETIN": {
+                    "TITLE": "New Bulletin",
+                    "CONTENT": "{title}"
+                },
+                "NEW_REPORT": {
+                    "TITLE": "New Report",
+                    "CONTENT": "{title}"
+                }
+            },
+            "TAG_TYPES": {
+                "PROFILE": "profile",
+                "REPORT": "report"
+            },
+            "LOGS": {
+                "CREATE_CONDITION_CATEGORY": {
+                    "TITLE": "Created a condition category",
+                    "DESCRIPTION": "Created the category '{name}'"
+                },
+                "DELETE_CONDITION_CATEGORY": {
+                    "TITLE": "Deleted a condition category",
+                    "DESCRIPTION": "Deleted the category '{name}'"
+                },
+                "CREATE_CONDITION": {
+                    "TITLE": "Created a condition",
+                    "DESCRIPTION": "Created a {severity} condition '{name}' in '{category}'"
+                },
+                "DELETE_CONDITION": {
+                    "TITLE": "Deleted a condition",
+                    "DESCRIPTION": "Deleted the condition '{name}' in '{category}'"
+                },
+                "CREATE_BULLETIN": {
+                    "TITLE": "Created a bulletin post",
+                    "DESCRIPTION": "Created a bulletin post '{title}'"
+                },
+                "DELETE_BULLETIN": {
+                    "TITLE": "Deleted a bulletin post",
+                    "DESCRIPTION": "Deleted the bulletin post with the id {id}"
+                },
+                "PIN_BULLETIN": {
+                    "TITLE": "Pinned a bulletin post",
+                    "DESCRIPTION": "Pinned a bulletin post with the id {id}"
+                },
+                "UNPIN_BULLETIN": {
+                    "TITLE": "Unpinned a bulletin post",
+                    "DESCRIPTION": "Unpinned the bulletin post with the id {id}"
+                },
+                "DELETE_TAG": {
+                    "TITLE": "Deleted a tag",
+                    "DESCRIPTION": "Deleted the tag '{name}'"
+                },
+                "UPDATE_PROFILE": {
+                    "TITLE": "Updated a profile",
+                    "DESCRIPTION": "Updated {name}'s profile"
+                },
+                "CREATE_REPORT": {
+                    "TITLE": "Created a report",
+                    "DESCRIPTION": "Created a {type} report '{title}' for {patient} with id {id}"
+                },
+                "UPDATE_REPORT": {
+                    "TITLE": "Updated a report",
+                    "DESCRIPTION": "Updated the {type} report '{title}' with id {id}"
+                }
             }
         }
     }
