@@ -292,7 +292,7 @@
             "PASSWORD": "Lösenord",
             "WRONG_PASSWORD": "Fel lösenord",
             "LOGIN": "Inloggning",
-            "NO_EMAIL": Har du ingen e-postadress?",
+            "NO_EMAIL": "Har du ingen e-postadress?",
             "CREATE_ONE": "Skapa e-post",
             "UNREAD": "Oläst",
             "CREATE_MAIL": "Skapa e-post",
@@ -572,7 +572,7 @@
                     "TITLE": "Ta bort tjänsteperson",
                     "DESCRIPTION": "Är du säker på att du vill ta bort {name} från avrapporteringen?"
                 },
-                "CIVILLIANS_INVOLVED": “involverade civilpersoner ",
+                "CIVILLIANS_INVOLVED": "involverade civilpersoner",
                 "NO_CIVILLIANS_INVOLVED": "Inga civilpersoner involverade",
                 "REMOVE_CIVILIAN": {
                     "TITLE": "Ta bort civilperson",
