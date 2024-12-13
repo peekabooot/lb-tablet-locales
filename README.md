@@ -5,3 +5,11 @@ If you're fluent in any language and wish to contribute, you can fork this repos
 Please refer to the [Contributing Guidelines](https://github.com/lbphone/lb-tablet-locales/blob/main/CONTRIBUTING.md) when doing so to keep this repository well structured. 
 
 Discord: https://discord.gg/lb-phone
+
+
+## Locales Status:
+*1/3 locales up to date*
+- ✅ **en.json** (Base Locale - v?.?.?)
+- ❌ **fr.json**
+- ❌ **sv.json**
+<!-- Recap End -->
