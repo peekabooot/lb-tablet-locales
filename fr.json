@@ -10,6 +10,7 @@
 
     "APP_NAMES": {
         "Police": "Police",
+        "Ambulance": "Hôpital",
         "Notes": "Notes",
         "Browser": "Navigateur",
         "Paramètres": "Paramètres",
@@ -440,12 +441,12 @@
                 },
                 "DELETE_BULLETIN": {
                     "TITLE": "Supprimer le Bulletin",
-                    "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer ce bulletin ??",
+                    "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer ce rapport ??",
                     "CANCEL": "Annuler",
                     "DELETE": "Supprimer"
                 },
                 "RECENT_WARRANTS": "Mandats Récents",
-                "ACTIVE_UNITS": "Unités Actives"
+                "ACTIVE_UNITS": "Unitées Actives"
             },
 
             "DISPATCH": {
@@ -677,9 +678,46 @@
 
             "OFFENCES": {
                 "TITLE": "Infractions",
-                "NO_OFFENCES_FOUND": "Aucune infraction trouvé",
+                "SEARCH": "Chercher Offences",
                 "MONTHS": "{amount} Mois",
-                "FINE": "{amount} Amende"
+                "FINE": "{amount} Amende",
+
+                "SELECT_SEVERITY": "Select Severity",
+                "SEVERITIES": {
+                    "INFRACTION": "Contravention",
+                    "MISDEMEANOR": "Délit",
+                    "FELONY": "Crime"
+                },
+                "NO_OFFENCES_FOUND": "Aucune infraction trouvé",
+                "ADD_OFFENCE": {
+                    "TITLE": "Ajouter une infration",
+                    "DESCRIPTION": "Créer une nouvelle infraction",
+                    "PLACEHOLDER": "Saisir le titre de l'infraction"
+                },
+                "SET_JAILTIME": {
+                    "TITLE": "Peine Recommandé",
+                    "DESCRIPTION": "Définir la durée de la peine recommandé pour l'infraction",
+                    "PLACEHOLDER": "Durée de la peine (en mois) (0 pour aucun)"
+                },
+                "SET_FINE": {
+                    "TITLE": "Amende Recommandé",
+                    "DESCRIPTION": "Définir la somme de l'amende pour l'infraction",
+                    "PLACEHOLDER": "Somme recommandé (0 pour aucun)"
+                },
+
+                "DELETE_OFFENCE": {
+                    "TITLE": "Supprimer l'infraction",
+                    "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer cette infraction?"
+                },
+                "ADD_CATEGORY": {
+                    "TITLE": "Ajouter Catégorie",
+                    "DESCRIPTION": "Ajouter une nouvelle catégorie à la liste des infractions",
+                    "PLACEHOLDER": "Saisir le nom de la catégorie"
+                },
+                "DELETE_CATEGORY": {
+                    "TITLE": "Supprimer la catégorie",
+                    "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer cette catégorie?"
+                }
             },
 
             "EMPLOYEES": {
@@ -697,9 +735,9 @@
                 "ROOM_ID": "ID du Chat: {id}",
                 "TOGGLE_PRIVATE": "Basculer le status privé",
                 "CHANGE_AVATAR": "Change d'avatar",
-                "SET_AVATAR": "Définir l'vatar",
+                "SET_AVATAR": "Définir l'Avatar",
                 "REMOVE_AVATAR": "Supprimer l'vatar",
-                "MANAGE": "Géré",
+                "MANAGE": "Gérer",
                 "LEAVE": {
                     "TITLE": "Quitter",
                     "DESCRIPTION": "Êtes-vous sur de vouloir quitter ce Chat?"
@@ -874,11 +912,246 @@
                 "FORMATTED_DATE": "{day} {month} {year} à {hours}:{minutes}",
                 "CHANGE_AVATAR": "Changer l'Avatar",
                 "REMOVE_AVATAR": "Supprimer l'Avatar",
+                "SET_CALLSIGN": "Définir l'identifiant radio",
                 "CALLSIGN": {
                     "TITLE": "Indicatif",
                     "DESCRIPTION": "Saisir un Indicatif",
                     "CANCEL": "Annuler",
                     "PROCEED": "Procéder"
+                }
+            }
+        },
+        "AMBULANCE": {
+            "TITLE": "Hopital",
+
+            "SEARCH": "Chercher",
+            "CANCEL": "Annuler",
+            "CLOSE": "Fermer",
+            "BACK": "Retour",
+            "EDIT": "Modifier",
+            "DELETE": "Supprimer",
+            "REMOVE": "Retirer",
+            "SAVE": "Sauvgarder",
+            "CREATE": "Créer",
+            "PROCEED": "Procéder",
+            "OK": "OK",
+            "ADD": "Ajouter",
+            "NEW": "Nouveau",
+
+            "SEARCH_FOR": "Recherche pour {query} pour démarrer",
+            "NO_RESULTS_FOR": "Aucun résultat pour '{query}'",
+            "CLEAR_HISTORY": "Effacer l'historique",
+
+            "HOME": {
+                "TITLE": "Accueil",
+                "CREATE": "Créer",
+
+                "RECENT_REPORTS": "Rapports récents",
+                "REPORT_FOOTER": "{timestamp} - {author}",
+                "BULLETIN_BOARD": "Tableau d'affichage",
+                "PIN": "Épingler",
+                "UNPIN": "Retirer",
+                "SEARCH_BULLETIN": "Chercher un Bulletin",
+                "SEARCH_UNITS": "Chercher une Unitée",
+                "ADD_BULLETIN": {
+                    "TITLE": "Ajouter un Bulletin",
+                    "DESCRIPTION": "Créer un nouveau rapport",
+                    "PLACEHOLDER": "Titre",
+                    "CONTENT": "Contenu",
+                    "CANCEL": "Annuler",
+                    "PROCEED": "Procéder"
+                },
+                "DELETE_BULLETIN": {
+                    "TITLE": "Supprimer Bulletin",
+                    "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer ce rapport?",
+                    "CANCEL": "Annuler",
+                    "DELETE": "Supprimer"
+                },
+                "ACTIVE_UNITS": "Unitées Actives"
+            },
+
+            "DISPATCH": {
+                "TITLE": "Dispatch",
+                "TOGGLE_EMPLOYEES": "Afficher Employés",
+                "TOGGLE_ALARMS": "Afficher Alarmes",
+                "EMPLOYEES": "Employés",
+                "ALARMS": "Alarmes",
+
+                "RESPOND": "Répondre",
+                "COLLAPSE": "Réduire",
+                "EXPAND": "Agrandir",
+                "DISMISS": "Rejeter",
+                "VIEW_IN_TABLET": "Voir sur Tablette",
+                "SET_WAYPOINT": "Définir le point du GPS",
+
+                "PRIORITY": {
+                    "HIGH": "Haute",
+                    "MEDIUM": "Moyen",
+                    "LOW": "Basse"
+                },
+
+                "JUST_NOW": "Maintenant",
+                "MINUTES_AGO": "Il y a {minutes} minutes",
+                "HOURS_AGO": "Il y a {hours} heures"
+            },
+
+            "JOURNALS": {
+                "TITLE": "Journals",
+                "PROFILES": "Profiles",
+                "PERSON": "Personne",
+                "SEARCH": "Chercher Profiles",
+                "REMOVE_AVATAR": "Retirer l'Avatar",
+                "DOB": "Date de Naissance",
+                "PHONE_NR": "Numéro de téléphone",
+                "GENDER": "Sexe",
+                "JOB": "Emploi",
+                "MALE": "Homme",
+                "FEMALE": "Femme",
+                "HEIGHT": "Taille",
+                "HEIGHT_FORMAT": "{height}cm",
+                "BLOOD_TYPE": "Groupe Sanguing",
+                "NOTES": "Notes",
+                "NOTES_PLACEHOLDER": "Ajouter des notes...",
+                "DIAGNOSES_DISEASES": "Diagnostics / Maladies",
+                "NO_DIAGNOSES": "Aucun Diagnostics / Maladies",
+                "REPORTS": "Rapports"	,
+                "NO_REPORTS": "Aucun Rapport",
+
+                "ADD_AVATAR": {
+                    "TITLE": "Ajouter un Avatar",
+                    "SET_PHOTO": "Définir l'image",
+                    "PASTE_URL": "Coller l'URL",
+                    "PASTE_URL_DESCRIPTION": "Saisir l'URL d'une image",
+                    "PASTE_URL_PLACEHOLDER": "URL d'Image",
+
+                    "INVALID_URL": "URL Invalide",
+                    "INVALID_URL_DESCRIPTION": "L'URL que vous avez saisi n'est pas valid",
+                    "OK": "OK"
+                }
+            },
+
+            "REPORTS": {
+                "TITLE": "Rapports",
+                "REPORT": "Rapport",
+                "SEARCH": "Chercher un Rapport",
+                "FOOTER": "{author} - ID de Rapport: {id}",
+                "NEW_REPORT_TITLE": "Nouveau Rapport",
+                "TYPE": "Type",
+                "DESCRIPTION": "Description",
+                "DESCRIPTION_PLACEHOLDER": "Saisir la description...",
+                "GALLERY": "Gallérie",
+                "NO_ATTACHMENTS": "Aucune pièce jointe",
+                "INJURIES_CONDITIONS": "Blessures / Conditions",
+                "NO_INJURIES": "Aucune Blessures / Conditions",
+                "DOCTORS_INVOLVED": "Médecins Impliqués",
+                "NO_DOCTORS_INVOLVED": "Aucun Médecins Impliqués",
+                "ADD_PATIENT": "Ajouter un Patient",
+
+                "REMOVE_INJURY": {
+                    "TITLE": "Retirer une Blessure",
+                    "DESCRIPTION": "Êtes-vous sûr de vouloir retirer la blessure du rapport?"
+                },
+                "REMOVE_DOCTOR": {
+                    "TITLE": "Retirer le Médecin",
+                    "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer {name} du rapport?"
+                },
+
+                "ERROR": {
+                    "TITLE": "Erreur",
+                    "NO_TYPE": "Vous devez sélectionner un type de rapport",
+                    "TITLE_LENGTH": "Le titre doit être au moins 3 charactères de longs",
+                    "DESCRIPTION_LENGTH": "La description doit comporter au moins 10 caractères"
+                }
+            },
+
+            "EMPLOYEES": {
+                "TITLE": "Employés",
+                "SEARCH": "Chercher Employees"
+            },
+
+            "CHAT": {
+                "TITLE": "Chat",
+                "SEARCH": "Chercher Chats",
+                "PLACEHOLDER": "Envoyer un message...",
+                "JOINED_CHATS": "Chats Rejoins",
+                "PUBLIC_CHATS": "Chats Publiques",
+                "PRIVATE_CHATS": "Chats privés",
+                "ROOM_ID": "ID du Chat: {id}",
+                "TOGGLE_PRIVATE": "Basculer le status privé",
+                "CHANGE_AVATAR": "Changer l'Avatar",
+                "SET_AVATAR": "Définir l'Avatar",
+                "REMOVE_AVATAR": "Retirer l'Avatar",
+                "MANAGE": "Gérer",
+                "LEAVE": {
+                    "TITLE": "Quitter",
+                    "DESCRIPTION": "Êtes-vous sur de vouloir quitter ce Chat?"
+                },
+                "KICK": {
+                    "TITLE": "Expulser",
+                    "DESCRIPTION": "Êtes-vous sur de vouloir expulser {name} de ce Chat?"
+                },
+
+                "CREATE_CHATROOM": {
+                    "TITLE": "Créer un Chat",
+                    "DESCRIPTION": "Saisir un nom pour le Chat",
+                    "PLACEHOLDER": "Nom du Chat",
+                    "CREATE": "Créer",
+                    "SET_VISIBILITY": "Définir la Visibilité",
+                    "PUBLIC": "Publique",
+                    "PRIVATE": "Privé"
+                },
+                "JOIN_CHAT": {
+                    "TITLE": "Rejoindre le Chat",
+                    "DESCRIPTION": "Êtes-vous sur de rejoindre ce Chat?",
+                    "JOIN": "Rejoindre"
+                },
+                "ERROR": {
+                    "TITLE": "Erreure",
+                    "FAILED_JOIN": "Impossible de rejoindre le Chat",
+                    "FAILED_INVITE": "Échec de l'invitation {name} dans le Chat",
+                    "FAILED_SET_AVATAR": "Échec du changement de l'avatar du Chat",
+                    "FAILED_REMOVE_AVATAR": "Échec du retrait de l'avatar du Chat",
+                    "FAILED_GET_MEMBERS": "Échec de l'obtention des membres du Chat",
+                    "FAILED_KICK": "Échec de l'expulsion de {name} du Chat",
+                    "FAILED_LEAVE": "Échec pour quitter le Chat"
+                },
+                "SUCCESS": {
+                    "TITLE": "Succès",
+                    "INVITED": "Vous avez inviter {name} dans le Chat",
+                    "KICKED": "Vous avez expulser {name} du Chat"
+                }
+            },
+
+            "CONDITIONS": {
+                "TITLE": "Conditions",
+                "CONDITION": "Condition",
+                "SEARCH": "Rechercher une Condition",
+
+                "SELECT_SEVERITY": "Sélectionner la gravité",
+                "SEVERITIES": {
+                    "MINOR": "Mineur",
+                    "MODERATE": "Modéré",
+                    "SEVERE": "Sévère",
+                    "CRITICAL": "Critique"
+                },
+                "NO_CONDITIONS_FOUND": "Aucune condition trouvée",
+                "ADD_CONDITION": {
+                    "TITLE": "Ajouter une condition",
+                    "DESCRIPTION": "Créer une nouvelle condition",
+                    "PLACEHOLDER": "Saisir le titre de la condition"
+                },
+                "DELETE_CONDITION": {
+                    "TITLE": "Supprimer Condition",
+                    "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer cette condition?"
+                },
+                "ADD_CATEGORY": {
+                    "TITLE": "Ajouter Catégorie",
+                    "DESCRIPTION": "Ajouter une nouvelle catégorie à la liste des conditions",
+                    "PLACEHOLDER": "Saisir le nom de la catégorie"
+                },
+                "DELETE_CATEGORY": {
+                    "TITLE": "Supprimer la Catégorie",
+                    "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer cette catégorie?"
                 }
             }
         }
@@ -1032,6 +1305,100 @@
             "CHAT_MESSAGE_NOTIFICATION": {
                 "TITLE": "Nouveau Message dans {channel}",
                 "CONTENT": "{message}"
+            },
+            "LOGS": {
+                "CREATE_OFFENCE_CATEGORY": {
+                    "TITLE": "Création d'une catégorie d'infraction",
+                    "DESCRIPTION": "'{name}' a créé la catégorie"
+                },
+                "DELETE_OFFENCE_CATEGORY": {
+                    "TITLE": "Suppression d'une catégorie d'infraction",
+                    "DESCRIPTION": "Supprimer la catégorie '{name}'"
+                },
+                "CREATE_OFFENCE": {
+                    "TITLE": "Création d'une infaction",
+                    "DESCRIPTION": "Création de l'infraction {class} '{name}' dans '{category}'"
+                },
+                "DELETE_OFFENCE": {
+                    "TITLE": "Suppression d'une infraction",
+                    "DESCRIPTION": "Suppression de l'infraction '{name}' dans '{category}'"
+                }
+            }
+        },
+        "AMBULANCE": {
+            "NOTIFICATIONS": {
+                "CHAT": {
+                    "NEW_CHANNEL": {
+                        "TITLE": "Nouvelle conversation",
+                        "CONTENT": "{channel}"
+                    },
+                    "NEW_MESSAGE": {
+                        "TITLE": "Nouveau message dans {channel}",
+                        "CONTENT": "{message}"
+                    }
+                },
+                "NEW_BULLETIN": {
+                    "TITLE": "Nouveau bulletin",
+                    "CONTENT": "{title}"
+                },
+                "NEW_REPORT": {
+                    "TITLE": "Nouveau rapport",
+                    "CONTENT": "{title}"
+                }
+            },
+            "TAG_TYPES": {
+                "PROFILE": "profile",
+                "REPORT": "rapport"
+            },
+            "LOGS": {
+                "CREATE_CONDITION_CATEGORY": {
+                    "TITLE": "Créé une catégorie de conditions",
+                    "DESCRIPTION": "A créé la catégorie '{name}'"
+                },
+                "DELETE_CONDITION_CATEGORY": {
+                    "TITLE": "Suppression d'une catégorie de condition",
+                    "DESCRIPTION": "A supprimé la catégorie '{name}'"
+                },
+                "CREATE_CONDITION": {
+                    "TITLE": "Création d'une condition",
+                    "DESCRIPTION": "A créé une condition {severity} nommé '{name}' dans '{category}'"
+                },
+                "DELETE_CONDITION": {
+                    "TITLE": "Suppression d'une condition",
+                    "DESCRIPTION": "A supprimé la conditon nommée '{name}' dans '{category}'"
+                },
+                "CREATE_BULLETIN": {
+                    "TITLE": "Création d'un rapport",
+                    "DESCRIPTION": "A créer un rapport '{title}'"
+                },
+                "DELETE_BULLETIN": {
+                    "TITLE": "Suppression d'un rapport",
+                    "DESCRIPTION": "A supprimé le rapport: {id}"
+                },
+                "PIN_BULLETIN": {
+                    "TITLE": "A épinglé un rapport",
+                    "DESCRIPTION": "Le rapport {id} a été épinglé"
+                },
+                "UNPIN_BULLETIN": {
+                    "TITLE": "Retrait de rapport épinglé",
+                    "DESCRIPTION": "A retirer des épinglés le rapport {id}"
+                },
+                "DELETE_TAG": {
+                    "TITLE": "Suppression d'un tag",
+                    "DESCRIPTION": "A supprimé le tag '{name}'"
+                },
+                "UPDATE_PROFILE": {
+                    "TITLE": "Mise à jour de Profile",
+                    "DESCRIPTION": "Mise à jour du profile de {name}"
+                },
+                "CREATE_REPORT": {
+                    "TITLE": "Création d'un rapport",
+                    "DESCRIPTION": "A créer un rapport {type} intitulé '{title}' pour {patient} avec ud {id}"
+                },
+                "UPDATE_REPORT": {
+                    "TITLE": "Mise à jour de Rapport",
+                    "DESCRIPTION": "Mise à jour du rapport {type} intitulé '{title}' avec ud {id}"
+                }
             }
         }
     }
