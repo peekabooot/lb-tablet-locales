@@ -13,7 +13,7 @@
         "Ambulance": "Hôpital",
         "Notes": "Notes",
         "Browser": "Navigateur",
-        "Paramètres": "Paramètres",
+        "Settings": "Paramètres",
         "Photos": "Galerie",
         "Camera": "Caméra",
         "Calculator": "Calculatrice",
@@ -415,7 +415,9 @@
             "OK": "OK",
             "ADD": "Ajouter",
             "NEW": "Nouveau",
+            "PROCEED": "Procéder",
 
+            "SEARCH": "Chercher",
             "SEARCH_FOR": "Chercher {query} pour démarrer",
             "NO_RESULTS_FOR": "Aucun résultat pour '{query}'",
             "CLEAR_HISTORY": "Effacer l'historique",
