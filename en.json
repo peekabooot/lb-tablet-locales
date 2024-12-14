@@ -456,7 +456,7 @@
                 "TOGGLE_OFFICERS": "Toggle Officers",
                 "TOGGLE_ALARMS": "Toggle Alarms",
                 "OFFICERS": "Officers",
-                "ALARMS": "AlarmS",
+                "ALARMS": "Alarms",
 
                 "RESPOND": "Respond",
                 "COLLAPSE": "Collapse",
@@ -1156,6 +1156,11 @@
                     "DESCRIPTION": "Are you sure you want to delete this category?"
                 }
             }
+        },
+        "BROWSER": {
+            "TITLE": "Browser",
+            "SEARCH_PLACEHOLDER": "Search or type URL",
+            "FAILED_LOAD_PAGE": "Failed to load page, perhaps it does not support iframing?"
         }
     },
     "COMPONENTS": {
@@ -1221,6 +1226,16 @@
         "COLOR_PICKER": {
             "COLOR": "Color"
         }
+    },
+    "SETUP": {
+        "HELLO": "Hello",
+        "SELECT_LANGUAGE": "Select your language",
+        "NEXT": "Click to open",
+        "APPEARANCE": "Theme",
+        "APPEARANCE_TEXT": "Select a dark or light theme for your device",
+        "CONTINUE": "Continue",
+        "WELCOME_TO": "Welcome to",
+        "CLICK": "Click to get started"
     },
     "HOMESCREEN": {
         "DONE": "Done",
