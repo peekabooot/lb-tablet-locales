@@ -67,6 +67,7 @@
             "SOUND_HAPTICS_DESCRIPTION": "Change sounds and vibrations",
             "SOUND_HAPTICS_PATTERNS": "Sound and haptics patterns",
             "RINGTONE": "Ringtone",
+            "RINGTONE_VOLUME": "Ringtone Volume",
             "TEXT_TONE": "Text Tone",
             "DEFAULT": "Default",
             "PHONE_STORAGE": "Tablet Storage",
@@ -694,7 +695,8 @@
                 "ADD_OFFENCE": {
                     "TITLE": "Add Offence",
                     "DESCRIPTION": "Create a new offence",
-                    "PLACEHOLDER": "Enter the offence title"
+                    "PLACEHOLDER": "Enter the offence title",
+                    "DESCRIPTION_PLACEHOLDER": "Enter a description..."
                 },
                 "SET_JAILTIME": {
                     "TITLE": "Recommended Jail Time",
@@ -833,6 +835,7 @@
 
             "LOGS": {
                 "TITLE": "Logs",
+                "SEARCH": "Search Logs",
                 "FILTER": "Filter",
                 "CREATED": "Created",
                 "UPDATED": "Updated",
