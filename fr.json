@@ -1156,6 +1156,11 @@
                     "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer cette catégorie?"
                 }
             }
+        },
+        "BROWSER": {
+            "TITLE": "Navigateur",
+            "SEARCH_PLACEHOLDER": "Saisir votre recherche ou votre URL",
+            "FAILED_LOAD_PAGE": "La page n'a pas pu être chargée ou elle ne prend pas en charge l'iframing?"
         }
     },
     "COMPONENTS": {
@@ -1221,6 +1226,16 @@
         "COLOR_PICKER": {
             "COLOR": "Couleure"
         }
+    },
+    "SETUP": {
+        "HELLO": "Bonjour",
+        "SELECT_LANGUAGE": "Choissisez votre langue",
+        "NEXT": "Cliquez pour ouvrir",
+        "APPEARANCE": "Thème",
+        "APPEARANCE_TEXT": "Choissisez le thème sombre ou clair pour votre appareil",
+        "CONTINUE": "Continuer",
+        "WELCOME_TO": "Bienvenu(e) sur",
+        "CLICK": "Cliquez pour démarrer"
     },
     "HOMESCREEN": {
         "DONE": "Terminé",
