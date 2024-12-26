@@ -1,4 +1,4 @@
-# lb-phone-locales
+# lb-tablet-locales
 Offical locale files for [lb-tablet](https://lbscripts.com/tablet)
 
 If you're fluent in any language and wish to contribute, you can fork this repository and add or update your language!
