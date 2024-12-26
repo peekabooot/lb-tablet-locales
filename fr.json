@@ -67,6 +67,7 @@
             "SOUND_HAPTICS_DESCRIPTION": "Changer les sons et vibrations",
             "SOUND_HAPTICS_PATTERNS": "Motifs sonores et haptiques",
             "RINGTONE": "Sonnerie",
+            "RINGTONE_VOLUME": "Volume de sonnerie",
             "TEXT_TONE": "Message",
             "DEFAULT": "Par défaut",
             "PHONE_STORAGE": "Stockage de la Tablette",
@@ -694,7 +695,8 @@
                 "ADD_OFFENCE": {
                     "TITLE": "Ajouter une infration",
                     "DESCRIPTION": "Créer une nouvelle infraction",
-                    "PLACEHOLDER": "Saisir le titre de l'infraction"
+                    "PLACEHOLDER": "Saisir le titre de l'infraction",
+                    "DESCRIPTION_PLACEHOLDER": "Saisir la description..."
                 },
                 "SET_JAILTIME": {
                     "TITLE": "Peine Recommandé",
@@ -833,6 +835,7 @@
 
             "LOGS": {
                 "TITLE": "Logs",
+                "SEARCH": "Parcourir les Logs",
                 "FILTER": "Filtrer",
                 "CREATED": "Créer le",
                 "UPDATED": "Mis à Jour le",
