@@ -8,9 +8,9 @@ Discord: https://discord.gg/lb-phone
 
 
 ## Locales Status:
-*1/4 locales up to date*
+*3/4 locales up to date*
 - ✅ **en.json** (Base Locale - v0.4.0)
-- ❌ **de.json**
-- ❌ **fr.json**
+- ✅ **de.json**
+- ✅ **fr.json**
 - ❌ **sv.json**
 <!-- Recap End -->
