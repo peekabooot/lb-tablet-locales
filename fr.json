@@ -11,6 +11,7 @@
     "APP_NAMES": {
         "Police": "Police",
         "Ambulance": "Hôpital",
+        "Registration": "Enregistrements",
         "Notes": "Notes",
         "Browser": "Navigateur",
         "Settings": "Paramètres",
@@ -362,6 +363,7 @@
             "DISABLE_CALLS": "Désactiver les Appels",
             "ENABLE_CALLS": "Activer les Appels",
             "BALANCE": "Solde",
+            "CURRENT_BALANCE": "Solde actuel de l'entreprise",
             "MANAGE_EMPLOYEES": "Gérer les employés",
             "HIRE": "Recruter",
             "SET_GRADE": "Changer de Grade",
@@ -523,7 +525,9 @@
                 "REPORTS": "Rapports",
                 "NO_REPORTS": "Aucun Rapport",
                 "CASES": "Dossier",
-                "NO_CASES": "Aucun dossier"
+                "NO_CASES": "Aucun dossier",
+                "WEAPONS": "Armes",
+                "NO_WEAPONS": "Aucunes arme"
             },
 
             "VEHICLES": {
@@ -558,6 +562,59 @@
                 "CASES": "Dossiers",
                 "NO_CASES": "Aucun Dossier"
             },
+            "PROPERTIES": {
+                "TITLE": "Propriétés",
+                "PROPERTY": "Propriété",
+                "SEARCH": "Rechercher une propriété",
+                "REMOVE_PICTURE": "Retirer une image",
+                "DETAILS": "Détails",
+                "ADD_PHOTO": {
+                    "TITLE": "Ajouter une Photo",
+                    "SELECT_PHOTO": "Choisir une Photo",
+                    "PASTE_URL": "Coller l'URL",
+                    "PASTE_URL_DESCRIPTION": "Saisir l'URL d'une image",
+                    "PASTE_URL_PLACEHOLDER": "URL d'Image",
+
+                    "INVALID_URL": "URL Invalide",
+                    "INVALID_URL_DESCRIPTION": "L'URL que vous avez saisi n'est pas valid",
+                    "OK": "OK"
+                },
+                "LABEL": "Label",
+                "ADDRESS": "Addresse",
+                "OWNER": "Propriétaire",
+                "LOCATION": "Localisation",
+                "OPEN_IN_MAPS": "Ouvrir dans la Carte",
+                "NOTES": "Notes",
+                "NOTES_PLACEHOLDER": "Saisir vos notes..."
+            },
+            "WEAPONS": {
+                "TITLE": "Armes à feux",
+                "WEAPON": "Arme à feu",
+                "SEARCH": "Rechercher une arme",
+                "REMOVE_PICTURE": "Retirer une image",
+                "DETAILS": "Détails",
+                "ADD_PHOTO": {
+                    "TITLE": "Ajouter une Photo",
+                    "SELECT_PHOTO": "Choisir une Photo",
+                    "PASTE_URL": "Coller l'URL",
+                    "PASTE_URL_DESCRIPTION": "Saisir l'URL d'une image",
+                    "PASTE_URL_PLACEHOLDER": "URL d'Image",
+
+                    "INVALID_URL": "URL Invalide",
+                    "INVALID_URL_DESCRIPTION": "L'URL que vous avez saisi n'est pas valid",
+                    "OK": "OK"
+                },
+                "MODEL_MAKE": "Modèle / Marque",
+                "SERIAL_NUMBER": "Numéro de série",
+                "NOTES": "Notes",
+                "NOTES_PLACEHOLDER": "Saisir vos notes...",
+                "LINKED_REPORTS": "Rapports Liés",
+                "NO_LINKED_REPORTS": "Aucun Rapport Lié",
+                "LINKED_CASES": "Dossier liés",
+                "NO_LINKED_CASES": "Aucune dossier lié",
+                "UNREGISTERED": "Non enregistré",
+                "OWNER": "Propriétaire"
+            },
 
             "REPORTS": {
                 "TITLE": "Rapports",
@@ -570,6 +627,8 @@
                 "DESCRIPTION_PLACEHOLDER": "Saisir la description...",
                 "GALLERY": "Gallerie",
                 "NO_ATTACHMENTS": "Aucune pièce jointe",
+                "WEAPONS_INVOLVED": "Weapons Involved",
+                "NO_WEAPONS_INVOLVED": "No Weapons Involved",
                 "OFFICERS_INVOLVED": "Officiers Impliqué",
                 "NO_OFFICERS_INVOLVED": "Aucun Officier Impliqué",
                 "REMOVE_OFFICER": {
@@ -588,7 +647,6 @@
                     "TITLE": "Supprimer le Suspect",
                     "DESCRIPTION": "Êtes-vous sur de vouloir retirer {name} du rapport?"
                 },
-
                 "ERROR": {
                     "TITLE": "Erreure",
                     "NO_TYPE": "Vous devez sélectionner un type de rapport",
@@ -735,6 +793,8 @@
                 "PLACEHOLDER": "Envoyer un message...",
                 "JOINED_CHATS": "Chats Rejoins",
                 "PUBLIC_CHATS": "Chats Publiques",
+                "JOINED": "Rejoint",
+                "PUBLIC": "Publique",
                 "PRIVATE_CHATS": "Chats privés",
                 "ROOM_ID": "ID du Chat: {id}",
                 "TOGGLE_PRIVATE": "Basculer le status privé",
@@ -857,10 +917,16 @@
                 "UPDATE_PROFILE_DESCRIPTION": "Mis à jour le profil de {name}",
                 "UPDATE_VEHICLE_TITLE": "Véhicule mis à jour",
                 "UPDATE_VEHICLE_DESCRIPTION": "Mis à jour le véhicule {plate}",
-                "CREATE_REPORT_TITLE": "Rapport créer",
+                "UPDATE_PROPERTY_TITLE": "Updated a property",
+                "UPDATE_PROPERTY_DESCRIPTION": "Updated a property",
+                "UPDATE_WEAPON_TITLE": "Updated a weapon",
+                "UPDATE_WEAPON_DESCRIPTION": "Updated the weapon with serial number {serial}",
+                "CREATE_REPORT_TITLE": "Created a report",
                 "CREATE_REPORT_DESCRIPTION": "Création d'un rapport {type} avec le titre \"{title}\"",
                 "UPDATE_REPORT_TITLE": "Rapport mis à jour",
                 "UPDATE_REPORT_DESCRIPTION": "Mis à jour le rapport {type} avec le titre \"{title}\"",
+                "DELETE_REPORT_TITLE": "Deleted a report",
+                "DELETE_REPORT_DESCRIPTION": "Deleted a report with the id {id}",
                 "ISSUED_LICENSE_TITLE": "Délivrance d'un permis",
                 "ISSUED_LICENSE_DESCRIPTION": "Permis {license} délivré à {name}",
                 "REVOKED_LICENSE_TITLE": "Permis retirer",
@@ -880,7 +946,9 @@
                 "CREATE_CASE_TITLE": "Dossier créer",
                 "CREATE_CASE_DESCRIPTION": "Created a case with the title \"{title}\"",
                 "UPDATE_CASE_TITLE": "Updated a case",
-                "UPDATE_CASE_DESCRIPTION": "Mise à jour du dossier: \"{title}\""
+                "UPDATE_CASE_DESCRIPTION": "Mise à jour du dossier: \"{title}\"",
+                "DELETE_CASE_TITLE": "Deleted a case",
+                "DELETE_CASE_DESCRIPTION": "Deleted a case with the id {id}"
             },
 
             "TAGS": {
@@ -1080,6 +1148,8 @@
                 "PLACEHOLDER": "Envoyer un message...",
                 "JOINED_CHATS": "Chats Rejoins",
                 "PUBLIC_CHATS": "Chats Publiques",
+                "JOINED": "Rejoint",
+                "PUBLIC": "Publique",
                 "PRIVATE_CHATS": "Chats privés",
                 "ROOM_ID": "ID du Chat: {id}",
                 "TOGGLE_PRIVATE": "Basculer le status privé",
@@ -1164,6 +1234,66 @@
             "TITLE": "Navigateur",
             "SEARCH_PLACEHOLDER": "Saisir votre recherche ou votre URL",
             "FAILED_LOAD_PAGE": "La page n'a pas pu être chargée ou elle ne prend pas en charge l'iframing?"
+        },
+        "REGISTRATION": {
+            "TITLE": "Enregistrement",
+            "SELECT_CHARACTER": "Sélectionner un personnage",
+            "PLEASE_SELECT_CHARACTER": "Veuillez sélectionner un personnage",
+            "CREATE_NEW": "Créer un nouveau",
+            "EDIT": "Modifier",
+            "SAVE": "Sauvegarder",
+            "DELETE": "Supprimer",
+            "CANCEL": "Annuler",
+            "DELETE_CHARACTER": "Supprimer le personnage",
+            "DESCRIPTION": "Description",
+            "DESCRIPTION_PLACEHOLDER": "Ceci est une description...",
+            "ADD": "Ajouter",
+
+            "CHARACTER_INFO": "Informations sur le personnage",
+            "REMOVE_AVATAR": "Supprimer l'avatar",
+            "FIRSTNAME": "Prénom",
+            "LASTNAME": "Nom",
+            "DOB": "Date de naissance",
+            "PHONE_NUMBER": "Numéro de téléphone",
+            "GENDER": "Genre",
+            "MALE": "Homme",
+            "FEMALE": "Femme",
+            "JOB": "Métier",
+            "HEIGHT": "Taille",
+            "FORMATTED_HEIGHT": "{height}cm",
+
+            "VEHICLES": "Véhicules",
+            "VEHICLE": "Véhicule",
+            "REMOVE_PICTURE": "Supprimer l'image",
+            "SEARCH_VEHICLES": "Rechercher des véhicules",
+            "MODEL": "Modèle",
+            "PLATE": "Plaque",
+            "COLOR": "Couleur",
+            "CREATE": "Créer",
+            "DELETE_VEHICLE": "Supprimer le véhicule",
+            "DELETE_VEHICLE_POPUP": {
+                "TITLE": "Supprimer le véhicule",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer ce véhicule ?"
+            },
+        
+            "LICENSES": "Licences",
+            "ADD_LICENSE": "Ajouter une licence",
+            "DELETE_LICENSE_POPUP": {
+                "TITLE": "Supprimer la licence",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer cette licence ?"
+            },
+
+            "PROPERTIES": "Propriétés",
+            "ADD_PROPERTY_POPUP": {
+                "TITLE": "Nouvelle propriété",
+                "DESCRIPTION": "Créer une nouvelle propriété",
+                "LABEL": "Étiquette de la propriété",
+                "ADDRESS": "Adresse de la propriété"
+            },
+            "DELETE_PROPERTY_POPUP": {
+                "TITLE": "Supprimer la propriété",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer cette propriété ?"
+            }
         }
     },
     "COMPONENTS": {
@@ -1368,7 +1498,9 @@
             },
             "TAG_TYPES": {
                 "PROFILE": "profile",
-                "REPORT": "rapport"
+                "REPORT": "rapport",
+                "PROPERTY": "propriété",
+                "WEAPON": "armes"
             },
             "LOGS": {
                 "CREATE_CONDITION_CATEGORY": {
