@@ -629,6 +629,10 @@
                 "NO_ATTACHMENTS": "Aucune pièce jointe",
                 "WEAPONS_INVOLVED": "Weapons Involved",
                 "NO_WEAPONS_INVOLVED": "No Weapons Involved",
+                "REMOVE_WEAPON": {
+                    "TITLE": "Retirer l'arme",
+                    "DESCRIPTION": "Êtes-vous sur de vouloir retirer cet arme du rapport?"
+                },
                 "OFFICERS_INVOLVED": "Officiers Impliqué",
                 "NO_OFFICERS_INVOLVED": "Aucun Officier Impliqué",
                 "REMOVE_OFFICER": {
@@ -637,7 +641,7 @@
                 },
                 "CIVILLIANS_INVOLVED": "Civils Impliqués",
                 "NO_CIVILLIANS_INVOLVED": "Aucun Civil Impliqué",
-                "REMOVE_CIVILIAN": {
+                "REMOVE_CIVILLIAN": {
                     "TITLE": "Supprimer le Civil",
                     "DESCRIPTION": "Êtes-vous sur de vouloir retirer {name} du rapport?"
                 },
@@ -665,6 +669,7 @@
                 "DESCRIPTION_PLACEHOLDER": "Saisir la description...",
                 "EVIDENCE": "Preuves",
                 "NO_EVIDENCE": "Aucune preuve ajouter",
+                "OPEN_STASH": "Ouvrir le casier de saisie",
                 "VEHICLES_INVOLVED": "Véhicules Impliqués",
                 "NO_VEHICLES_INVOLVED": "Aucun Véhicule Impliqué",
                 "REMOVE_VEHICLE": {
@@ -1293,6 +1298,12 @@
             "DELETE_PROPERTY_POPUP": {
                 "TITLE": "Supprimer la propriété",
                 "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer cette propriété ?"
+            },
+
+            "ERROR": {
+                "TITLE": "Erreure",
+                "MISSING_FIELDS": "Il vous manque les champs suivant: {fields}",
+                "OK": "OK"
             }
         }
     },
@@ -1432,6 +1443,7 @@
             "TOOK_VIDEO": "A pris une vidéo"
         },
         "POLICE": {
+            "EVIDENCE_LABEL": "Preuves: Dossier n°{id}",
             "NEW_BULLETIN_NOTIFICATION": {
                 "TITLE": "Nouveau Bulletin",
                 "CONTENT": "{title}"
