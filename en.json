@@ -669,6 +669,7 @@
                 "DESCRIPTION_PLACEHOLDER": "Enter a description...",
                 "EVIDENCE": "Evidence",
                 "NO_EVIDENCE": "No Attatched Evidence",
+                "OPEN_STASH": "Open Stash",
                 "VEHICLES_INVOLVED": "Vehicles Involved",
                 "NO_VEHICLES_INVOLVED": "No Vehicles Involved",
                 "REMOVE_VEHICLE": {
@@ -1442,6 +1443,7 @@
             "TOOK_VIDEO": "Took a video"
         },
         "POLICE": {
+            "EVIDENCE_LABEL": "Evidence: Case {id}",
             "NEW_BULLETIN_NOTIFICATION": {
                 "TITLE": "New Bulletin",
                 "CONTENT": "{title}"
