@@ -629,6 +629,10 @@
                 "NO_ATTACHMENTS": "No Attachments",
                 "WEAPONS_INVOLVED": "Weapons Involved",
                 "NO_WEAPONS_INVOLVED": "No Weapons Involved",
+                "REMOVE_WEAPON": {
+                    "TITLE": "Remove Weapon",
+                    "DESCRIPTION": "Are you sure you want to remove the weapon from the report?"
+                },
                 "OFFICERS_INVOLVED": "Officers Involved",
                 "NO_OFFICERS_INVOLVED": "No Officers Involved",
                 "REMOVE_OFFICER": {
@@ -637,7 +641,7 @@
                 },
                 "CIVILLIANS_INVOLVED": "Civillians Involved",
                 "NO_CIVILLIANS_INVOLVED": "No Civillians Involved",
-                "REMOVE_CIVILIAN": {
+                "REMOVE_CIVILLIAN": {
                     "TITLE": "Remove Civilian",
                     "DESCRIPTION": "Are you sure you want to remove {name} from the report?"
                 },
@@ -665,6 +669,7 @@
                 "DESCRIPTION_PLACEHOLDER": "Enter a description...",
                 "EVIDENCE": "Evidence",
                 "NO_EVIDENCE": "No Attatched Evidence",
+                "OPEN_STASH": "Open Stash",
                 "VEHICLES_INVOLVED": "Vehicles Involved",
                 "NO_VEHICLES_INVOLVED": "No Vehicles Involved",
                 "REMOVE_VEHICLE": {
@@ -1293,6 +1298,12 @@
             "DELETE_PROPERTY_POPUP": {
                 "TITLE": "Delete Property",
                 "DESCRIPTION": "Are you sure you want to delete this property?"
+            },
+
+            "ERROR": {
+                "TITLE": "Error",
+                "MISSING_FIELDS": "You're missing the following fields: {fields}",
+                "OK": "OK"
             }
         }
     },
@@ -1432,6 +1443,7 @@
             "TOOK_VIDEO": "Took a video"
         },
         "POLICE": {
+            "EVIDENCE_LABEL": "Evidence: Case {id}",
             "NEW_BULLETIN_NOTIFICATION": {
                 "TITLE": "New Bulletin",
                 "CONTENT": "{title}"

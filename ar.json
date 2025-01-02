@@ -629,6 +629,10 @@
                 "NO_ATTACHMENTS": "لا توجد مرفقات",
                 "WEAPONS_INVOLVED": "الأسلحة المشاركة",
                 "NO_WEAPONS_INVOLVED": "لا توجد أسلحة مشاركة",
+                "REMOVE_WEAPON": {
+                    "TITLE": "إزالة السلاح",
+                    "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة السلاح من التقرير؟"
+                },
                 "OFFICERS_INVOLVED": "الضباط المشاركين",
                 "NO_OFFICERS_INVOLVED": "لا يوجد ضباط مشاركون",
                 "REMOVE_OFFICER": {
@@ -637,7 +641,7 @@
                 },
                 "CIVILLIANS_INVOLVED": "المدنيين المشاركين",
                 "NO_CIVILLIANS_INVOLVED": "لا يوجد مدنيون مشاركون",
-                "REMOVE_CIVILIAN": {
+                "REMOVE_CIVILLIAN": {
                     "TITLE": "إزالة المدني",
                     "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة المدني {name} من التقرير؟"
                 },
