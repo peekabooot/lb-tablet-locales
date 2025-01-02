@@ -9,8 +9,9 @@
     "S": "Sek",
 
     "APP_NAMES": {
-        "Police": "Polizei",
-        "Ambulance": "Krankenwagen",
+        "Police": "SASP",
+        "Ambulance": "SAFR",
+        "Registration": "Registrieren",
         "Notes": "Notizen",
         "Browser": "Browser",
         "Settings": "Einstellungen",
@@ -67,7 +68,7 @@
             "SOUND_HAPTICS_DESCRIPTION": "Töne und Vibrationen ändern",
             "SOUND_HAPTICS_PATTERNS": "Ton- und Haptikmuster",
             "RINGTONE": "Klingelton",
-            "RINGTONE_VOLUME": "Klingeltonlautstärke",
+            "RINGTONE_VOLUME": "Klingelton Lautstärke",
             "TEXT_TONE": "Textton",
             "DEFAULT": "Standard",
             "PHONE_STORAGE": "Tablet-Speicher",
@@ -97,7 +98,7 @@
             "OK": "OK",
             "ON": "An",
             "OFF": "Aus",
-    
+
             "RESET_POPUP": {
                 "TITLE": "Tablet zurücksetzen",
                 "TEXT": "Bist du sicher, dass du dein Tablet zurücksetzen möchtest? [DIES WIRD ALLES LÖSCHEN]",
@@ -210,7 +211,7 @@
             "DELETE": "Löschen",
             "SELECT_ITEMS": "Elemente auswählen",
             "SELECTED_COUNT": "{count} Elemente ausgewählt",
-    
+
             "PHOTOS": "Fotos",
             "ALBUMS": "Alben",
             "LIBRARY": "Bibliothek",
@@ -362,6 +363,7 @@
             "DISABLE_CALLS": "Anrufe deaktivieren",
             "ENABLE_CALLS": "Anrufe aktivieren",
             "BALANCE": "Konto",
+            "CURRENT_BALANCE": "Aktuelle Bilanz des Unternehmens",
             "MANAGE_EMPLOYEES": "Mitarbeiter verwalten",
             "HIRE": "Einstellen",
             "SET_GRADE": "Rang festlegen",
@@ -523,7 +525,9 @@
                 "REPORTS": "Berichte",
                 "NO_REPORTS": "Keine Berichte",
                 "CASES": "Fälle",
-                "NO_CASES": "Keine Fälle"
+                "NO_CASES": "Keine Fälle",
+                "WEAPONS": "Waffen",
+                "NO_WEAPONS": "Keine Waffen"
             },
 
             "VEHICLES": {
@@ -558,6 +562,59 @@
                 "CASES": "Fälle",
                 "NO_CASES": "Keine Fälle"
             },
+            "PROPERTIES": {
+                "TITLE": "Immobilien",
+                "PROPERTY": "Immobilien",
+                "SEARCH": "Immobilien suchen",
+                "REMOVE_PICTURE": "Bild entfernen",
+                "DETAILS": "Details",
+                "ADD_PHOTO": {
+                    "TITLE": "Foto hinzufügen",
+                    "SELECT_PHOTO": "Foto auswählen",
+                    "PASTE_URL": "URL einfügen",
+                    "PASTE_URL_DESCRIPTION": "Geben Sie eine URL zu einem Bild ein",
+                    "PASTE_URL_PLACEHOLDER": "Bild-URL",
+            
+                    "INVALID_URL": "Ungültige URL",
+                    "INVALID_URL_DESCRIPTION": "Die eingegebene URL ist keine gültige Bild-URL",
+                    "OK": "OK"
+                },
+                "LABEL": "Bezeichnung",
+                "ADDRESS": "Adresse",
+                "OWNER": "Eigentümer",
+                "LOCATION": "Standort",
+                "OPEN_IN_MAPS": "In Karten öffnen",
+                "NOTES": "Notizen",
+                "NOTES_PLACEHOLDER": "Notizen hier eingeben..."
+            },
+            "WEAPONS": {
+                "TITLE": "Waffen",
+                "WEAPON": "Waffe",
+                "SEARCH": "Waffen suchen",
+                "REMOVE_PICTURE": "Bild entfernen",
+                "DETAILS": "Details",
+                "ADD_PHOTO": {
+                    "TITLE": "Foto hinzufügen",
+                    "SELECT_PHOTO": "Foto auswählen",
+                    "PASTE_URL": "URL einfügen",
+                    "PASTE_URL_DESCRIPTION": "Geben Sie eine URL zu einem Bild ein",
+                    "PASTE_URL_PLACEHOLDER": "Bild-URL",
+            
+                    "INVALID_URL": "Ungültige URL",
+                    "INVALID_URL_DESCRIPTION": "Die eingegebene URL ist keine gültige Bild-URL",
+                    "OK": "OK"
+                },
+                "MODEL_MAKE": "Modell / Hersteller",
+                "SERIAL_NUMBER": "Seriennummer",
+                "NOTES": "Notizen",
+                "NOTES_PLACEHOLDER": "Notizen hier eingeben...",
+                "LINKED_REPORTS": "Verknüpfte Berichte",
+                "NO_LINKED_REPORTS": "Keine verknüpften Berichte",
+                "LINKED_CASES": "Verknüpfte Fälle",
+                "NO_LINKED_CASES": "Keine verknüpften Fälle",
+                "UNREGISTERED": "Nicht registriert",
+                "OWNER": "Eigentümer"
+            }     ,       
 
             "REPORTS": {
                 "TITLE": "Berichte",
@@ -570,6 +627,8 @@
                 "DESCRIPTION_PLACEHOLDER": "Beschreibung eingeben...",
                 "GALLERY": "Galerie",
                 "NO_ATTACHMENTS": "Keine Anhänge",
+                "WEAPONS_INVOLVED": "Beteiligte Waffen",
+                "NO_WEAPONS_INVOLVED": "Keine Waffen beteiligt",
                 "OFFICERS_INVOLVED": "Beteiligte Beamte",
                 "NO_OFFICERS_INVOLVED": "Keine Beamten beteiligt",
                 "REMOVE_OFFICER": {
@@ -588,7 +647,6 @@
                     "TITLE": "Verdächtigen entfernen",
                     "DESCRIPTION": "Möchten Sie {name} wirklich aus dem Bericht entfernen?"
                 },
-
                 "ERROR": {
                     "TITLE": "Fehler",
                     "NO_TYPE": "Sie müssen einen Berichtstyp auswählen",
@@ -696,7 +754,7 @@
                     "TITLE": "Vergehen hinzufügen",
                     "DESCRIPTION": "Erstellen Sie ein neues Vergehen",
                     "PLACEHOLDER": "Titel des Vergehens eingeben",
-                    "DESCRIPTION_PLACEHOLDER": "Beschreibung eingeben..."
+                    "DESCRIPTION_PLACEHOLDER": "Geben Sie eine Beschreibung ein..."
                 },
                 "SET_JAILTIME": {
                     "TITLE": "Empfohlene Haftstrafe",
@@ -735,6 +793,8 @@
                 "PLACEHOLDER": "Nachricht senden...",
                 "JOINED_CHATS": "Beigetretene Chats",
                 "PUBLIC_CHATS": "Öffentliche Chats",
+                "JOINED": "Beitritt",
+                "PUBLIC": "Öffentlich",
                 "PRIVATE_CHATS": "Private Chats",
                 "ROOM_ID": "Raum ID: {id}",
                 "TOGGLE_PRIVATE": "Privat umschalten",
@@ -835,8 +895,8 @@
 
             "LOGS": {
                 "TITLE": "Protokolle",
-                "SEARCH": "Logs suchen",
-                "FILTER": "Filtern",
+                "SEARCH": "Protokolle durchsuchen",
+                "FILTER": "Filter",
                 "CREATED": "Erstellt",
                 "UPDATED": "Aktualisiert",
                 "DELETED": "Gelöscht",
@@ -850,39 +910,47 @@
                 },
 
                 "CREATE_TAG_TITLE": "Tag erstellt",
-                "CREATE_TAG_DESCRIPTION": "Erstellte ein {type} Tag \"{name}\"",
+                "CREATE_TAG_DESCRIPTION": "Ein {type}-Tag \"{name}\" wurde erstellt",
                 "DELETE_TAG_TITLE": "Tag gelöscht",
-                "DELETE_TAG_DESCRIPTION": "Gelöschtes {type} Tag \"{name}\"",
+                "DELETE_TAG_DESCRIPTION": "Der {type}-Tag \"{name}\" wurde gelöscht",
                 "UPDATE_PROFILE_TITLE": "Profil aktualisiert",
-                "UPDATE_PROFILE_DESCRIPTION": "Aktualisierte das Profil von {name}",
+                "UPDATE_PROFILE_DESCRIPTION": "Das Profil von {name} wurde aktualisiert",
                 "UPDATE_VEHICLE_TITLE": "Fahrzeug aktualisiert",
-                "UPDATE_VEHICLE_DESCRIPTION": "Aktualisierte das Fahrzeug {plate}",
+                "UPDATE_VEHICLE_DESCRIPTION": "Das Fahrzeug mit dem Kennzeichen {plate} wurde aktualisiert",
+                "UPDATE_PROPERTY_TITLE": "Eigenschaft aktualisiert",
+                "UPDATE_PROPERTY_DESCRIPTION": "Eine Eigenschaft wurde aktualisiert",
+                "UPDATE_WEAPON_TITLE": "Waffe aktualisiert",
+                "UPDATE_WEAPON_DESCRIPTION": "Die Waffe mit der Seriennummer {serial} wurde aktualisiert",
                 "CREATE_REPORT_TITLE": "Bericht erstellt",
-                "CREATE_REPORT_DESCRIPTION": "Erstellte einen {type} Bericht mit dem Titel \"{title}\"",
+                "CREATE_REPORT_DESCRIPTION": "Ein {type}-Bericht mit dem Titel \"{title}\" wurde erstellt",
                 "UPDATE_REPORT_TITLE": "Bericht aktualisiert",
-                "UPDATE_REPORT_DESCRIPTION": "Aktualisierte den {type} Bericht mit dem Titel \"{title}\"",
+                "UPDATE_REPORT_DESCRIPTION": "Der {type}-Bericht mit dem Titel \"{title}\" wurde aktualisiert",
+                "DELETE_REPORT_TITLE": "Bericht gelöscht",
+                "DELETE_REPORT_DESCRIPTION": "Ein Bericht mit der ID {id} wurde gelöscht",
                 "ISSUED_LICENSE_TITLE": "Lizenz ausgestellt",
-                "ISSUED_LICENSE_DESCRIPTION": "Herausgegeben die Lizenz {license} an {name}",
-                "REVOKED_LICENSE_TITLE": "Lizenz widerrufen",
-                "REVOKED_LICENSE_DESCRIPTION": "Widerrufen die Lizenz {license} von {name}",
-                "PINNED_BULLETIN_TITLE": "Bulletin-Beitrag angeheftet",
-                "PINNED_BULLETIN_DESCRIPTION": "Bulletin-Beitrag mit der ID {id} angeheftet",
-                "UNPINNED_BULLETIN_TITLE": "Bulletin-Beitrag abgehoben",
-                "UNPINNED_BULLETIN_DESCRIPTION": "Bulletin-Beitrag mit der ID {id} abgehoben",
-                "CREATE_BULLETIN_TITLE": "Bulletin-Beitrag erstellt",
-                "CREATE_BULLETIN_DESCRIPTION": "Erstellte einen Bulletin-Beitrag mit dem Titel \"{title}\"",
-                "DELETE_BULLETIN_TITLE": "Bulletin-Beitrag gelöscht",
-                "DELETE_BULLETIN_DESCRIPTION": "Gelöschte den Bulletin-Beitrag mit der ID {id}",
-                "CREATE_WARRANT_TITLE": "Durchsuchungsbefehl erstellt",
-                "CREATE_WARRANT_DESCRIPTION": "Erstellte einen {type} Durchsuchungsbefehl mit dem Titel \"{title}\"",
-                "UPDATE_WARRANT_TITLE": "Durchsuchungsbefehl aktualisiert",
-                "UPDATE_WARRANT_DESCRIPTION": "Aktualisierte den Durchsuchungsbefehl \"{title}\"",
+                "ISSUED_LICENSE_DESCRIPTION": "Die Lizenz {license} wurde an {name} ausgestellt",
+                "REVOKED_LICENSE_TITLE": "Lizenz entzogen",
+                "REVOKED_LICENSE_DESCRIPTION": "Die Lizenz {license} wurde von {name} entzogen",
+                "PINNED_BULLETIN_TITLE": "Bulletin-Eintrag angeheftet",
+                "PINNED_BULLETIN_DESCRIPTION": "Ein Bulletin-Eintrag mit der ID {id} wurde angeheftet",
+                "UNPINNED_BULLETIN_TITLE": "Bulletin-Eintrag gelöst",
+                "UNPINNED_BULLETIN_DESCRIPTION": "Der Bulletin-Eintrag mit der ID {id} wurde gelöst",
+                "CREATE_BULLETIN_TITLE": "Bulletin-Eintrag erstellt",
+                "CREATE_BULLETIN_DESCRIPTION": "Ein Bulletin-Eintrag mit dem Titel \"{title}\" wurde erstellt",
+                "DELETE_BULLETIN_TITLE": "Bulletin-Eintrag gelöscht",
+                "DELETE_BULLETIN_DESCRIPTION": "Der Bulletin-Eintrag mit der ID {id} wurde gelöscht",
+                "CREATE_WARRANT_TITLE": "Haftbefehl erstellt",
+                "CREATE_WARRANT_DESCRIPTION": "Ein {type}-Haftbefehl mit dem Titel \"{title}\" wurde erstellt",
+                "UPDATE_WARRANT_TITLE": "Haftbefehl aktualisiert",
+                "UPDATE_WARRANT_DESCRIPTION": "Der Haftbefehl \"{title}\" wurde aktualisiert",
                 "CREATE_CASE_TITLE": "Fall erstellt",
-                "CREATE_CASE_DESCRIPTION": "Erstellte einen Fall mit dem Titel \"{title}\"",
+                "CREATE_CASE_DESCRIPTION": "Ein Fall mit dem Titel \"{title}\" wurde erstellt",
                 "UPDATE_CASE_TITLE": "Fall aktualisiert",
-                "UPDATE_CASE_DESCRIPTION": "Aktualisierte den Fall mit dem Titel \"{title}\""
+                "UPDATE_CASE_DESCRIPTION": "Der Fall mit dem Titel \"{title}\" wurde aktualisiert",
+                "DELETE_CASE_TITLE": "Fall gelöscht",
+                "DELETE_CASE_DESCRIPTION": "Ein Fall mit der ID {id} wurde gelöscht"
             },
-
+            
             "TAGS": {
                 "TITLE": "Tags",
                 "ADD": "Hinzufügen",
@@ -927,7 +995,7 @@
             }
         },
         "AMBULANCE": {
-            "TITLE": "Krankenwagen",
+            "TITLE": "SAFR",
 
             "SEARCH": "Suche",
             "CANCEL": "Abbrechen",
@@ -1080,6 +1148,8 @@
                 "PLACEHOLDER": "Nachricht senden...",
                 "JOINED_CHATS": "Beigetretene Chats",
                 "PUBLIC_CHATS": "Öffentliche Chats",
+                "JOINED": "Eingetreten",
+                "PUBLIC": "Öffentlich",
                 "PRIVATE_CHATS": "Private Chats",
                 "ROOM_ID": "Raum-ID: {id}",
                 "TOGGLE_PRIVATE": "Private umschalten",
@@ -1164,8 +1234,68 @@
             "TITLE": "Browser",
             "SEARCH_PLACEHOLDER": "Suche oder URL eingeben",
             "FAILED_LOAD_PAGE": "Fehler beim Laden der Seite, vielleicht wird das Einbetten in ein iframe nicht unterstützt?"
+        },
+        "REGISTRATION": {
+            "TITLE": "Registrierung",
+            "SELECT_CHARACTER": "Charakter auswählen",
+            "PLEASE_SELECT_CHARACTER": "Bitte wählen Sie einen Charakter aus",
+            "CREATE_NEW": "Neu erstellen",
+            "EDIT": "Bearbeiten",
+            "SAVE": "Speichern",
+            "DELETE": "Löschen",
+            "CANCEL": "Abbrechen",
+            "DELETE_CHARACTER": "Charakter löschen",
+            "DESCRIPTION": "Beschreibung",
+            "DESCRIPTION_PLACEHOLDER": "Dies ist eine Beschreibung...",
+            "ADD": "Hinzufügen",
+        
+            "CHARACTER_INFO": "Charakter-Informationen",
+            "REMOVE_AVATAR": "Avatar entfernen",
+            "FIRSTNAME": "Vorname",
+            "LASTNAME": "Nachname",
+            "DOB": "Geburtsdatum",
+            "PHONE_NUMBER": "Telefonnummer",
+            "GENDER": "Geschlecht",
+            "MALE": "Männlich",
+            "FEMALE": "Weiblich",
+            "JOB": "Beruf",
+            "HEIGHT": "Größe",
+            "FORMATTED_HEIGHT": "{height}cm",
+        
+            "VEHICLES": "Fahrzeuge",
+            "VEHICLE": "Fahrzeug",
+            "REMOVE_PICTURE": "Bild entfernen",
+            "SEARCH_VEHICLES": "Fahrzeuge suchen",
+            "MODEL": "Modell",
+            "PLATE": "Kennzeichen",
+            "COLOR": "Farbe",
+            "CREATE": "Erstellen",
+            "DELETE_VEHICLE": "Fahrzeug löschen",
+            "DELETE_VEHICLE_POPUP": {
+                "TITLE": "Fahrzeug löschen",
+                "DESCRIPTION": "Sind Sie sicher, dass Sie dieses Fahrzeug löschen möchten?"
+            },
+        
+            "LICENSES": "Lizenzen",
+            "ADD_LICENSE": "Lizenz hinzufügen",
+            "DELETE_LICENSE_POPUP": {
+                "TITLE": "Lizenz löschen",
+                "DESCRIPTION": "Sind Sie sicher, dass Sie diese Lizenz löschen möchten?"
+            },
+        
+            "PROPERTIES": "Immobilien",
+            "ADD_PROPERTY_POPUP": {
+                "TITLE": "Neue Immobilien",
+                "DESCRIPTION": "Eine neue Immobilien erstellen",
+                "LABEL": "Bezeichnung der Immobilien",
+                "ADDRESS": "Adresse der Immobilien"
+            },
+            "DELETE_PROPERTY_POPUP": {
+                "TITLE": "Immobilien löschen",
+                "DESCRIPTION": "Sind Sie sicher, dass Sie diese Immobilien löschen möchten?"
+            }
         }
-    },
+    },        
     "COMPONENTS": {
         "CONTEXT_MENU": {
             "CANCEL": "Abbrechen"
@@ -1297,7 +1427,7 @@
             "RECEIVED_TITLE": "Empfangen ${amount}",
             "PAID_TITLE": "Bezahlt ${amount}",
             "TRANSACTION": "{number} hat eine Transaktion von ${amount} an {company} durchgeführt",
-
+            
             "TOOK_PHOTO": "Hat ein Foto gemacht",
             "TOOK_VIDEO": "Hat ein Video gemacht"
         },
@@ -1368,7 +1498,9 @@
             },
             "TAG_TYPES": {
                 "PROFILE": "Profil",
-                "REPORT": "Bericht"
+                "REPORT": "Bericht",
+                "PROPERTY": "Immobilien",
+                "WEAPON": "Waffen"
             },
             "LOGS": {
                 "CREATE_CONDITION_CATEGORY": {
