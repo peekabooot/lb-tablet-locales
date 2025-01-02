@@ -641,7 +641,7 @@
                 },
                 "CIVILLIANS_INVOLVED": "Civils Impliqués",
                 "NO_CIVILLIANS_INVOLVED": "Aucun Civil Impliqué",
-                "REMOVE_CIVILIAN": {
+                "REMOVE_CIVILLIAN": {
                     "TITLE": "Supprimer le Civil",
                     "DESCRIPTION": "Êtes-vous sur de vouloir retirer {name} du rapport?"
                 },
@@ -1443,6 +1443,7 @@
             "TOOK_VIDEO": "A pris une vidéo"
         },
         "POLICE": {
+            "EVIDENCE_LABEL": "Preuves: Dossier n°{id}",
             "NEW_BULLETIN_NOTIFICATION": {
                 "TITLE": "Nouveau Bulletin",
                 "CONTENT": "{title}"
