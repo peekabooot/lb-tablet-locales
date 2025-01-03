@@ -578,7 +578,7 @@
                 },
                 "CIVILLIANS_INVOLVED": "Civili uključeni",
                 "NO_CIVILLIANS_INVOLVED": "Nema civila uključenih",
-                "REMOVE_CIVILIAN": {
+                "REMOVE_CIVILLIAN": {
                     "TITLE": "Ukloni civila",
                     "DESCRIPTION": "Da li ste sigurni da želite uklonuti {name} iz prijave?"
                 },
