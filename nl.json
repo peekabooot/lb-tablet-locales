@@ -637,7 +637,7 @@
                 },
                 "CIVILLIANS_INVOLVED": "Betrokken Burgers",
                 "NO_CIVILLIANS_INVOLVED": "Geen Betrokken Burgers",
-                "REMOVE_CIVILLIAN": {
+                "REMOVE_CIVILIAN": {
                     "TITLE": "Burger Verwijderen",
                     "DESCRIPTION": "Weet je zeker dat je {name} uit het rapport wilt verwijderen?"
                 },
@@ -679,7 +679,7 @@
                 },
                 "CIVILLIANS_INVOLVED": "Betrokken Burgers",
                 "NO_CIVILLIANS_INVOLVED": "Geen Betrokken Burgers",
-                "REMOVE_CIVILLIAN": {
+                "REMOVE_CIVILIAN": {
                     "TITLE": "Burger Verwijderen",
                     "DESCRIPTION": "Weet je zeker dat je de burger uit de zaak wilt verwijderen?"
                 },

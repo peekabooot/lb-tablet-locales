@@ -574,7 +574,7 @@
                 },
                 "CIVILLIANS_INVOLVED": "involverade civilpersoner",
                 "NO_CIVILLIANS_INVOLVED": "Inga civilpersoner involverade",
-                "REMOVE_CIVILLIAN": {
+                "REMOVE_CIVILIAN": {
                     "TITLE": "Ta bort civilperson",
                     "DESCRIPTION": "Är du säker på att du vill ta bort {name} från avrapporteringen?"
                 },
@@ -617,7 +617,7 @@
                 },
                 "CIVILLIANS_INVOLVED": "Involverade civilpersoner",
                 "NO_CIVILLIANS_INVOLVED": "Inga civilpersoner involverade",
-                "REMOVE_CIVILLIAN": {
+                "REMOVE_CIVILIAN": {
                     "TITLE": "Ta bort civilperson",
                     "DESCRIPTION": "Är du säker på att du vill ta bort civilpersonen från ärendet?"
                 },
