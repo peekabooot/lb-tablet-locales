@@ -629,6 +629,10 @@
                 "NO_ATTACHMENTS": "لا توجد مرفقات",
                 "WEAPONS_INVOLVED": "الأسلحة المشاركة",
                 "NO_WEAPONS_INVOLVED": "لا توجد أسلحة مشاركة",
+                "REMOVE_WEAPON": {
+                    "TITLE": "إزالة السلاح",
+                    "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة السلاح من التقرير؟"
+                },
                 "OFFICERS_INVOLVED": "الضباط المشاركين",
                 "NO_OFFICERS_INVOLVED": "لا يوجد ضباط مشاركون",
                 "REMOVE_OFFICER": {
@@ -637,7 +641,7 @@
                 },
                 "CIVILLIANS_INVOLVED": "المدنيين المشاركين",
                 "NO_CIVILLIANS_INVOLVED": "لا يوجد مدنيون مشاركون",
-                "REMOVE_CIVILIAN": {
+                "REMOVE_CIVILLIAN": {
                     "TITLE": "إزالة المدني",
                     "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة المدني {name} من التقرير؟"
                 },
@@ -666,6 +670,7 @@
                 "EVIDENCE": "الأدلة",
                 "NO_EVIDENCE": "لا توجد أدلة مرفقة",
                 "VEHICLES_INVOLVED": "المركبات المشاركة",
+                "OPEN_STASH": "فتح الخزنة",
                 "NO_VEHICLES_INVOLVED": "لا توجد مركبات مشاركة",
                 "REMOVE_VEHICLE": {
                     "TITLE": "إزالة المركبة",
@@ -1293,6 +1298,11 @@
             "DELETE_PROPERTY_POPUP": {
                 "TITLE": "حذف العقار",
                 "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذا العقار؟"
+            },
+            "ERROR": {
+                "TITLE": "خطأ",
+                "MISSING_FIELDS": "الحقول التالية مفقودة: {fields}",
+                "OK": "حسنًا"
             }
         }
     },
@@ -1432,6 +1442,7 @@
             "TOOK_VIDEO": "التقط فيديو"
         },
         "POLICE": {
+            "EVIDENCE_LABEL": "دليل: القضية {id}",
             "NEW_BULLETIN_NOTIFICATION": {
                 "TITLE": "إعلان جديد",
                 "CONTENT": "{title}"
