@@ -684,7 +684,7 @@
                 },
                 "CIVILLIANS_INVOLVED": "Civillians Impliqués",
                 "NO_CIVILLIANS_INVOLVED": "No Civillians Impliqués",
-                "REMOVE_CIVILIAN": {
+                "REMOVE_CIVILLIAN": {
                     "TITLE": "Supprimer le Civil",
                     "DESCRIPTION": "Êtes-vous sûr de vouloir retirer le civild u dossier?"
                 },

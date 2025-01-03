@@ -684,7 +684,7 @@
                 },
                 "CIVILLIANS_INVOLVED": "Beteiligte Zivilisten",
                 "NO_CIVILLIANS_INVOLVED": "Keine Zivilisten beteiligt",
-                "REMOVE_CIVILIAN": {
+                "REMOVE_CIVILLIAN": {
                     "TITLE": "Zivilisten entfernen",
                     "DESCRIPTION": "Möchten Sie den Zivilisten wirklich aus dem Fall entfernen?"
                 },

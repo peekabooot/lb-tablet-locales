@@ -684,7 +684,7 @@
                 },
                 "CIVILLIANS_INVOLVED": "المدنيين المشاركين",
                 "NO_CIVILLIANS_INVOLVED": "لا يوجد مدنيون مشاركون",
-                "REMOVE_CIVILIAN": {
+                "REMOVE_CIVILLIAN": {
                     "TITLE": "إزالة المدني",
                     "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة المدني من القضية؟"
                 },
