@@ -9,8 +9,8 @@
     "S": "Sek",
 
     "APP_NAMES": {
-        "Police": "SASP",
-        "Ambulance": "SAFR",
+        "Police": "Polizei",
+        "Ambulance": "Krankenhause",
         "Registration": "Registrieren",
         "Notes": "Notizen",
         "Browser": "Browser",
@@ -629,6 +629,10 @@
                 "NO_ATTACHMENTS": "Keine Anhänge",
                 "WEAPONS_INVOLVED": "Beteiligte Waffen",
                 "NO_WEAPONS_INVOLVED": "Keine Waffen beteiligt",
+                "REMOVE_WEAPON": {
+                    "TITLE": "Waffe entfernen",
+                    "DESCRIPTION": "Bist du sicher, dass du die Waffe aus dem Bericht entfernen möchtest?"
+                },
                 "OFFICERS_INVOLVED": "Beteiligte Beamte",
                 "NO_OFFICERS_INVOLVED": "Keine Beamten beteiligt",
                 "REMOVE_OFFICER": {
@@ -637,7 +641,7 @@
                 },
                 "CIVILLIANS_INVOLVED": "Beteiligte Zivilisten",
                 "NO_CIVILLIANS_INVOLVED": "Keine Zivilisten beteiligt",
-                "REMOVE_CIVILIAN": {
+                "REMOVE_CIVILLIAN": {
                     "TITLE": "Zivilisten entfernen",
                     "DESCRIPTION": "Möchten Sie {name} wirklich aus dem Bericht entfernen?"
                 },
@@ -665,6 +669,7 @@
                 "DESCRIPTION_PLACEHOLDER": "Beschreibung eingeben...",
                 "EVIDENCE": "Beweismittel",
                 "NO_EVIDENCE": "Keine angehängten Beweismittel",
+                "OPEN_STASH": "Lager öffnen",
                 "VEHICLES_INVOLVED": "Beteiligte Fahrzeuge",
                 "NO_VEHICLES_INVOLVED": "Keine Fahrzeuge beteiligt",
                 "REMOVE_VEHICLE": {
@@ -1293,6 +1298,12 @@
             "DELETE_PROPERTY_POPUP": {
                 "TITLE": "Immobilien löschen",
                 "DESCRIPTION": "Sind Sie sicher, dass Sie diese Immobilien löschen möchten?"
+            },
+
+            "ERROR": {
+                "TITLE": "Fehler",
+                "MISSING_FIELDS": "Es fehlen die folgenden Felder: {fields}",
+                "OK": "OK"
             }
         }
     },        
@@ -1432,6 +1443,7 @@
             "TOOK_VIDEO": "Hat ein Video gemacht"
         },
         "POLICE": {
+            "EVIDENCE_LABEL": "Beweismittel: Fall {id}",
             "NEW_BULLETIN_NOTIFICATION": {
                 "TITLE": "Neues Bulletin",
                 "CONTENT": "{title}"
