@@ -627,8 +627,12 @@
                 "DESCRIPTION_PLACEHOLDER": "Voer een beschrijving in...",
                 "GALLERY": "Galerij",
                 "NO_ATTACHMENTS": "Geen Bijlagen",
-                "WEAPONS_INVOLVED": "Weapons Involved",
-                "NO_WEAPONS_INVOLVED": "No Weapons Involved",
+                "WEAPONS_INVOLVED": "Betrokken Wapens",
+                "NO_WEAPONS_INVOLVED": "Geen Betrokken Wapens",
+                "REMOVE_WEAPON": {
+                    "TITLE": "Wapen Verwijderen",
+                    "DESCRIPTION": "Weet je zeker dat je het wapen uit het rapport wilt verwijderen?"
+                },
                 "OFFICERS_INVOLVED": "Betrokken Agenten",
                 "NO_OFFICERS_INVOLVED": "Geen Betrokken Agenten",
                 "REMOVE_OFFICER": {
@@ -665,6 +669,7 @@
                 "DESCRIPTION_PLACEHOLDER": "Voer een beschrijving in...",
                 "EVIDENCE": "Bewijs",
                 "NO_EVIDENCE": "Geen Bewijsstukken Bijgevoegd",
+                "OPEN_STASH": "Open Bewijskluis",
                 "VEHICLES_INVOLVED": "Betrokken Voertuigen",
                 "NO_VEHICLES_INVOLVED": "Geen Betrokken Voertuigen",
                 "REMOVE_VEHICLE": {
@@ -1293,6 +1298,12 @@
             "DELETE_PROPERTY_POPUP": {
                 "TITLE": "Eigendom Verwijderen",
                 "DESCRIPTION": "Weet je zeker dat je dit eigendom wilt verwijderen?"
+            },
+
+            "ERROR": {
+                "TITLE": "Hier ging iets mis",
+                "MISSING_FIELDS": "Je mist de volgende velden: {fields}",
+                "OK": "OK"
             }
         }
     },
@@ -1432,6 +1443,7 @@
             "TOOK_VIDEO": "Maakte een video"
         },
         "POLICE": {
+            "EVIDENCE_LABEL": "Bewijs: Zaak {id}",
             "NEW_BULLETIN_NOTIFICATION": {
                 "TITLE": "Nieuw Bulletin",
                 "CONTENT": "{title}"
