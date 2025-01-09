@@ -83,6 +83,7 @@
             "AUTOMATIC": "Automatic",
             "BRIGHTNESS": "Brightness",
             "FRAME_COLOR": "Frame Color",
+            "TABLET_SCALE": "Tablet Scale",
             "WALLPAPER": "Wallpaper",
             "WALLPAPER_DESCRIPTION": "Change wallpaper and other background settings",
             "WALLPAPERS": "Wallpapers",
@@ -375,6 +376,22 @@
 
             "PERSONAL": "Personal",
             "JOB": "Job",
+            "PLACEHOLDER": "Text Message",
+            "NOT_DELIVERED": "Not delivered",
+            "SENT_LOCATION": "Shared their location, click to open in Maps",
+            "SENT_LOCATION_SHORT": "Shared their location",
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "Share Location",
+                "TEXT": "Do you want to share your location?",
+                "CANCEL": "Cancel",
+                "SEND": "Send"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "Delete conversation",
+                "DESCRIPTION": "Are you sure you want to delete this conversation?",
+                "CANCEL": "Cancel",
+                "DELETE": "Delete"
+            },
 
             "DEPOSIT_POPUP": {
                 "TITLE": "Deposit",
@@ -1429,18 +1446,9 @@
             }
         },
         "LOGS": {
-            "MAIL_TITLE": "Email",
-            "NEW_MAIL": "{sender} sent an email to {recipient}",
-            "MESSAGE_TITLE": "Text message",
-            "NEW_MESSAGE": "{sender} sent a message to {recipient}: {message}",
-            "NEW_SERVICE_TITLE": "New message",
-            "NEW_SERVICE_CONTENT": "{sender} sent a message to {channel}: {message}",
-            "RECEIVED_TITLE": "Received ${amount}",
-            "PAID_TITLE": "Paid ${amount}",
-            "TRANSACTION": "{number} made a transaction of ${amount} to {company}",
-
             "TOOK_PHOTO": "Took a photo",
-            "TOOK_VIDEO": "Took a video"
+            "TOOK_VIDEO": "Took a video",
+            "NEW_DISPATCH": "New Dispatch: {title}"
         },
         "POLICE": {
             "EVIDENCE_LABEL": "Evidence: Case {id}",
