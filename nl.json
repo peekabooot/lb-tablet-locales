@@ -83,6 +83,7 @@
             "AUTOMATIC": "Automatisch",
             "BRIGHTNESS": "Helderheid",
             "FRAME_COLOR": "Kleur Frame",
+            "TABLET_SCALE": "Tablet Grote",
             "WALLPAPER": "Achtergrond",
             "WALLPAPER_DESCRIPTION": "Wijzig achtergrond en andere achtergrondinstellingen",
             "WALLPAPERS": "Achtergronden",
@@ -375,6 +376,22 @@
 
             "PERSONAL": "Persoonlijk",
             "JOB": "Baan",
+			"PLACEHOLDER": "Tekstbericht",
+			"NOT_DELIVERED": "Niet bezorgd",
+			"SENT_LOCATION": "Deelde hun locatie, klik om te openen in Kaarten",
+			"SENT_LOCATION_SHORT": "Deelde hun locatie",
+			"SEND_LOCATION_POPUP": {
+				"TITLE": "Locatie Delen",
+				"TEXT": "Wil je je locatie delen?",
+				"CANCEL": "Annuleren",
+				"SEND": "Verzenden"
+			},
+			"DELETE_CONVERSATION": {
+				"TITLE": "Gesprek Verwijderen",
+				"DESCRIPTION": "Weet je zeker dat je dit gesprek wilt verwijderen?",
+				"CANCEL": "Annuleren",
+				"DELETE": "Verwijderen"
+			},
 
             "DEPOSIT_POPUP": {
                 "TITLE": "Storten",
@@ -1429,18 +1446,9 @@
             }
         },
         "LOGS": {
-            "MAIL_TITLE": "E-mail",
-            "NEW_MAIL": "{sender} stuurde een e-mail naar {recipient}",
-            "MESSAGE_TITLE": "Tekstbericht",
-            "NEW_MESSAGE": "{sender} stuurde een bericht naar {recipient}: {message}",
-            "NEW_SERVICE_TITLE": "Nieuw Bericht",
-            "NEW_SERVICE_CONTENT": "{sender} stuurde een bericht naar {channel}: {message}",
-            "RECEIVED_TITLE": "Ontvangen ${amount}",
-            "PAID_TITLE": "Betaald ${amount}",
-            "TRANSACTION": "{number} deed een transactie van ${amount} naar {company}",
-
             "TOOK_PHOTO": "Maakte een foto",
-            "TOOK_VIDEO": "Maakte een video"
+            "TOOK_VIDEO": "Maakte een video",
+            "NEW_DISPATCH": "Nieuw Dispatch Alert: {title}"
         },
         "POLICE": {
             "EVIDENCE_LABEL": "Bewijs: Zaak {id}",
