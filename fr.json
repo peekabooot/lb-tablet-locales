@@ -83,6 +83,7 @@
             "AUTOMATIC": "Automatique",
             "BRIGHTNESS": "Luminosité",
             "FRAME_COLOR": "Couleure du Cadre",
+            "TABLET_SCALE": "Taille de la tablette",
             "WALLPAPER": "Fond d'écran",
             "WALLPAPER_DESCRIPTION": "Changer le fond d'écran et autre paramètres",
             "WALLPAPERS": "Fond d'écrans",
@@ -375,6 +376,22 @@
 
             "PERSONAL": "Personel",
             "JOB": "Emploi",
+            "PLACEHOLDER": "Message",
+            "NOT_DELIVERED": "Non livrée",
+            "SENT_LOCATION": "A partagé sa localisation, cliquez pour voir sur la carte",
+            "SENT_LOCATION_SHORT": "A partagé sa localisation",
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "Partager votre localisation",
+                "TEXT": "Voulez-vous partager votre localisation?",
+                "CANCEL": "Annuler",
+                "SEND": "Envoyer"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "Supprimer la conversation",
+                "DESCRIPTION": "Êtes-vous sur de vouloir supprimer cet conversation",
+                "CANCEL": "Annuler",
+                "DELETE": "Supprimer"
+            },
 
             "DEPOSIT_POPUP": {
                 "TITLE": "Deposer",
@@ -1429,18 +1446,9 @@
             }
         },
         "LOGS": {
-            "MAIL_TITLE": "Email",
-            "NEW_MAIL": "{sender} a envoyé un mail à {recipient}",
-            "MESSAGE_TITLE": "Message",
-            "NEW_MESSAGE": "{sender} a envoyé un message à {recipient}: {message}",
-            "NEW_SERVICE_TITLE": "Nouveau message",
-            "NEW_SERVICE_CONTENT": "{sender} a envoyé un message dans {channel}: {message}",
-            "RECEIVED_TITLE": "Reçu ${amount}",
-            "PAID_TITLE": "Payé ${amount}",
-            "TRANSACTION": "{number} a transféré ${amount} à {company}",
-
             "TOOK_PHOTO": "A pris une photo",
-            "TOOK_VIDEO": "A pris une vidéo"
+            "TOOK_VIDEO": "A pris une vidéo",
+            "NEW_DISPATCH": "Nouvel Alerte: {title}"
         },
         "POLICE": {
             "EVIDENCE_LABEL": "Preuves: Dossier n°{id}",
