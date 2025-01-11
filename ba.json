@@ -11,6 +11,7 @@
     "APP_NAMES": {
         "Police": "Policija",
         "Ambulance": "Ambulanta",
+		"Registration": "Registracija",
         "Notes": "Notes",
         "Browser": "Pretraživač",
         "Settings": "Postavke",
@@ -362,6 +363,7 @@
             "DISABLE_CALLS": "Isključi pozive",
             "ENABLE_CALLS": "Uključi pozive",
             "BALANCE": "Stanje",
+			"CURRENT_BALANCE": "Trenutno stanje kompanije",
             "MANAGE_EMPLOYEES": "Upravljaj radnicima",
             "HIRE": "Zaposli",
             "SET_GRADE": "Postavi rank",
@@ -523,7 +525,9 @@
                 "REPORTS": "Prijave",
                 "NO_REPORTS": "Nema prijava",
                 "CASES": "Slučajevi",
-                "NO_CASES": "Nema slučaja"
+                "NO_CASES": "Nema slučaja",
+				"WEAPONS": "Oružje",
+                "NO_WEAPONS": "Nema oružja"
             },
 
             "VEHICLES": {
@@ -558,7 +562,60 @@
                 "CASES": "Slučajevi",
                 "NO_CASES": "Nema slučaja"
             },
+			"PROPERTIES": {
+                "TITLE": "Imovine",
+                "PROPERTY": "Imovina",
+                "SEARCH": "Pretraži imovinu",
+                "REMOVE_PICTURE": "Makni sliku",
+                "DETAILS": "Detalji",
+                "ADD_PHOTO": {
+                    "TITLE": "Dodaj sliku",
+                    "SELECT_PHOTO": "Odaberi sliku",
+                    "PASTE_URL": "Zalijepi link",
+                    "PASTE_URL_DESCRIPTION": "Upiši link slike",
+                    "PASTE_URL_PLACEHOLDER": "Link slike",
 
+                    "INVALID_URL": "Neispravan link",
+                    "INVALID_URL_DESCRIPTION": "Link koji ste upisali nije validan link",
+                    "OK": "OK"
+                },
+                "LABEL": "Naziv",
+                "ADDRESS": "Adresa",
+                "OWNER": "Vlasnik",
+                "LOCATION": "Lokacija",
+                "OPEN_IN_MAPS": "Otvori u Mapama",
+                "NOTES": "Bilješke",
+                "NOTES_PLACEHOLDER": "Upiši bilješku ovdje..."
+            },
+            "WEAPONS": {
+                "TITLE": "Oružja",
+                "WEAPON": "Oružje",
+                "SEARCH": "Pretraži oružja",
+                "REMOVE_PICTURE": "Makni sliku",
+                "DETAILS": "Detalji",
+                "ADD_PHOTO": {
+                    "TITLE": "Dodaj sliku",
+                    "SELECT_PHOTO": "Odaberi sliku",
+                    "PASTE_URL": "Zalijepi link",
+                    "PASTE_URL_DESCRIPTION": "Upiši link slike",
+                    "PASTE_URL_PLACEHOLDER": "Link slike",
+
+                    "INVALID_URL": "Neispravan link",
+                    "INVALID_URL_DESCRIPTION": "Link koji ste upisali nije validan link",
+                    "OK": "OK"
+                },
+                "MODEL_MAKE": "Model / Marka",
+                "SERIAL_NUMBER": "Serijski broj",
+                "NOTES": "Bilješke",
+                "NOTES_PLACEHOLDER": "Upiši bilješku ovdje...",
+                "LINKED_REPORTS": "Povezane prijave",
+                "NO_LINKED_REPORTS": "Bez povezanih prijava",
+                "LINKED_CASES": "Povezani slučaj",
+                "NO_LINKED_CASES": "Bez povezanih slučaja",
+                "UNREGISTERED": "Neregistrovan",
+                "OWNER": "Vlasnik"
+            },
+			
             "REPORTS": {
                 "TITLE": "Prijave",
                 "REPORT": "Prijava",
@@ -570,6 +627,12 @@
                 "DESCRIPTION_PLACEHOLDER": "Unesite opis...",
                 "GALLERY": "Galerija",
                 "NO_ATTACHMENTS": "Nema dodataka",
+				"WEAPONS_INVOLVED": "Uključena oružja",
+                "NO_WEAPONS_INVOLVED": "Bez uključenih oružja",
+                "REMOVE_WEAPON": {
+                    "TITLE": "Makni oružje",
+                    "DESCRIPTION": "Da li ste sigurni da želite uklonuti oružje iz prijave?"
+                },
                 "OFFICERS_INVOLVED": "Oficiri uključeni",
                 "NO_OFFICERS_INVOLVED": "Nema uključenih oficira",
                 "REMOVE_OFFICER": {
@@ -588,7 +651,6 @@
                     "TITLE": "Ukloni osumnjičenog",
                     "DESCRIPTION": "Da li ste sigurni da želite uklonuti {name} iz prijave?"
                 },
-
                 "ERROR": {
                     "TITLE": "Greška",
                     "NO_TYPE": "Morate odabrati tip prijave",
@@ -607,6 +669,7 @@
                 "DESCRIPTION_PLACEHOLDER": "Unesite opis...",
                 "EVIDENCE": "Dokaz",
                 "NO_EVIDENCE": "Bez dokaza",
+				"OPEN_STASH": "Otvori skladište",
                 "VEHICLES_INVOLVED": "Vozila uključena",
                 "NO_VEHICLES_INVOLVED": "Bez vozila",
                 "REMOVE_VEHICLE": {
@@ -735,6 +798,8 @@
                 "PLACEHOLDER": "Pošalji poruku...",
                 "JOINED_CHATS": "Član razgovora",
                 "PUBLIC_CHATS": "Javni razgovori",
+				"JOINED": "Pridružen",
+                "PUBLIC": "Javno",
                 "PRIVATE_CHATS": "Privatni razgovori",
                 "ROOM_ID": "ID Sobe: {id}",
                 "TOGGLE_PRIVATE": "Promjeni vidljivost",
@@ -857,10 +922,16 @@
                 "UPDATE_PROFILE_DESCRIPTION": "Ažuriran {name} profil",
                 "UPDATE_VEHICLE_TITLE": "Ažurirano vozilo",
                 "UPDATE_VEHICLE_DESCRIPTION": "Ažurirano vozilo {plate}",
+				"UPDATE_PROPERTY_TITLE": "Ažurirana imovina",
+                "UPDATE_PROPERTY_DESCRIPTION": "Imovina ažurirana",
+                "UPDATE_WEAPON_TITLE": "Ažurirano oružje",
+                "UPDATE_WEAPON_DESCRIPTION": "Ažurirano oružje sa serijskim brojem {serial}",
                 "CREATE_REPORT_TITLE": "Kreirana prijava",
                 "CREATE_REPORT_DESCRIPTION": "Kreiran {type} prijava sa nazivom \"{title}\"",
                 "UPDATE_REPORT_TITLE": "Ažurirana prijava",
                 "UPDATE_REPORT_DESCRIPTION": "Ažurirana {type} prijava sa nazivom \"{title}\"",
+				"DELETE_REPORT_TITLE": "Obrisana prijava",
+                "DELETE_REPORT_DESCRIPTION": "Prijava obrisana sa IDem {id}",
                 "ISSUED_LICENSE_TITLE": "Izdata licenca",
                 "ISSUED_LICENSE_DESCRIPTION": "Izdata licenca {license} za {name}",
                 "REVOKED_LICENSE_TITLE": "Oduzeta licenca",
@@ -880,7 +951,9 @@
                 "CREATE_CASE_TITLE": "Kreiran slučaj",
                 "CREATE_CASE_DESCRIPTION": "Kreiran slučaj sa nazivom \"{title}\"",
                 "UPDATE_CASE_TITLE": "Ažuriran slučaj",
-                "UPDATE_CASE_DESCRIPTION": "Ažuriran slučaj sa nazivom \"{title}\""
+                "UPDATE_CASE_DESCRIPTION": "Ažuriran slučaj sa nazivom \"{title}\"",
+				"DELETE_CASE_TITLE": "Obrisan slučaj",
+                "DELETE_CASE_DESCRIPTION": "Slučaj obrisan sa IDem {id}"
             },
 
             "TAGS": {
@@ -1080,6 +1153,8 @@
                 "PLACEHOLDER": "Pošalji poruku...",
                 "JOINED_CHATS": "Član razgovora",
                 "PUBLIC_CHATS": "Javni razgovori",
+				"JOINED": "Pridružen",
+                "PUBLIC": "Javno",
                 "PRIVATE_CHATS": "Privatni razgovori",
                 "ROOM_ID": "ID Sobe: {id}",
                 "TOGGLE_PRIVATE": "Promjeni vidljivost",
@@ -1164,6 +1239,72 @@
             "TITLE": "Pretraživač",
             "SEARCH_PLACEHOLDER": "Pretraži ili upiši link",
             "FAILED_LOAD_PAGE": "Učitavanje stranice nije moguce, možda ne podržava IFrameing?"
+        },
+		"REGISTRATION": {
+            "TITLE": "Registracija",
+            "SELECT_CHARACTER": " Odaberi karakter",
+            "PLEASE_SELECT_CHARACTER": "Molimo Vas odaberite karakter",
+            "CREATE_NEW": "Kreiraj novi",
+            "EDIT": "Uredi",
+            "SAVE": "Sačuvaj",
+            "DELETE": "Obriši",
+            "CANCEL": "Odustani",
+            "DELETE_CHARACTER": "Obriši karakter",
+            "DESCRIPTION": "Opis",
+            "DESCRIPTION_PLACEHOLDER": "Ovo je opis...",
+            "ADD": "Dodaj",
+
+            "CHARACTER_INFO": "O karakteru",
+            "REMOVE_AVATAR": "Makni avatar",
+            "FIRSTNAME": "Ime",
+            "LASTNAME": "Prezime",
+            "DOB": "Rođen",
+            "PHONE_NUMBER": "Broj telefona",
+            "GENDER": "Spol",
+            "MALE": "Muškarac",
+            "FEMALE": "Žena",
+            "JOB": "Posao",
+            "HEIGHT": "Visina",
+            "FORMATTED_HEIGHT": "{height}cm",
+
+            "VEHICLES": "Vozila",
+            "VEHICLE": "Vozilo",
+            "REMOVE_PICTURE": "Makni sliku",
+            "SEARCH_VEHICLES": "Pretraži vozila",
+            "MODEL": "Model",
+            "PLATE": "Tablice",
+            "COLOR": "Boja",
+            "CREATE": "Kreiraj",
+            "DELETE_VEHICLE": "Obriši vozilo",
+            "DELETE_VEHICLE_POPUP": {
+                "TITLE": "Obriši vozilo",
+                "DESCRIPTION": "Da li ste sigurni da želite obrisati vozilo?"
+            },
+
+            "LICENSES": "Dozvole",
+            "ADD_LICENSE": "Dodaj dozvolu",
+            "DELETE_LICENSE_POPUP": {
+                "TITLE": "Obriši dozvolu",
+                "DESCRIPTION": "Da li ste sigurni da želite obrisati dozvolu?"
+            },
+
+            "PROPERTIES": "Imovine",
+            "ADD_PROPERTY_POPUP": {
+                "TITLE": "Nova imovina",
+                "DESCRIPTION": "Kreiraj novu imovinu",
+                "LABEL": "Ime imovine",
+                "ADDRESS": "Adresa imovine"
+            },
+            "DELETE_PROPERTY_POPUP": {
+                "TITLE": "Obriši imovinu",
+                "DESCRIPTION": "Da li ste sigurni da želite obrisati imovinu?"
+            },
+
+            "ERROR": {
+                "TITLE": "Greška",
+                "MISSING_FIELDS": "Nedostaju Vam sljedeća polja: {fields}",
+                "OK": "OK"
+            }
         }
     },
     "COMPONENTS": {
@@ -1302,6 +1443,7 @@
             "TOOK_VIDEO": "Video snimljen"
         },
         "POLICE": {
+			"EVIDENCE_LABEL": "Dokaz: Slučaj {id}",
             "NEW_BULLETIN_NOTIFICATION": {
                 "TITLE": "Nova obavijest",
                 "CONTENT": "{title}"
@@ -1368,7 +1510,9 @@
             },
             "TAG_TYPES": {
                 "PROFILE": "profil",
-                "REPORT": "prijava"
+                "REPORT": "prijava",
+				"PROPERTY": "imovina",
+                "WEAPON": "oružje"
             },
             "LOGS": {
                 "CREATE_CONDITION_CATEGORY": {
