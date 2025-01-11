@@ -83,6 +83,7 @@
             "AUTOMATIC": "Automarski",
             "BRIGHTNESS": "Osvjetljenje",
             "FRAME_COLOR": "Boja okvira",
+			"TABLET_SCALE": "Uvećanje tableta",
             "WALLPAPER": "Pozadina",
             "WALLPAPER_DESCRIPTION": "Promjena pozadine i pozadinske postavke",
             "WALLPAPERS": "Pozadine",
@@ -375,6 +376,22 @@
 
             "PERSONAL": "Lično",
             "JOB": "Poslovno",
+			"PLACEHOLDER": "Poruka",
+            "NOT_DELIVERED": "Nije zaprimljeno",
+            "SENT_LOCATION": "Lokacija podjeljena, klikni da otvorite u Mapama",
+            "SENT_LOCATION_SHORT": "Lokacija podjeljena",
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "Podijeli lokaciju",
+                "TEXT": "Da li želite da podjelite svoju lokaciju?",
+                "CANCEL": "Odustani",
+                "SEND": "Pošalji"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "Obriši razgovor",
+                "DESCRIPTION": "Da li ste sigurni da želite obrisati razgovor?",
+                "CANCEL": "Odustani",
+                "DELETE": "Obriši"
+            },
 
             "DEPOSIT_POPUP": {
                 "TITLE": "Uplata",
@@ -1429,18 +1446,9 @@
             }
         },
         "LOGS": {
-            "MAIL_TITLE": "Email",
-            "NEW_MAIL": "{sender} je poslao mail {recipient}",
-            "MESSAGE_TITLE": "Poruka",
-            "NEW_MESSAGE": "{sender} je poslao poruku {recipient}: {message}",
-            "NEW_SERVICE_TITLE": "Nova poruka",
-            "NEW_SERVICE_CONTENT": "{sender} je poslao poruku u {channel}: {message}",
-            "RECEIVED_TITLE": "Primjeno ${amount}",
-            "PAID_TITLE": "Plaćeno ${amount}",
-            "TRANSACTION": "{number} je napravio trasakciju od ${amount} za {company}",
-
             "TOOK_PHOTO": "Slika uslikana",
-            "TOOK_VIDEO": "Video snimljen"
+            "TOOK_VIDEO": "Video snimljen",
+			"NEW_DISPATCH": "Novi dispeč: {title}"
         },
         "POLICE": {
 			"EVIDENCE_LABEL": "Dokaz: Slučaj {id}",
