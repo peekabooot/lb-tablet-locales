@@ -376,22 +376,22 @@
 
             "PERSONAL": "Persoonlijk",
             "JOB": "Baan",
-			"PLACEHOLDER": "Tekstbericht",
-			"NOT_DELIVERED": "Niet bezorgd",
-			"SENT_LOCATION": "Deelde hun locatie, klik om te openen in Kaarten",
-			"SENT_LOCATION_SHORT": "Deelde hun locatie",
-			"SEND_LOCATION_POPUP": {
-				"TITLE": "Locatie Delen",
-				"TEXT": "Wil je je locatie delen?",
-				"CANCEL": "Annuleren",
-				"SEND": "Verzenden"
-			},
-			"DELETE_CONVERSATION": {
-				"TITLE": "Gesprek Verwijderen",
-				"DESCRIPTION": "Weet je zeker dat je dit gesprek wilt verwijderen?",
-				"CANCEL": "Annuleren",
-				"DELETE": "Verwijderen"
-			},
+            "PLACEHOLDER": "Tekstbericht",
+            "NOT_DELIVERED": "Niet bezorgd",
+            "SENT_LOCATION": "Deelde hun locatie, klik om te openen in Kaarten",
+            "SENT_LOCATION_SHORT": "Deelde hun locatie",
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "Locatie Delen",
+                "TEXT": "Wil je je locatie delen?",
+                "CANCEL": "Annuleren",
+                "SEND": "Verzenden"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "Gesprek Verwijderen",
+                "DESCRIPTION": "Weet je zeker dat je dit gesprek wilt verwijderen?",
+                "CANCEL": "Annuleren",
+                "DELETE": "Verwijderen"
+            },
 
             "DEPOSIT_POPUP": {
                 "TITLE": "Storten",
@@ -501,6 +501,8 @@
                 "PERSON": "Persoon",
                 "SEARCH": "Zoek Profielen",
                 "REMOVE_AVATAR": "Avatar Verwijderen",
+                "IDENTIFIER": "Identificatie",
+                "FINGERPRINT": "Vingerafdruk",
                 "DOB": "Geboortedatum",
                 "PHONE_NR": "Telefoonnummer",
                 "GENDER": "Geslacht",
@@ -1096,6 +1098,8 @@
                 "PERSON": "Persoon",
                 "SEARCH": "Zoek Profielen",
                 "REMOVE_AVATAR": "Avatar Verwijderen",
+                "IDENTIFIER": "Identificatie",
+                "FINGERPRINT": "Vingerafdruk",
                 "DOB": "Geboortedatum",
                 "PHONE_NR": "Telefoonnummer",
                 "GENDER": "Geslacht",
@@ -1250,6 +1254,10 @@
                     "TITLE": "Categorie Verwijderen",
                     "DESCRIPTION": "Weet je zeker dat je deze categorie wilt verwijderen?"
                 }
+            },
+
+            "LOGS": {
+                "TITEL": "Logs"
             }
         },
         "BROWSER": {
