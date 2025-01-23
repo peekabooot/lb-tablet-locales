@@ -502,6 +502,8 @@
                 "SEARCH": "Chercher Profiles",
                 "REMOVE_AVATAR": "Supprimer l'Avatar",
                 "DOB": "Date de Naissance",
+                "IDENTIFIER": "Identifiant",
+                "FINGERPRINT": "Empreinte Digitale",
                 "PHONE_NR": "Téléphone",
                 "GENDER": "Genre",
                 "JOB": "Emploi",
@@ -1097,6 +1099,8 @@
                 "SEARCH": "Chercher Profiles",
                 "REMOVE_AVATAR": "Retirer l'Avatar",
                 "DOB": "Date de Naissance",
+                "IDENTIFIER": "Identifiant",
+                "FINGERPRINT": "Empreinte Digitale",
                 "PHONE_NR": "Numéro de téléphone",
                 "GENDER": "Sexe",
                 "JOB": "Emploi",
@@ -1250,6 +1254,10 @@
                     "TITLE": "Supprimer la Catégorie",
                     "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer cette catégorie?"
                 }
+            },
+
+            "LOGS": {
+                "TITLE": "Logs"
             }
         },
         "BROWSER": {
