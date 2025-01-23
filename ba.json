@@ -501,6 +501,8 @@
                 "PERSON": "Osoba",
                 "SEARCH": "Pretraži profile",
                 "REMOVE_AVATAR": "Ukloni avatar",
+                "IDENTIFIER": "Identifikator",
+                "FINGERPRINT": "Otisak",
                 "DOB": "Rođen",
                 "PHONE_NR": "Broj",
                 "GENDER": "Spol",
@@ -1096,6 +1098,8 @@
                 "PERSON": "Osoba",
                 "SEARCH": "Pretraži profile",
                 "REMOVE_AVATAR": "Ukloni avatar",
+                "IDENTIFIER": "Identifikator",
+                "FINGERPRINT": "Otisak",
                 "DOB": "Rođen",
                 "PHONE_NR": "Broj telefona",
                 "GENDER": "Spol",
@@ -1250,6 +1254,10 @@
                     "TITLE": "Obriši kategoriju",
                     "DESCRIPTION": "Da li ste sigurni da želite obrisati ovu kategoriju?"
                 }
+            },
+			
+            "LOGS": {
+                "TITLE": "Logovi"
             }
         },
         "BROWSER": {
