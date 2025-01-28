@@ -479,6 +479,7 @@
                 "ALARMS": "Alarmen",
 
                 "RESPOND": "Reageren",
+                "RESPONDED": "Gereageerd",
                 "COLLAPSE": "Samenvouwen",
                 "EXPAND": "Uitvouwen",
                 "DISMISS": "Negeren",
@@ -1075,6 +1076,7 @@
                 "ALARMS": "Alarmen",
 
                 "RESPOND": "Reageren",
+                "RESPONDED": "Gereageerd",
                 "COLLAPSE": "Inklappen",
                 "EXPAND": "Uitklappen",
                 "DISMISS": "Afwijzen",
