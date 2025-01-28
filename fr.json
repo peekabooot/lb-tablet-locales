@@ -479,6 +479,7 @@
                 "ALARMS": "Alarmes",
 
                 "RESPOND": "Répondre",
+                "RESPONDED": "Accepter",
                 "COLLAPSE": "Réduire",
                 "EXPAND": "Agrandir",
                 "DISMISS": "Rejeter",
@@ -1075,6 +1076,7 @@
                 "ALARMS": "Alarmes",
 
                 "RESPOND": "Répondre",
+                "RESPONDED": "Accepter",
                 "COLLAPSE": "Réduire",
                 "EXPAND": "Agrandir",
                 "DISMISS": "Rejeter",
