@@ -83,6 +83,7 @@
             "AUTOMATIC": "Automatisch",
             "BRIGHTNESS": "Helligkeit",
             "FRAME_COLOR": "Rahmenfarbe",
+            "TABLET_SCALE": "Tabletten Größe",
             "WALLPAPER": "Hintergrundbild",
             "WALLPAPER_DESCRIPTION": "Hintergrundbild und andere Hintergrundeinstellungen ändern",
             "WALLPAPERS": "Hintergrundbilder",
@@ -375,6 +376,22 @@
 
             "PERSONAL": "Persönlich",
             "JOB": "Job",
+            "PLACEHOLDER": "Textnachricht",
+            "NOT_DELIVERED": "Nicht zugestellt",
+            "SENT_LOCATION": "Hat seinen Standort geteilt, klicken Sie, um ihn in Maps zu öffnen",
+            "SENT_LOCATION_SHORT": "Hat seinen Standort geteilt",
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "Standort teilen",
+                "TEXT": "Möchten Sie Ihren Standort teilen?",
+                "CANCEL": "Abbrechen",
+                "SEND": "Senden"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "Konversation löschen",
+                "DESCRIPTION": "Sind Sie sicher, dass Sie diese Konversation löschen möchten?",
+                "CANCEL": "Abbrechen",
+                "DELETE": "Löschen"
+            },
 
             "DEPOSIT_POPUP": {
                 "TITLE": "Einzahlen",
@@ -462,6 +479,7 @@
                 "ALARMS": "Alarme",
 
                 "RESPOND": "Reagieren",
+                "RESPONDED": "Antwortet",
                 "COLLAPSE": "Einklappen",
                 "EXPAND": "Erweitern",
                 "DISMISS": "Verwerfen",
@@ -484,6 +502,8 @@
                 "PERSON": "Person",
                 "SEARCH": "Profile suchen",
                 "REMOVE_AVATAR": "Avatar entfernen",
+                "IDENTIFIER": "Bezeichner",
+                "FINGERPRINT": "Fingerabdruck",
                 "DOB": "Geburtsdatum",
                 "PHONE_NR": "Telefonnummer",
                 "GENDER": "Geschlecht",
@@ -614,7 +634,7 @@
                 "NO_LINKED_CASES": "Keine verknüpften Fälle",
                 "UNREGISTERED": "Nicht registriert",
                 "OWNER": "Eigentümer"
-            }     ,       
+            },       
 
             "REPORTS": {
                 "TITLE": "Berichte",
@@ -1056,6 +1076,7 @@
                 "ALARMS": "Alarme",
 
                 "RESPOND": "Antworten",
+                "RESPONDED": "Antwortet",
                 "COLLAPSE": "Zusammenklappen",
                 "EXPAND": "Erweitern",
                 "DISMISS": "Ablehnen",
@@ -1079,6 +1100,8 @@
                 "PERSON": "Person",
                 "SEARCH": "Profile durchsuchen",
                 "REMOVE_AVATAR": "Avatar entfernen",
+                "IDENTIFIER": "Bezeichner",
+                "FINGERPRINT": "Fingerabdruck",
                 "DOB": "Geburtsdatum",
                 "PHONE_NR": "Telefonnummer",
                 "GENDER": "Geschlecht",
@@ -1233,6 +1256,10 @@
                     "TITLE": "Kategorie löschen",
                     "DESCRIPTION": "Bist du sicher, dass du diese Kategorie löschen möchtest?"
                 }
+            },
+
+            "LOGS": {
+                "TITLE": "Logbuch"
             }
         },
         "BROWSER": {
@@ -1419,7 +1446,7 @@
             "ANONYMOUS": "Anonym"
         },
         "MISC": {
-            "X_TABLET": "{firstname}'s Tablet"
+            "X_TABLET": "Tablet von {firstname}"
         },
         "MAIL": {
             "AUTOMATIC_PASSWORD": {
@@ -1428,19 +1455,10 @@
                 "MESSAGE": "Hallo,\n\nIhre automatische E-Mail-Adresse lautet {address} und Ihr Passwort ist {password}"
             }
         },
-        "LOGS": {
-            "MAIL_TITLE": "E-Mail",
-            "NEW_MAIL": "{sender} hat eine E-Mail an {recipient} gesendet",
-            "MESSAGE_TITLE": "Textnachricht",
-            "NEW_MESSAGE": "{sender} hat eine Nachricht an {recipient} gesendet: {message}",
-            "NEW_SERVICE_TITLE": "Neue Nachricht",
-            "NEW_SERVICE_CONTENT": "{sender} hat eine Nachricht an {channel} gesendet: {message}",
-            "RECEIVED_TITLE": "Empfangen ${amount}",
-            "PAID_TITLE": "Bezahlt ${amount}",
-            "TRANSACTION": "{number} hat eine Transaktion von ${amount} an {company} durchgeführt",
-            
+        "LOGS": {            
             "TOOK_PHOTO": "Hat ein Foto gemacht",
-            "TOOK_VIDEO": "Hat ein Video gemacht"
+            "TOOK_VIDEO": "Hat ein Video aufgenommen",
+            "NEW_DISPATCH": "Neue Einsatz: {title}"
         },
         "POLICE": {
             "EVIDENCE_LABEL": "Beweismittel: Fall {id}",
