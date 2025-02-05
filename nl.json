@@ -11,7 +11,7 @@
     "APP_NAMES": {
         "Police": "Politie",
         "Ambulance": "Ambulance",
-        "Registration": "Registration",
+        "Registration": "Registratie",
         "Notes": "Notities",
         "Browser": "Browser",
         "Settings": "Instellingen",
@@ -23,7 +23,7 @@
         "Maps": "Kaarten",
         "Mail": "E-mail",
         "Services": "Diensten",
-        "VoiceMemo": "Spraakmemo's"
+        "VoiceMemo": "Spraakmemos"
     },
 
     "APPS": {
