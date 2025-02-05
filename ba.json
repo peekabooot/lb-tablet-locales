@@ -479,6 +479,7 @@
                 "ALARMS": "Alarmi",
 
                 "RESPOND": "Odgovori",
+                "RESPONDED": "Odgovoreno",
                 "COLLAPSE": "Skupi",
                 "EXPAND": "Proširi",
                 "DISMISS": "Odbaci",
@@ -1075,6 +1076,7 @@
                 "ALARMS": "Alarmi",
 
                 "RESPOND": "Odgovori",
+                "RESPONDED": "Odgovoreno",
                 "COLLAPSE": "Skupi",
                 "EXPAND": "Proširi",
                 "DISMISS": "Odbaci",
