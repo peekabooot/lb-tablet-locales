@@ -99,6 +99,7 @@
             "OK": "Tamam",
             "ON": "Açık",
             "OFF": "Kapalı",
+
             "RESET_POPUP": {
                 "TITLE": "Tableti Sıfırla",
                 "TEXT": "Tabletinizin sıfırlanmasını istediğinizden emin misiniz? [BU, HERŞEYİ SİLECEK]",
@@ -119,7 +120,6 @@
             "BUTTON_CANCEL": "İptal",
             "BUTTON_DELETE": "Sil"
         },
-
         "CLOCK": {
             "WORLDCLOCK": {
                 "TITLE": "Dünya Saati",
@@ -172,14 +172,12 @@
                 "RESTART": "Yeniden Başlat"
             }
         },
-
         "CAMERA": {
             "VIDEO": "Video",
             "PHOTO": "Fotoğraf",
             "LANDSCAPE": "Manzara",
             "UPLOADING": "Yükleniyor"
         },
-
         "APPSTORE": {
             "TITLE": "Uygulamalar",
             "SEARCH": "Ara",
@@ -221,7 +219,6 @@
             "GALLERY": "Galeri",
             "MY_ALBUMS": "Albümlerim",
             "MEDIA_TYPES": "Medya Türleri",
-            
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Yeni Albüm",
                 "DESCRIPTION": "Bu albüm için bir ad girin",
@@ -349,21 +346,21 @@
             "COMPANIES": "Şirketler",
             "MESSAGES": "Mesajlar",
             "SETTINGS": "Ayarlar",
-            
+
             "CLOSED": "Kapalı",
             "YOUR_MESSAGES": "Mesajların",
             "JOB_MESSAGES": "İş Mesajları",
-            
+
             "DUTY": "Görev",
             "DUTY_DESCRIPTION": "Görev durumunu değiştir",
             "GO_ON_DUTY": "Göreve Başla",
             "GO_OFF_DUTY": "Görevden Çık",
             "JOB_CALLS": "İş Çağrıları",
             "JOB_CALLS_DESCRIPTION": "{toggle} müşterilerden çağrı almayı.",
-            
+
             "ENABLE": "Etkinleştir",
             "DISABLE": "Devre Dışı Bırak",
-            
+
             "DISABLE_CALLS": "Çağrıları Kapat",
             "ENABLE_CALLS": "Çağrıları Aç",
             "BALANCE": "Bakiye",
@@ -372,11 +369,11 @@
             "HIRE": "İşe Al",
             "SET_GRADE": "Pozisyonu Belirle",
             "UNEMPLOYED": "İşsizsin",
-            
+
             "ALL": "Tümü",
             "AVAILABLE": "Müsait",
             "SEARCH_EMPLOYEES": "Çalışan Ara",
-            
+
             "PERSONAL": "Kişisel",
             "JOB": "İş",
             "PLACEHOLDER": "Mesaj Yaz",
@@ -439,16 +436,16 @@
             "ADD": "Ekle",
             "NEW": "Yeni",
             "PROCEED": "Devam Et",
-                
+
             "SEARCH": "Ara",
             "SEARCH_FOR": "{query} için arama yap",
             "NO_RESULTS_FOR": "'{query}' için sonuç bulunamadı",
             "CLEAR_HISTORY": "Geçmişi Temizle",
-                
+
             "HOME": {
                 "TITLE": "Ana Sayfa",
                 "CREATE": "Oluştur",
-                
+
                 "RECENT_REPORTS": "Son Raporlar",
                 "REPORT_FOOTER": "{timestamp} - {author}",
                 "BULLETIN_BOARD": "Duyuru Panosu",
@@ -480,7 +477,7 @@
                 "TOGGLE_ALARMS": "Alarmları Aç/Kapat",
                 "OFFICERS": "Memurlar",
                 "ALARMS": "Alarmlar",
-                
+
                 "RESPOND": "Yanıtla",
                 "RESPONDED": "Yanıtlandı",
                 "COLLAPSE": "Daralt",
@@ -535,6 +532,7 @@
                     "PASTE_URL": "URL Yapıştır",
                     "PASTE_URL_DESCRIPTION": "Bir resim URL'si girin",
                     "PASTE_URL_PLACEHOLDER": "Resim URL'si",
+
                     "INVALID_URL": "Geçersiz URL",
                     "INVALID_URL_DESCRIPTION": "Girdiğin URL geçerli bir resim bağlantısı değil",
                     "OK": "Tamam"
@@ -565,6 +563,7 @@
                     "PASTE_URL": "URL Yapıştır",
                     "PASTE_URL_DESCRIPTION": "Bir resim URL'si girin",
                     "PASTE_URL_PLACEHOLDER": "Resim URL'si",
+
                     "INVALID_URL": "Geçersiz URL",
                     "INVALID_URL_DESCRIPTION": "Girdiğin URL geçerli bir resim bağlantısı değil",
                     "OK": "Tamam"
@@ -595,6 +594,7 @@
                     "PASTE_URL": "URL Yapıştır",
                     "PASTE_URL_DESCRIPTION": "Bir resim URL'si girin",
                     "PASTE_URL_PLACEHOLDER": "Resim URL'si",
+
                     "INVALID_URL": "Geçersiz URL",
                     "INVALID_URL_DESCRIPTION": "Girdiğin URL geçerli bir resim bağlantısı değil",
                     "OK": "Tamam"
@@ -619,6 +619,7 @@
                     "PASTE_URL": "URL Yapıştır",
                     "PASTE_URL_DESCRIPTION": "Bir resim URL'si girin",
                     "PASTE_URL_PLACEHOLDER": "Resim URL'si",
+
                     "INVALID_URL": "Geçersiz URL",
                     "INVALID_URL_DESCRIPTION": "Girdiğin URL geçerli bir resim bağlantısı değil",
                     "OK": "Tamam"
@@ -718,6 +719,7 @@
                 "RECOMMENDED_SENTENCE": "Önerilen Ceza Süresi (ay olarak)",
                 "FINE": "Ceza ({currency})",
                 "SENTENCE": "Ceza Süresi (ay olarak)",
+
                 "ERROR": {
                     "TITLE": "Hata",
                     "TITLE_LENGTH": "Başlık en az 3 karakter olmalıdır",
@@ -1122,6 +1124,7 @@
                     "PASTE_URL": "URL Yapıştır",
                     "PASTE_URL_DESCRIPTION": "Bir görsele ait URL girin",
                     "PASTE_URL_PLACEHOLDER": "Görsel URL",
+
                     "INVALID_URL": "Geçersiz URL",
                     "INVALID_URL_DESCRIPTION": "Girdiğiniz URL geçerli bir görsel URL'si değil",
                     "OK": "Tamam"
@@ -1226,6 +1229,7 @@
                 "TITLE": "Koşullar",
                 "CONDITION": "Koşul",
                 "SEARCH": "Koşulları Ara",
+
                 "SELECT_SEVERITY": "Ciddiyet Seçin",
                 "SEVERITIES": {
                     "MINOR": "Hafif",
@@ -1276,6 +1280,7 @@
             "DESCRIPTION": "Açıklama",
             "DESCRIPTION_PLACEHOLDER": "Bu bir açıklamadır...",
             "ADD": "Ekle",
+
             "CHARACTER_INFO": "Karakter Bilgisi",
             "REMOVE_AVATAR": "Avatarı Kaldır",
             "FIRSTNAME": "Ad",
@@ -1288,6 +1293,7 @@
             "JOB": "Meslek",
             "HEIGHT": "Boy",
             "FORMATTED_HEIGHT": "{height}cm",
+
             "VEHICLES": "Araçlar",
             "VEHICLE": "Araç",
             "REMOVE_PICTURE": "Resmi Kaldır",
@@ -1301,12 +1307,14 @@
                 "TITLE": "Aracı Sil",
                 "DESCRIPTION": "Bu aracı silmek istediğinizden emin misiniz?"
             },
+
             "LICENSES": "Lisanslar",
             "ADD_LICENSE": "Lisans Ekle",
             "DELETE_LICENSE_POPUP": {
                 "TITLE": "Lisansı Sil",
                 "DESCRIPTION": "Bu lisansı silmek istediğinizden emin misiniz?"
             },
+
             "PROPERTIES": "Mülkler",
             "ADD_PROPERTY_POPUP": {
                 "TITLE": "Yeni Mülk",
@@ -1318,6 +1326,7 @@
                 "TITLE": "Mülkü Sil",
                 "DESCRIPTION": "Bu mülkü silmek istediğinizden emin misiniz?"
             },
+
             "ERROR": {
                 "TITLE": "Hata",
                 "MISSING_FIELDS": "Eksik olan alanlar: {fields}",
@@ -1330,18 +1339,18 @@
             "CANCEL": "İptal"
         },
         "IMAGE": {
-                "SAVE_TO_GALLERY": "Galeriyi Kaydet"
+            "SAVE_TO_GALLERY": "Galeriyi Kaydet"
         },
         "GALLERY": {
-                "CANCEL": "İptal",
-                "EXTERNAL_URL": "Dış URL",
-                "EXTERNAL_URL_BLACKLISTED": "Bu URL kara listeye alınmış",
-                "NO_IMAGES": "Resim yok"
+            "CANCEL": "İptal",
+            "EXTERNAL_URL": "Dış URL",
+            "EXTERNAL_URL_BLACKLISTED": "Bu URL kara listeye alınmış",
+            "NO_IMAGES": "Resim yok"
         },
         "NOTIFICATIONS": {
-                "SENT_PHOTO": "Bir fotoğraf gönderildi",
-                "SENT_GIF": "Bir GIF gönderildi",
-                "NOW": "şimdi"
+            "SENT_PHOTO": "Bir fotoğraf gönderildi",
+            "SENT_GIF": "Bir GIF gönderildi",
+            "NOW": "şimdi"
         },
         "SHARE": {
             "COPY_PHOTO": "Fotoğrafı Kopyala",
@@ -1358,7 +1367,7 @@
                 "TEXT": "Bu resmi duvar kağıdınız olarak ayarlamak istediğinizden emin misiniz?",
                 "CANCEL": "İptal",
                 "PROCEED": "Devam Et"
-                },
+            },
             "COPY_POPUP": {
                 "TITLE": "Başarı",
                 "DESCRIPTION": "Panoya başarıyla kopyalandı",
@@ -1366,48 +1375,49 @@
             }
         },
         "AIRDROP": {
-                "TITLE": "AirShare",
-                "TEXT": "{sender} bir {type} paylaşmak istiyor",
-                "VIDEO": "video",
-                "PHOTO": "fotoğraf",
-                "CONTACT": "iletişim",
-                "LOCATION": "konum",
-                "NOTE": "not",
-                "VOICEMEMO": "sesli mesaj",
-                "PLAYLIST": "çalara",
-                "DECLINE": "Reddet",
-                "ACCEPT": "Kabul Et"
-            },
-            "BATTERY": {
-                "LOW_BATTERY": "Düşük Pil",
-                "BATTERY_REMAINING": "{percent}% pil kaldı",
-                "LOW_POWER_MODE": "Düşük Güç Modu",
-                "CLOSE": "Kapat"
-            },
-            "COLOR_PICKER": {
-                "COLOR": "Renk"
-            }
+            "TITLE": "AirShare",
+            "TEXT": "{sender} bir {type} paylaşmak istiyor",
+            "VIDEO": "video",
+            "PHOTO": "fotoğraf",
+            "CONTACT": "iletişim",
+            "LOCATION": "konum",
+            "NOTE": "not",
+            "VOICEMEMO": "sesli mesaj",
+            "PLAYLIST": "çalara",
+            "DECLINE": "Reddet",
+            "ACCEPT": "Kabul Et"
         },
-        "SETUP": {
-            "HELLO": "Merhaba",
-            "SELECT_LANGUAGE": "Dilini seç",
-            "NEXT": "Açmak için tıklayın",
-            "APPEARANCE": "Tema",
-            "APPEARANCE_TEXT": "Cihazınız için koyu veya açık tema seçin",
-            "CONTINUE": "Devam Et",
-            "WELCOME_TO": "Hoş geldiniz",
-            "CLICK": "Başlamak için tıklayın"
+
+        "BATTERY": {
+            "LOW_BATTERY": "Düşük Pil",
+            "BATTERY_REMAINING": "{percent}% pil kaldı",
+            "LOW_POWER_MODE": "Düşük Güç Modu",
+            "CLOSE": "Kapat"
         },
-        "HOMESCREEN": {
-            "DONE": "Tamam",
-            "CLOSE_ALL": "Hepsini Kapat",
-            "REMOVE_APP_POPUP": {
-                "TITLE": "'{app}' kaldırilsin mi?",
-                "DESCRIPTION": "Bu uygulamayı silmek, verilerini silmez. Uygulama daha sonra App Store'dan yeniden yüklenebilir.",
-                "CANCEL": "İptal",
-                "PROCEED": "Sil"
-            }
-        },    
+        "COLOR_PICKER": {
+            "COLOR": "Renk"
+        }
+    },
+    "SETUP": {
+        "HELLO": "Merhaba",
+        "SELECT_LANGUAGE": "Dilini seç",
+        "NEXT": "Açmak için tıklayın",
+        "APPEARANCE": "Tema",
+        "APPEARANCE_TEXT": "Cihazınız için koyu veya açık tema seçin",
+        "CONTINUE": "Devam Et",
+        "WELCOME_TO": "Hoş geldiniz",
+        "CLICK": "Başlamak için tıklayın"
+    },
+    "HOMESCREEN": {
+        "DONE": "Tamam",
+        "CLOSE_ALL": "Hepsini Kapat",
+        "REMOVE_APP_POPUP": {
+            "TITLE": "'{app}' kaldırilsin mi?",
+            "DESCRIPTION": "Bu uygulamayı silmek, verilerini silmez. Uygulama daha sonra App Store'dan yeniden yüklenebilir.",
+            "CANCEL": "İptal",
+            "PROCEED": "Sil"
+        }
+    },
     "LOCKSCREEN": {
         "DELETE": "Sil",
         "FONT_AND_COLOR": "Yazı Tipi ve Renk"
