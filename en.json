@@ -497,7 +497,7 @@
                 "HOURS_AGO": "{hours}h ago",
                 "REMOVE_ALARM": {
                     "TITLE": "Remove Alarm",
-                    "DESCRIPTION": "Are you sure you want to remove the alarm? (This will not dismiss the alarm for other employees)",
+                    "DESCRIPTION": "Are you sure you want to remove the alarm? (This will remove the dispatch for all employees)",
                     "CANCEL": "Cancel",
                     "REMOVE": "Remove"
                 }
