@@ -494,7 +494,13 @@
 
                 "JUST_NOW": "Gerade eben",
                 "MINUTES_AGO": "Vor {minutes} Minuten",
-                "HOURS_AGO": "Vor {hours} Stunden"
+                "HOURS_AGO": "Vor {hours} Stunden",
+                "REMOVE_ALARM": {
+                    "TITLE": "Alarm löschen",
+                    "DESCRIPTION": "Sind Sie sicher, dass Sie den Alarm löschen wollen? (Dadurch wird die Meldung für alle Mitarbeiter entfernt)",
+                    "CANCEL": "Abbrechen",
+                    "REVOKE": "Entziehen"
+                }
             },
 
             "PROFILES": {
@@ -633,7 +639,9 @@
                 "LINKED_CASES": "Verknüpfte Fälle",
                 "NO_LINKED_CASES": "Keine verknüpften Fälle",
                 "UNREGISTERED": "Nicht registriert",
-                "OWNER": "Eigentümer"
+                "OWNER": "Besitzer",
+                "SELECT_MODEL": "Modell wählen",
+                "SELECT_OWNER": "Besitzer auswählen"
             },       
 
             "REPORTS": {
