@@ -494,7 +494,13 @@
 
                 "JUST_NOW": "Upravo",
                 "MINUTES_AGO": "Prije {minutes}m",
-                "HOURS_AGO": "Prije {hours}h"
+                "HOURS_AGO": "Prije {hours}h",
+                "REMOVE_ALARM": {
+                    "TITLE": "Ukloni alarm",
+                    "DESCRIPTION": "Da li ste sigurni da želite ukloniti alarm? (Ovo neće ukloniti alarm za ostale zaposlenike)",
+                    "CANCEL": "Odustani",
+                    "REMOVE": "Ukloni"
+                }
             },
 
             "PROFILES": {
@@ -624,7 +630,7 @@
                     "INVALID_URL_DESCRIPTION": "Link koji ste upisali nije validan link",
                     "OK": "OK"
                 },
-                "MODEL_MAKE": "Model / Marka",
+                "MODEL_MAKE": "Model",
                 "SERIAL_NUMBER": "Serijski broj",
                 "NOTES": "Bilješke",
                 "NOTES_PLACEHOLDER": "Upiši bilješku ovdje...",
@@ -633,7 +639,9 @@
                 "LINKED_CASES": "Povezani slučaj",
                 "NO_LINKED_CASES": "Bez povezanih slučaja",
                 "UNREGISTERED": "Neregistrovan",
-                "OWNER": "Vlasnik"
+                "OWNER": "Vlasnik",
+                "SELECT_MODEL": "Odaberi model",
+                "SELECT_OWNER": "Odaberi vlasnika"
             },
 			
             "REPORTS": {
