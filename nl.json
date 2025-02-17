@@ -494,7 +494,13 @@
 
                 "JUST_NOW": "Zojuist",
                 "MINUTES_AGO": "{minutes}m geleden",
-                "HOURS_AGO": "{hours}u geleden"
+                "HOURS_AGO": "{hours}u geleden",
+                "REMOVE_ALARM": {
+                    "TITLE": "Alarm verwijderen",
+                    "DESCRIPTION": "Weet je zeker dat je het alarm wilt verwijderen? (Dit zal de verzending voor alle medewerkers verwijderen)",
+                    "CANCEL": "Annuleren",
+                    "REVOKE": "Intrekken"
+                }
             },
 
             "PROFILES": {
@@ -633,7 +639,9 @@
                 "LINKED_CASES": "Gekoppelde Zaken",
                 "NO_LINKED_CASES": "Geen Gekoppelde Zaken",
                 "UNREGISTERED": "Niet Geregistreerd",
-                "OWNER": "Eigenaar"
+                "OWNER": "Eigenaar",
+                "SELECT_MODEL": "Model selecteren",
+                "SELECT_OWNER": "Eigenaar selecteren"
             },
 
             "REPORTS": {
