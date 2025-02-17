@@ -494,7 +494,13 @@
 
                 "JUST_NOW": "Just now",
                 "MINUTES_AGO": "{minutes}m ago",
-                "HOURS_AGO": "{hours}h ago"
+                "HOURS_AGO": "{hours}h ago",
+                "REMOVE_ALARM": {
+                    "TITLE": "Remove Alarm",
+                    "DESCRIPTION": "Are you sure you want to remove the alarm? (This will not dismiss the alarm for other employees)",
+                    "CANCEL": "Cancel",
+                    "REMOVE": "Remove"
+                }
             },
 
             "PROFILES": {
@@ -624,8 +630,8 @@
                     "INVALID_URL_DESCRIPTION": "The URL you entered is not a valid image URL",
                     "OK": "OK"
                 },
-                "MODEL_MAKE": "Model / Make",
-                "SERIAL_NUMBER": "Serial Number",
+                "MODEL_MAKE": "Model",
+                "SERIAL_NUMBER": "Serial Nr",
                 "NOTES": "Notes",
                 "NOTES_PLACEHOLDER": "Enter notes here...",
                 "LINKED_REPORTS": "Linked Reports",
@@ -633,7 +639,9 @@
                 "LINKED_CASES": "Linked Cases",
                 "NO_LINKED_CASES": "No Linked Cases",
                 "UNREGISTERED": "Unregistered",
-                "OWNER": "Owner"
+                "OWNER": "Owner",
+                "SELECT_MODEL": "Select Model",
+                "SELECT_OWNER": "Select Owner"
             },
 
             "REPORTS": {
