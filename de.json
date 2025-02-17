@@ -499,7 +499,7 @@
                     "TITLE": "Alarm löschen",
                     "DESCRIPTION": "Sind Sie sicher, dass Sie den Alarm löschen wollen? (Dadurch wird die Meldung für alle Mitarbeiter entfernt)",
                     "CANCEL": "Abbrechen",
-                    "REVOKE": "Entziehen"
+                    "REMOVE": "Löschen"
                 }
             },
 
