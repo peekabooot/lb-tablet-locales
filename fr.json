@@ -494,7 +494,13 @@
 
                 "JUST_NOW": "Maintenant",
                 "MINUTES_AGO": "Il y a {minutes} minutes",
-                "HOURS_AGO": "Il y a {hours} heures"
+                "HOURS_AGO": "Il y a {hours} heures",
+                "REMOVE_ALARM": {
+                    "TITLE": "Retirer l'appel",
+                    "DESCRIPTION": "Êtes-vous sur de vouloir retirer cet appel ? (Ceci le retirera pour tout les employés)",
+                    "CANCEL": "Cancel",
+                    "REMOVE": "Remove"
+                }
             },
 
             "PROFILES": {
@@ -633,7 +639,9 @@
                 "LINKED_CASES": "Dossier liés",
                 "NO_LINKED_CASES": "Aucune dossier lié",
                 "UNREGISTERED": "Non enregistré",
-                "OWNER": "Propriétaire"
+                "OWNER": "Propriétaire",
+                "SELECT_MODEL": "Sélectionner le modèle",
+                "SELECT_OWNER": "Sélectionner le Propriétaire"
             },
 
             "REPORTS": {
