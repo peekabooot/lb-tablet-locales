@@ -499,7 +499,7 @@
                     "TITLE": "Alarm verwijderen",
                     "DESCRIPTION": "Weet je zeker dat je het alarm wilt verwijderen? (Dit zal de verzending voor alle medewerkers verwijderen)",
                     "CANCEL": "Annuleren",
-                    "REVOKE": "Intrekken"
+                    "REMOVE": "Intrekken"
                 }
             },
 
