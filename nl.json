@@ -754,6 +754,10 @@
                 "NO_ATTACHMENTS": "Geen Bijlagen",
                 "LINKED_REPORTS": "Gekoppelde Rapporten",
                 "NO_LINKED_REPORTS": "Geen Gekoppelde Rapporten",
+                "SELECT_VEHICLE": "Selecteer voertuig",
+                "NO_VEHICLE_SELECTED": "Geen voertuig geselecteerd",
+                "SELECT_PERSON": "Selecteer persoon",
+                "NO_PERSON_SELECTED": "Geen persoon geselecteerd",
                 "REMOVE_REPORT": {
                     "TITLE": "Rapport Verwijderen",
                     "DESCRIPTION": "Weet je zeker dat je het rapport uit het bevel wilt verwijderen?"
@@ -763,6 +767,7 @@
                     "TITLE_LENGTH": "De titel moet minimaal 3 tekens lang zijn",
                     "DESCRIPTION_LENGTH": "De beschrijving moet minimaal 10 tekens lang zijn",
                     "NO_TYPE": "Je moet een beveltype selecteren",
+                    "NO_TARGET": "U moet een doel selecteren voor het bevelschrift",
                     "OK": "OK"
                 }
             },
