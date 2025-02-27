@@ -743,9 +743,6 @@
                 "HIGH_PRIORITY": "Hohe Priorität",
                 "MEDIUM_PRIORITY": "Mittlere Priorität",
                 "LOW_PRIORITY": "Niedrige Priorität",
-                "ACTIVE": "Aktiv",
-                "EXPIRED": "Abgelaufen",
-                "CANCELLED": "Abgesagt",
                 "FOOTER": "{author} - Haftbefehl ID: {id}",
                 "TITLE_PLACEHOLDER": "Neuer Haftbefehl",
                 "DESCRIPTION": "Beschreibung",
@@ -757,6 +754,10 @@
                 "NO_ATTACHMENTS": "Keine Anhänge",
                 "LINKED_REPORTS": "Verknüpfte Berichte",
                 "NO_LINKED_REPORTS": "Keine verknüpften Berichte",
+                "SELECT_VEHICLE": "Fahrzeug auswählen",
+                "NO_VEHICLE_SELECTED": "Kein Fahrzeug gewählt",
+                "SELECT_PERSON": "Person auswählen",
+                "NO_PERSON_SELECTED": "Keine Person gewählt",
                 "REMOVE_REPORT": {
                     "TITLE": "Bericht entfernen",
                     "DESCRIPTION": "Möchten Sie den Bericht wirklich vom Haftbefehl entfernen?"
@@ -766,6 +767,7 @@
                     "TITLE_LENGTH": "Der Titel muss mindestens 3 Zeichen lang sein",
                     "DESCRIPTION_LENGTH": "Die Beschreibung muss mindestens 10 Zeichen lang sein",
                     "NO_TYPE": "Sie müssen einen Haftbefehls-Typ auswählen",
+                    "NO_TARGET": "Sie müssen ein Ziel für den Haftbefehl auswählen",
                     "OK": "OK"
                 }
             },
