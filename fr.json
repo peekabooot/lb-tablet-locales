@@ -757,6 +757,10 @@
                 "NO_ATTACHMENTS": "Aucune pièce jointe",
                 "LINKED_REPORTS": "Rapports Liés",
                 "NO_LINKED_REPORTS": "Aucun Rapport Lié",
+                "SELECT_VEHICLE": "Séléctionner un véhicule",
+                "NO_VEHICLE_SELECTED": "Aucun véhicule selectionné",
+                "SELECT_PERSON": "Sélectionner une personne",
+                "NO_PERSON_SELECTED": "Personne de sélectionné",
                 "REMOVE_REPORT": {
                     "TITLE": "Supprimer le Rapport",
                     "DESCRIPTION": "Êtes-vous sûr de vouloir retirer ce rapport du mandat?"
@@ -766,6 +770,7 @@
                     "TITLE_LENGTH": "Le titre doit être au moins 3 charactères de longs",
                     "DESCRIPTION_LENGTH": "La description doit comporter au moins 10 caractères",
                     "NO_TYPE": "Vous devez sélectionner un type pour le mandat",
+                    "NO_TARGET": "Vous devez sélectionné au monins une cible pour le mandat",
                     "OK": "OK"
                 }
             },
