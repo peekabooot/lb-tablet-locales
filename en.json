@@ -743,9 +743,6 @@
                 "HIGH_PRIORITY": "High Priority",
                 "MEDIUM_PRIORITY": "Medium Priority",
                 "LOW_PRIORITY": "Low Priority",
-                "ACTIVE": "Active",
-                "EXPIRED": "Expired",
-                "CANCELLED": "Cancelled",
                 "FOOTER": "{author} - Warrant ID: {id}",
                 "TITLE_PLACEHOLDER": "New Warrant",
                 "DESCRIPTION": "Description",
@@ -757,6 +754,10 @@
                 "NO_ATTACHMENTS": "No Attachments",
                 "LINKED_REPORTS": "Linked Reports",
                 "NO_LINKED_REPORTS": "No Linked Reports",
+                "SELECT_VEHICLE": "Select Vehicle",
+                "NO_VEHICLE_SELECTED": "No Vehicle Selected",
+                "SELECT_PERSON": "Select Person",
+                "NO_PERSON_SELECTED": "No Person Selected",
                 "REMOVE_REPORT": {
                     "TITLE": "Remove Report",
                     "DESCRIPTION": "Are you sure you want to remove the report from the warrant?"
@@ -766,6 +767,7 @@
                     "TITLE_LENGTH": "The title must be atleast 3 characters long",
                     "DESCRIPTION_LENGTH": "The description must be atleast 10 characters long",
                     "NO_TYPE": "You must select a warrant type",
+                    "NO_TARGET": "You must select a target for the warrant",
                     "OK": "OK"
                 }
             },
