@@ -11,6 +11,7 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    if: github.repository == 'lbphone/lb-tablet-locales'
 
     steps:
     - name: Checkout Repository
