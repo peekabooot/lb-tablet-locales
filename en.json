@@ -492,6 +492,10 @@
                 "SET_WAYPOINT": "Set Waypoint",
                 "LOS_SANTOS": "Los Santos",
                 "CAYO_PERICO": "Cayo Perico",
+                "OLD_NOTIFICATION": "{count} old notification",
+                "OLD_NOTIFICATIONS": "{count} old notifications",
+                "NEW_NOTIFICATION": "{count} new notification",
+                "NEW_NOTIFICATIONS": "{count} new notifications",
 
                 "PRIORITY": {
                     "HIGH": "High",
