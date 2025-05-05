@@ -436,6 +436,9 @@
             "ADD": "Ajouter",
             "NEW": "Nouveau",
             "PROCEED": "Procéder",
+            "YES": "Oui",
+            "NO": "Non",
+            "ALL": "Tous",
 
             "SEARCH": "Chercher",
             "SEARCH_FOR": "Chercher {query} pour démarrer",
@@ -777,6 +780,9 @@
                 "NO_VEHICLE_SELECTED": "Aucun véhicule selectionné",
                 "SELECT_PERSON": "Sélectionner une personne",
                 "NO_PERSON_SELECTED": "Personne de sélectionné",
+                "ACTIVE": "Actif",
+                "INACTIVE": "Inactif",
+                "CLOSED": "Fermé",
                 "REMOVE_REPORT": {
                     "TITLE": "Supprimer le Rapport",
                     "DESCRIPTION": "Êtes-vous sûr de vouloir retirer ce rapport du mandat?"
@@ -1465,6 +1471,10 @@
         "FONT_AND_COLOR": "Police et Couleure"
     },
     "MISC": {
+        "GENDERS": {
+            "MALE": "Homme",
+            "FEMALE": "Femme"
+        },
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Erreur",
             "DESCRIPTION": "Vous essayez d'effectuer une action qui nécessite un accès à Internet, désactivez le mode avion pour continuer..",
@@ -1591,6 +1601,10 @@
                     "TITLE": "Suppression d'une catégorie de condition",
                     "DESCRIPTION": "A supprimé la catégorie '{name}'"
                 },
+                "UPDATE_CONDITION_CATEGORY": {
+                    "TITLE": "Mise à jour d'une catégorie de conditions",
+                    "DESCRIPTION": "Renommer la catégorie de conditions de '{oldName}' a {newName}"
+                },
                 "CREATE_CONDITION": {
                     "TITLE": "Création d'une condition",
                     "DESCRIPTION": "A créé une condition {severity} nommé '{name}' dans '{category}'"
@@ -1598,6 +1612,10 @@
                 "DELETE_CONDITION": {
                     "TITLE": "Suppression d'une condition",
                     "DESCRIPTION": "A supprimé la conditon nommée '{name}' dans '{category}'"
+                },
+                "UPDATE_CONDITION": {
+                    "TITLE": "Mise à jour d'une condition",
+                    "DESCRIPTION": "A mis à jour de la condition '{name}' dans '{category}'"
                 },
                 "CREATE_BULLETIN": {
                     "TITLE": "Création d'un rapport",
