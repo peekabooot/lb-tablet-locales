@@ -438,6 +438,7 @@
             "PROCEED": "Продовжити",
             "YES": "Так",
             "NO": "Ні",
+            "ALL": "Всі",
 
             "SEARCH": "Пошук",
             "SEARCH_FOR": "Шукайте {query} щоб розпочати",
@@ -475,8 +476,10 @@
 
             "DISPATCH": {
                 "TITLE": "Диспетчер",
-                "TOGGLE_OFFICERS": "Перемкнути офіцерів",
-                "TOGGLE_ALARMS": "Перемнути сповіщення",
+                "SHOW_OFFICERS": "Показати офіцерів",
+                "SHOW_EMPLOYEES": "Показати працівників",
+                "SHOW_ALARMS": "Показати сповіщення",
+                "OPTIONS": "Налаштування",
                 "OFFICERS": "Офіцери",
                 "ALARMS": "Сповіщення",
 
@@ -487,6 +490,12 @@
                 "DISMISS": "Закрити",
                 "VIEW_IN_TABLET": "Переглянути на планшеті",
                 "SET_WAYPOINT": "Встановити маршрут",
+                "LOS_SANTOS": "Лос-Сантос",
+                "CAYO_PERICO": "Кайо-Періко",
+                "OLD_NOTIFICATION": "{count} старе сповіщення",
+                "OLD_NOTIFICATIONS": "{count} старих сповіщень",
+                "NEW_NOTIFICATION": "{count} нове сповіщення",
+                "NEW_NOTIFICATIONS": "{count} нових сповіщень",
 
                 "PRIORITY": {
                     "HIGH": "Високий",
@@ -502,7 +511,9 @@
                     "DESCRIPTION": "Ви впевненні що хочете видалити це сповіщення(Це видалить його для всіх)",
                     "CANCEL": "Скасувати",
                     "REMOVE": "Видалити"
-                }
+                },
+                "REMOVE_FOR_YOURSELF": "Видалити для себе",
+                "REMOVE_FOR_EVERYONE": "Видалити для всіх"
             },
 
             "PROFILES": {
@@ -558,7 +569,10 @@
                 "NO_WEAPONS": "Немає зброї",
                 "WARRANTS": "Розшук",
                 "NO_WARRANTS": "Немає розшуку",
-                "ACTIVE_WARRANTS": "Активний Розшук"
+                "ACTIVE_WARRANTS": "Активний Розшук",
+                "INVOLVED": "Учасник",
+                "CHARGES": "Звинувачення",
+                "NO_CHARGES": "Без звинувачень"
             },
 
             "VEHICLES": {
@@ -649,7 +663,11 @@
                 "UNREGISTERED": "Незареєстрована",
                 "OWNER": "Власник",
                 "SELECT_MODEL": "Виберіть модель",
-                "SELECT_OWNER": "Виберіть власника"
+                "SELECT_OWNER": "Виберіть власника",
+                "DELETE_WEAPON": {
+                    "TITLE": "Видалити зброю",
+                    "DESCRIPTION": "Ви впевнені, що хочете видалити цю зброю?"
+                }
             },
 
             "REPORTS": {
@@ -686,6 +704,10 @@
                 "REMOVE_SUSPECT": {
                     "TITLE": "Видалити підозрюваного",
                     "DESCRIPTION": "Ви впевненні що хочете видалити {name} зі звіту?"
+                },
+                "DELETE_REPORT": {
+                    "TITLE": "Видалити звіт",
+                    "DESCRIPTION": "Ви впевнені, що хочете видалити цей звіт?"
                 },
                 "ERROR": {
                     "TITLE": "Помилка",
@@ -731,10 +753,21 @@
                     "DESCRIPTION": "Ви впевненні що хочете видалити злочинця зі справи?"
                 },
                 "ADD_CHARGE": "Додати обвинувачення",
-                "RECOMMENDED_FINE": "Рекомендований штраф ({currency})",
-                "RECOMMENDED_SENTENCE": "Рекомендований термін ув'язнення (in months)",
-                "FINE": "Штраф ({currency})",
-                "SENTENCE": "Термін ув'язнення (Хвилини)",
+                "FINE": "Штраф ({amount} рекомендовано)",
+                "SENTENCE": "Термін ув’язнення ({amount} місяців рекомендовано)",
+                "SEND_FINE": {
+                    "TITLE": "Накласти штраф",
+                    "DESCRIPTION": "Бажаєте накласти штраф {fine} для {name}?"
+                },
+                "JAIL_PLAYER": {
+                    "TITLE": "Ув’язнити гравця",
+                    "DESCRIPTION": "Бажаєте ув’язнити {name} на {sentence} місяців?",
+                    "JAILED_DESCRIPTION": "Автоматично ув’язнено за {charges}"
+                },
+                "DELETE_CASE": {
+                    "TITLE": "Видалити справу",
+                    "DESCRIPTION": "Ви впевнені, що хочете видалити цю справу?"
+                },
 
                 "ERROR": {
                     "TITLE": "Помилка",
@@ -766,9 +799,16 @@
                 "NO_VEHICLE_SELECTED": "Транспорт не вибрано",
                 "SELECT_PERSON": "Вибрати особу",
                 "NO_PERSON_SELECTED": "Особа не вибрана",
+                "ACTIVE": "Активна",
+                "INACTIVE": "Неактивна",
+                "CLOSED": "Закрита",
                 "REMOVE_REPORT": {
                     "TITLE": "Видалити звіт",
                     "DESCRIPTION": "Ви впевнені, що хочете видалити цей звіт з розшуку?"
+                },
+                "DELETE_WARRANT": {
+                    "TITLE": "Видалити ордер",
+                    "DESCRIPTION": "Ви впевнені, що хочете видалити цей ордер?"
                 },
                 "ERROR": {
                     "TITLE": "Помилка",
@@ -799,6 +839,10 @@
                     "PLACEHOLDER": "Введіть назву правопорушення",
                     "DESCRIPTION_PLACEHOLDER": "Введіть опис..."
                 },
+                "EDIT_OFFENCE": {
+                    "TITLE": "Редагувати правопорушення",
+                    "DESCRIPTION": "Редагувати деталі правопорушення"
+                },
                 "SET_JAILTIME": {
                     "TITLE": "Рекомендований термін ув'язнення",
                     "DESCRIPTION": "Встановіть рекомендований термін ув'язнення для цього правопорушення",
@@ -818,6 +862,11 @@
                     "TITLE": "Додати категорію",
                     "DESCRIPTION": "Додати нову категорію до списку правопорушень",
                     "PLACEHOLDER": "Введіть назву категорії"
+                },
+                "EDIT_CATEGORY": {
+                    "TITLE": "Редагувати категорію",
+                    "DESCRIPTION": "Редагувати деталі категорії",
+                    "PLACEHOLDER": "Введіть нову назву категорії"
                 },
                 "DELETE_CATEGORY": {
                     "TITLE": "Видалити категорію",
@@ -1100,6 +1149,10 @@
                 "DISMISS": "Відхилити",
                 "VIEW_IN_TABLET": "Переглянути на планшеті",
                 "SET_WAYPOINT": "Встановити маршрут",
+                "OLD_NOTIFICATION": "{count} старе сповіщення",
+                "OLD_NOTIFICATIONS": "{count} старих сповіщення",
+                "NEW_NOTIFICATION": "{count} нове сповіщення",
+                "NEW_NOTIFICATIONS": "{count} нових сповіщення",
 
                 "PRIORITY": {
                     "HIGH": "Високий",
@@ -1350,6 +1403,9 @@
                 "MISSING_FIELDS": "Ви не заповнили наступні поля: {fields}",
                 "OK": "OK"
             }
+        },
+        "MAPS": {
+            "GO": "Go"
         }
     },
     "COMPONENTS": {
@@ -1441,6 +1497,10 @@
         "FONT_AND_COLOR": "Шрифт & Колір"
     },
     "MISC": {
+        "GENDERS": {
+            "MALE": "Чоловік",
+            "FEMALE": "Жінка"
+        },
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Помилка",
             "DESCRIPTION": "Ви намагаєтесь виконати дію, яка потребує доступу до інтернету. Вимкніть режим польоту, щоб продовжити.",
@@ -1513,6 +1573,10 @@
                     "TITLE": "Видалено категорію правопорушень",
                     "DESCRIPTION": "Видалено категорію '{name}'"
                 },
+                "UPDATE_OFFENCE_CATEGORY": {
+                    "TITLE": "Оновлено категорію правопорушення",
+                    "DESCRIPTION": "Категорію правопорушення '{oldName}' перейменовано на '{newName}'"
+                },
                 "CREATE_OFFENCE": {
                     "TITLE": "Створене правопорушення",
                     "DESCRIPTION": "Створено {class} правопорушення '{name}' в '{category}'"
@@ -1520,6 +1584,10 @@
                 "DELETE_OFFENCE": {
                     "TITLE": "Видалено правопорушення",
                     "DESCRIPTION": "Видалено правопорушення '{name}' в '{category}'"
+                },
+                "UPDATE_OFFENCE": {
+                    "TITLE": "Оновлено правопорушення",
+                    "DESCRIPTION": "Оновлено правопорушення '{name}' у категорії '{category}'"
                 }
             }
         },
@@ -1559,6 +1627,10 @@
                     "TITLE": "Видалено категорію діагнозів",
                     "DESCRIPTION": "Видалено категорію '{name}'"
                 },
+                "UPDATE_CONDITION_CATEGORY": {
+                    "TITLE": "Оновлено категорію стану",
+                    "DESCRIPTION": "Категорію стану '{oldName}' перейменовано на '{newName}'"
+                },
                 "CREATE_CONDITION": {
                     "TITLE": "Створено діагноз",
                     "DESCRIPTION": "Створено {severity} діагноз '{name}' у '{category}'"
@@ -1566,6 +1638,10 @@
                 "DELETE_CONDITION": {
                     "TITLE": "Видалено діагноз",
                     "DESCRIPTION": "Видалено діагноз '{name}' у '{category}'"
+                },
+                "UPDATE_CONDITION": {
+                    "TITLE": "Оновлено стан",
+                    "DESCRIPTION": "Оновлено стан '{name}' у категорії '{category}'"
                 },
                 "CREATE_BULLETIN": {
                     "TITLE": "Створено оголошення",
