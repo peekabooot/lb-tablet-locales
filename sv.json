@@ -492,6 +492,10 @@
                 "SET_WAYPOINT": "Ställ in GPS",
                 "LOS_SANTOS": "Los Santos",
                 "CAYO_PERICO": "Cayo Perico",
+                "OLD_NOTIFICATION": "{count} gammalt larm",
+                "OLD_NOTIFICATIONS": "{count} gamla larm",
+                "NEW_NOTIFICATION": "{count} nytt larm",
+                "NEW_NOTIFICATIONS": "{count} nya larm",
 
                 "PRIORITY": {
                     "HIGH": "Hög",
@@ -507,7 +511,9 @@
                     "DESCRIPTION": "Är du säker på att du vill ta bort larmet? (Detta kommer att ta bort larmet för alla anställda)",
                     "CANCEL": "Avbryt",
                     "REMOVE": "Radera"
-                }
+                },
+                "REMOVE_FOR_YOURSELF": "Ta bort för dig själv",
+                "REMOVE_FOR_EVERYONE": "Ta bort för alla"
             },
 
             "PROFILES": {
@@ -564,7 +570,9 @@
                 "WARRANTS": "Efterlysningar",
                 "NO_WARRANTS": "Inga efterlysningar",
                 "ACTIVE_WARRANTS": "Aktiva efterlysningar",
-                "INVOLVED": "Involverad"
+                "INVOLVED": "Involverad",
+                "CHARGES": "Åtalspunkter",
+                "NO_CHARGES": "Inga åtalspunkter"
             },
 
             "VEHICLES": {
@@ -691,11 +699,15 @@
                     "TITLE": "Ta bort civilperson",
                     "DESCRIPTION": "Är du säker på att du vill ta bort {name} från avrapporteringen?"
                 },
-                "SUSPECTS_INVOLVED": "Suspects Involved",
-                "NO_SUSPECTS_INVOLVED": "No Suspects Involved",
+                "SUSPECTS_INVOLVED": "Misstänkta involverade",
+                "NO_SUSPECTS_INVOLVED": "Inga misstänkta involverade",
                 "REMOVE_SUSPECT": {
                     "TITLE": "Ta bort misstänkt",
                     "DESCRIPTION": "Är du säker på att du vill ta bort {name} från avrapporteringen?"
+                },
+                "DELETE_REPORT": {
+                    "TITLE": "Ta bort avrapportering",
+                    "DESCRIPTION": "Är du säker på att du vill ta bort avrapporteringen?"
                 },
                 "ERROR": {
                     "TITLE": "Fel",
@@ -741,10 +753,23 @@
                     "DESCRIPTION": "Är du säker på att du vill ta bort gärningsmannen från ärendet?"
                 },
                 "ADD_CHARGE": "Lägg till åtalspunkter",
-                "RECOMMENDED_FINE": "Rekommenderad böter ({currency})",
+                "RECOMMENDED_FINE": "Rekommenderad böter ({amount})",
                 "RECOMMENDED_SENTENCE": "Rekommenderat straff (i månader)",
-                "FINE": "Böter ({currency})",
+                "FINE": "Böter ({amount})",
                 "SENTENCE": "Straff (i månader)",
+                "SEND_FINE": {
+                    "TITLE": "Skicka böter",
+                    "DESCRIPTION": "Vill du skicka {fine} böter till {name}?"
+                },
+                "JAIL_PLAYER": {
+                    "TITLE": "Fängsla",
+                    "DESCRIPTION": "Vill du skicka {name} till fängelse i {sentence} månader?",
+                    "JAILED_DESCRIPTION": "Fängslad automatiskt för {charges}"
+                },
+                "DELETE_CASE": {
+                    "TITLE": "Ta bort ärende",
+                    "DESCRIPTION": "Är du säker på att du vill ta bort detta ärende?"
+                },
 
                 "ERROR": {
                     "TITLE": "Fel",
@@ -772,9 +797,9 @@
                 "NO_ATTACHMENTS": "Inga bilagor",
                 "LINKED_REPORTS": "Länkade avrapporteringar",
                 "NO_LINKED_REPORTS": "Inga länkade avrapporteringar",
-                "SELECT_VEHICLE": "Select Vehicle",
-                "NO_VEHICLE_SELECTED": "No Vehicle Selected",
-                "SELECT_PERSON": "Select Person",
+                "SELECT_VEHICLE": "Välj fordon",
+                "NO_VEHICLE_SELECTED": "Inget fordon valt",
+                "SELECT_PERSON": "Välj person",
                 "NO_PERSON_SELECTED": "Ingen person vald",
                 "ACTIVE": "Aktiv",
                 "INACTIVE": "Inaktiv",
@@ -783,8 +808,12 @@
                     "TITLE": "Radera avrapportering",
                     "DESCRIPTION": "Är du säker på att du vill radera avrapporteringen från efterlysningen?"
                 },
+                "DELETE_WARRANT": {
+                    "TITLE": "Ta bort efterlysning",
+                    "DESCRIPTION": "Är du säker på att du vill ta bort efterlysningen?"
+                },
                 "ERROR": {
-                    "TITLE": "Error",
+                    "TITLE": "Fel",
                     "TITLE_LENGTH": "Titeln måste vara minst 3 tecken lång",
                     "DESCRIPTION_LENGTH": "Beskrivningen måste vara minst 10 tecken lång",
                     "NO_TYPE": "Du måste välja en efterlysningstyp",
@@ -1122,10 +1151,10 @@
                 "DISMISS": "Avvisa",
                 "VIEW_IN_TABLET": "Visa i paddan",
                 "SET_WAYPOINT": "Sätt Vägbeskrivning",
-                "OLD_NOTIFICATION": "{count} old notification",
-                "OLD_NOTIFICATIONS": "{count} old notifications",
-                "NEW_NOTIFICATION": "{count} new notification",
-                "NEW_NOTIFICATIONS": "{count} new notifications",
+                "OLD_NOTIFICATION": "{count} gammalt larm",
+                "OLD_NOTIFICATIONS": "{count} gamla larm",
+                "NEW_NOTIFICATION": "{count} nytt larm",
+                "NEW_NOTIFICATIONS": "{count} nya larm",
 
                 "PRIORITY": {
                     "HIGH": "Hög",
