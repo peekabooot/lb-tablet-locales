@@ -436,6 +436,9 @@
             "ADD": "Adauga",
             "NEW": "Nou",
             "PROCEED": "Continua",
+            "YES": "Da",
+            "NO": "Nu",
+            "ALL": "Toate",
 
             "SEARCH": "Cauta",
             "SEARCH_FOR": "Cauta {query} pentru a incepe",
@@ -473,8 +476,10 @@
 
             "DISPATCH": {
                 "TITLE": "Dispecerat",
-                "TOGGLE_OFFICERS": "Comuta Ofiteri",
-                "TOGGLE_ALARMS": "Comuta Alarme",
+                "SHOW_OFFICERS": "Arata Ofiterii",
+                "SHOW_EMPLOYEES": "Arata Angajati",
+                "SHOW_ALARMS": "Arata Alarme",
+                "OPTIONS": "Optiuni",
                 "OFFICERS": "Ofiteri",
                 "ALARMS": "Alarme",
 
@@ -485,6 +490,8 @@
                 "DISMISS": "Respinge",
                 "VIEW_IN_TABLET": "Vezi in Tableta",
                 "SET_WAYPOINT": "Seteaza Punct de Trecere",
+                "LOS_SANTOS": "Los Santos",
+                "CAYO_PERICO": "Cayo Perico",
 
                 "PRIORITY": {
                     "HIGH": "Inalta",
@@ -553,7 +560,11 @@
                 "CASES": "Cazuri",
                 "NO_CASES": "Fara Cazuri",
                 "WEAPONS": "Arme",
-                "NO_WEAPONS": "Fara arme"
+                "NO_WEAPONS": "Nicio arma",
+                "WARRANTS": "Mandate",
+                "NO_WARRANTS": "Niciun Mandat",
+                "ACTIVE_WARRANTS": "Mandat Activ",
+                "INVOLVED": "Implicat"
             },
 
             "VEHICLES": {
@@ -587,6 +598,9 @@
                 "WAYPOINT_SET_DESCRIPTION": "Punctul de trecere a fost setat la locatia vehiculului",
                 "CASES": "Cazuri",
                 "NO_CASES": "Fara Cazuri"
+                "WARRANTS": "Mandate",
+                "NO_WARRANTS": "Niciun Mandat",
+                "ACTIVE_WARRANTS": "Mandat Activ"
             },
             "PROPERTIES": {
                 "TITLE": "Proprietati",
@@ -641,7 +655,11 @@
                 "UNREGISTERED": "Neinregistrata",
                 "OWNER": "Proprietar",
                 "SELECT_MODEL": "Selecteaza Modelul",
-                "SELECT_OWNER": "Selecteaza Proprietarul"
+                "SELECT_OWNER": "Selecteaza Detinator",
+                "DELETE_WEAPON": {
+                    "TITLE": "Sterge Arma",
+                    "DESCRIPTION": "Esti sigur ca vrei sa stergi aceasta arma?"
+                }
             },
 
             "REPORTS": {
@@ -758,6 +776,9 @@
                 "NO_VEHICLE_SELECTED": "Niciun Vehicul Selectat",
                 "SELECT_PERSON": "Selecteaza Persoana",
                 "NO_PERSON_SELECTED": "Nicio Persoana Selectata",
+                "ACTIVE": "Activ",
+                "INACTIVE": "Inactiv",
+                "CLOSED": "Inchis",
                 "REMOVE_REPORT": {
                     "TITLE": "Sterge Raport",
                     "DESCRIPTION": "Esti sigur ca vrei sa stergi raportul din mandat?"
@@ -791,6 +812,10 @@
                     "PLACEHOLDER": "Introdu titlul infractiunii",
                     "DESCRIPTION_PLACEHOLDER": "Introdu o descriere..."
                 },
+                "EDIT_OFFENCE": {
+                    "TITLE": "Modifica Infractiune",
+                    "DESCRIPTION": "Modifica detaliile infractiunii"
+                },
                 "SET_JAILTIME": {
                     "TITLE": "Timp Recomandat de Incarcerare",
                     "DESCRIPTION": "Seteaza timpul recomandat de incarcerare pentru infractiune",
@@ -810,6 +835,11 @@
                     "TITLE": "Adauga Categorie",
                     "DESCRIPTION": "Adauga o categorie noua in lista de infractiuni",
                     "PLACEHOLDER": "Introdu numele categoriei"
+                },
+                "EDIT_CATEGORY": {
+                    "TITLE": "Modifica categoria",
+                    "DESCRIPTION": "Modifica detaliile categoriei",
+                    "PLACEHOLDER": "Introdu noul nume de categorie"
                 },
                 "DELETE_CATEGORY": {
                     "TITLE": "Sterge Categorie",
@@ -1092,6 +1122,10 @@
                 "DISMISS": "Respinge",
                 "VIEW_IN_TABLET": "Vezi in Tableta",
                 "SET_WAYPOINT": "Seteaza Punct de Trecere",
+                "OLD_NOTIFICATION": "{count} notificare veche",
+                "OLD_NOTIFICATIONS": "{count} notificari vechi",
+                "NEW_NOTIFICATION": "{count} notificare noua",
+                "NEW_NOTIFICATIONS": "{count} notificari noi",
 
                 "PRIORITY": {
                     "HIGH": "Inalta",
@@ -1433,6 +1467,10 @@
         "FONT_AND_COLOR": "Font si Culoare"
     },
     "MISC": {
+        "GENDERS": {
+            "MALE": "Barbat",
+            "FEMALE": "Femeie"
+        },
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Eroare",
             "DESCRIPTION": "Incerci sa efectuezi o actiune care necesita acces la internet, dezactiveaza modul avion pentru a continua.",
@@ -1512,6 +1550,10 @@
                 "DELETE_OFFENCE": {
                     "TITLE": "Sters o infractiune",
                     "DESCRIPTION": "Sters infractiunea '{name}' in '{category}'"
+                },
+                "UPDATE_OFFENCE": {
+                    "TITLE": "Modifica o infractiune",
+                    "DESCRIPTION": "A modificat infractiunea '{name}' din categoria '{category}'"
                 }
             }
         },
@@ -1551,6 +1593,10 @@
                     "TITLE": "Sters o categorie de conditie",
                     "DESCRIPTION": "Sters categoria '{name}'"
                 },
+                "UPDATE_CONDITION_CATEGORY": {
+                    "TITLE": "A modificat o conditie",
+                    "DESCRIPTION": "A modificat conditia '{oldName}' in {newName}"
+                },
                 "CREATE_CONDITION": {
                     "TITLE": "Creat o conditie",
                     "DESCRIPTION": "Creat o conditie {severity} '{name}' in '{category}'"
@@ -1558,6 +1604,10 @@
                 "DELETE_CONDITION": {
                     "TITLE": "Sters o conditie",
                     "DESCRIPTION": "Sters conditia '{name}' in '{category}'"
+                },
+                "UPDATE_CONDITION": {
+                    "TITLE": "A modificat conditie",
+                    "DESCRIPTION": "A modificat conditia '{name}' din categoria '{category}'"
                 },
                 "CREATE_BULLETIN": {
                     "TITLE": "Creat un anunt",
