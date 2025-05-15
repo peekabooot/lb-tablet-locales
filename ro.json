@@ -499,6 +499,11 @@
                     "LOW": "Joasa"
                 },
 
+                "OLD_NOTIFICATION": "{count} notificare veche",
+                "OLD_NOTIFICATIONS": "{count} notificari vechi",
+                "NEW_NOTIFICATION": "{count} notificare noua",
+                "NEW_NOTIFICATIONS": "{count} notificari noi",
+
                 "JUST_NOW": "Acum",
                 "MINUTES_AGO": "{minutes}m ago",
                 "HOURS_AGO": "{hours}h ago",
@@ -597,7 +602,7 @@
                 "WAYPOINT_SET": "Punct de trecere setat",
                 "WAYPOINT_SET_DESCRIPTION": "Punctul de trecere a fost setat la locatia vehiculului",
                 "CASES": "Cazuri",
-                "NO_CASES": "Fara Cazuri"
+                "NO_CASES": "Fara Cazuri".
                 "WARRANTS": "Mandate",
                 "NO_WARRANTS": "Niciun Mandat",
                 "ACTIVE_WARRANTS": "Mandat Activ"
@@ -1538,6 +1543,10 @@
                 "CREATE_OFFENCE_CATEGORY": {
                     "TITLE": "Creat o categorie de infractiune",
                     "DESCRIPTION": "Creat categoria '{name}'"
+                },
+                "UPDATE_OFFENCE_CATEGORY": {
+                    "TITLE": "Modificare categorie infractiune",
+                    "DESCRIPTION": "A redenumit categoria de infractiuni din '{oldName}' in {newName}"
                 },
                 "DELETE_OFFENCE_CATEGORY": {
                     "TITLE": "Sters o categorie de infractiune",
