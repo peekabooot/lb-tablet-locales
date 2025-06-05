@@ -1302,9 +1302,9 @@
             "NEW_NOTIFICATIONS": "{count} yeni bildirimler",
 
                 "PRIORITY_LEVELS": {
-                    "YÜKSEK": "Yüksek",
-                    "ORTA": "Orta",
-                    "DÜŞÜK": "Düşük"
+                    "HIGH": "Yüksek",
+                    "MEDIUM": "Orta",
+                    "LOW": "Düşük"
                 },
 
                 "JUST_NOW": "Az önce",
@@ -1351,7 +1351,7 @@
                     "PASTE_URL": "URL Yapıştır",
                     "PASTE_URL_DESCRIPTION": "Bir resim URL'si girin",
                     "PASTE_URL_PLACEHOLDER": "Resim URL'si",
-                    
+
                     "INVALID_URL": "Geçersiz URL",
                     "INVALID_URL_DESCRIPTION": "Girdiğiniz URL geçerli bir resim URL'si değil",
                     "OK": "Tamam"
