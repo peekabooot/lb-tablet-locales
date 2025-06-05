@@ -1302,9 +1302,9 @@
             "NEW_NOTIFICATIONS": "{count} yeni bildirimler",
 
                 "PRIORITY_LEVELS": {
-                    "YÜKSEK": "Yüksek",
-                    "ORTA": "Orta",
-                    "DÜŞÜK": "Düşük"
+                    "HIGH": "Yüksek",
+                    "MEDIUM": "Orta",
+                    "LOW": "Düşük"
                 },
 
                 "JUST_NOW": "Az önce",
