@@ -911,8 +911,8 @@
                             "DESCRIPTION": "填写以下信息以监禁 {name}",
                             "SENTENCE_PLACEHOLDER": "刑期（分钟）",
                             "REASON_PLACEHOLDER": "原因",
-                            "JAIL_WITH_INCIDENT": "监禁并关联事件",
-                            "JAIL_WITHOUT_INCIDENT": "监禁不关联事件",
+                            "JAIL_WITH_CASE": "监禁并关联事件",
+                            "JAIL_WITHOUT_CASE": "监禁不关联事件",
                             "PROCEED": "继续"
                         },
                         "UNJAIL_PERSON": {

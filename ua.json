@@ -972,8 +972,8 @@
                     "DESCRIPTION": "Заповніть деталі нижче, щоб посадити {name} у в'язницю",
                     "SENTENCE_PLACEHOLDER": "Вирок (хвилини)",
                     "REASON_PLACEHOLDER": "Причина",
-                    "JAIL_WITH_INCIDENT": "Посадити з пов'язаним інцидентом",
-                    "JAIL_WITHOUT_INCIDENT": "Посадити без пов'язаного інциденту",
+                    "JAIL_WITH_CASE": "Посадити з пов'язаним інцидентом",
+                    "JAIL_WITHOUT_CASE": "Посадити без пов'язаного інциденту",
                     "PROCEED": "Продовжити"
                 },
                 "UNJAIL_PERSON": {

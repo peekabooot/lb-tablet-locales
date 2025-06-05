@@ -972,8 +972,8 @@
                     "DESCRIPTION": "Fyll i uppgifterna nedan för att fängsla {name}",
                     "SENTENCE_PLACEHOLDER": "Straff (i minuter)",
                     "REASON_PLACEHOLDER": "Anledning",
-                    "JAIL_WITH_INCIDENT": "Fängsla med länkad incident",
-                    "JAIL_WITHOUT_INCIDENT": "Fängsla utan länkad incident",
+                    "JAIL_WITH_CASE": "Fängsla med länkad incident",
+                    "JAIL_WITHOUT_CASE": "Fängsla utan länkad incident",
                     "PROCEED": "Fortsätt"
                 },
                 "UNJAIL_PERSON": {
