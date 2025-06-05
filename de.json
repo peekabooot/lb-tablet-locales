@@ -745,10 +745,8 @@
                     "DESCRIPTION": "Möchten Sie den Kriminellen wirklich aus dem Fall entfernen?"
                 },
                 "ADD_CHARGE": "Anklage hinzufügen",
-                "RECOMMENDED_FINE": "Empfohlene Geldstrafe ({currency})",
-                "RECOMMENDED_SENTENCE": "Empfohlene Strafe (in Monaten)",
-                "FINE": "Geldstrafe ({currency})",
-                "SENTENCE": "Strafe (in Monaten)",
+                "FINE": "Geldstrafe ({amount} empfohlen)",
+                "SENTENCE": "Strafe ({amount} empfohlene Monate)",
 
                 "ERROR": {
                     "TITLE": "Fehler",
