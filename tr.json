@@ -3,10 +3,10 @@
     "SEARCH": "Ara",
     "CANCEL": "İptal",
     "NOW": "Şimdi",
-    "D": "g", 
-    "H": "s",   
-    "M": "d",  
-    "S": "s",   
+    "D": "g",
+    "H": "s",
+    "M": "d",
+    "S": "s",
 
     "APP_NAMES": {
         "Police": "Polis",
@@ -566,34 +566,34 @@
                 }
             },
 
-                "PROFILES": {
-                    "TITLE": "Profil",
-                    "PERSON": "Kişi",
-                    "SEARCH": "Profilleri Ara",
-                    "REMOVE_AVATAR": "Avatarı Kaldır",
-                    "IDENTIFIER": "Kimlik",
-                    "FINGERPRINT": "Parmak İzi",
-                    "DOB": "Doğum Tarihi",
-                    "PHONE_NR": "Telefon No",
-                    "GENDER": "Cinsiyet",
-                    "JOB": "Meslek",
-                    "MALE": "Erkek",
-                    "FEMALE": "Kadın",
-                    "NOTES": "Notlar",
-                    "NOTES_PLACEHOLDER": "Notları buraya girin...",
+            "PROFILES": {
+                "TITLE": "Profil",
+                "PERSON": "Kişi",
+                "SEARCH": "Profilleri Ara",
+                "REMOVE_AVATAR": "Avatarı Kaldır",
+                "IDENTIFIER": "Kimlik",
+                "FINGERPRINT": "Parmak İzi",
+                "DOB": "Doğum Tarihi",
+                "PHONE_NR": "Telefon No",
+                "GENDER": "Cinsiyet",
+                "JOB": "Meslek",
+                "MALE": "Erkek",
+                "FEMALE": "Kadın",
+                "NOTES": "Notlar",
+                "NOTES_PLACEHOLDER": "Notları buraya girin...",
 
-                    "LICENSES": {
-                        "TITLE": "Sürücü Belgeleri",
-                        "ADD_LICENSE": "Belge Ekle",
-                        "ADD": "Ekle",
-                        "NO_LICENSES": "Belge Yok",
-                        "REVOKE_LICENSE": {
-                            "TITLE": "Belgeyi İptal Et",
-                            "DESCRIPTION": "Belge {license} iptal edilsin mi?",
-                            "CANCEL": "İptal",
-                            "REVOKE": "İptal Et"
-                        }
-                    },
+                "LICENSES": {
+                    "TITLE": "Sürücü Belgeleri",
+                    "ADD_LICENSE": "Belge Ekle",
+                    "ADD": "Ekle",
+                    "NO_LICENSES": "Belge Yok",
+                    "REVOKE_LICENSE": {
+                        "TITLE": "Belgeyi İptal Et",
+                        "DESCRIPTION": "Belge {license} iptal edilsin mi?",
+                        "CANCEL": "İptal",
+                        "REVOKE": "İptal Et"
+                    }
+                },
 
                 "ADD_AVATAR": {
                     "TITLE": "Avatar Ekle",
@@ -686,7 +686,7 @@
                 "NOTES_PLACEHOLDER": "Buraya not girin..."
             },
             "WEAPONS": {
-               "TITLE": "Silahlar",
+                "TITLE": "Silahlar",
                 "WEAPON": "Silah",
                 "SEARCH": "Silah Ara",
                 "REMOVE_PICTURE": "Resmi Kaldır",
@@ -788,52 +788,52 @@
                     "DESCRIPTION": "Aracı dosyadan kaldırmak istediğinize emin misiniz?"
                 },
 
-            "REMOVE_WARRANT": {
-                "TITLE": "Arama Emrini Kaldır",
-                "DESCRIPTION": "Arama emrini dosyadan kaldırmak istediğinize emin misiniz?"
-            },
-            "OFFICERS_INVOLVED": "Olayda Yer Alan Memurlar",
-            "NO_OFFICERS_INVOLVED": "Olayda Yer Alan Memur Yok",
-            "REMOVE_OFFICER": {
-                "TITLE": "Memuru Kaldır",
-                "DESCRIPTION": "Memuru dosyadan kaldırmak istediğinize emin misiniz?"
-            },
-            "CIVILLIANS_INVOLVED": "Olayda Yer Alan Siviller",
-            "NO_CIVILLIANS_INVOLVED": "Olayda Yer Alan Sivil Yok",
-            "REMOVE_CIVILIAN": {
-                "TITLE": "Sivili Kaldır",
-                "DESCRIPTION": "Sivili dosyadan kaldırmak istediğinize emin misiniz?"
-            },
-            "CRIMINALS_INVOLVED": "Olayda Yer Alan Suçlular",
-            "NO_CRIMINALS_INVOLVED": "Olayda Yer Alan Suçlu Yok",
-            "REMOVE_CRIMINAL": {
-                "TITLE": "Suçluyu Kaldır",
-                "DESCRIPTION": "Suçluyu dosyadan kaldırmak istediğinize emin misiniz?"
-            },
-            "ADD_CHARGE": "Suç Ekle",
-            "FINE": "Ceza ({amount} önerilen)",
-            "SENTENCE": "Hapis Cezası ({amount} ay önerilen)",
-            "SEND_FINE": {
-                "TITLE": "Ceza Gönder",
-                "DESCRIPTION": "{name} kişisine {fine} para cezası göndermek istiyor musunuz?"
-            },
-            "JAIL_PLAYER": {
-                "TITLE": "Oyuncuyu Hapse At",
-                "DESCRIPTION": "{name} kişisini {sentence} ay boyunca hapse göndermek istiyor musunuz?",
-                "JAILED_DESCRIPTION": "{charges} suçlamaya bağlı olarak otomatik hapse gönderildi"
-            },
-            "DELETE_CASE": {
-                "TITLE": "Dosyayı Sil",
-                "DESCRIPTION": "Bu dosyayı silmek istediğinize emin misiniz?"
-            },
+                "REMOVE_WARRANT": {
+                    "TITLE": "Arama Emrini Kaldır",
+                    "DESCRIPTION": "Arama emrini dosyadan kaldırmak istediğinize emin misiniz?"
+                },
+                "OFFICERS_INVOLVED": "Olayda Yer Alan Memurlar",
+                "NO_OFFICERS_INVOLVED": "Olayda Yer Alan Memur Yok",
+                "REMOVE_OFFICER": {
+                    "TITLE": "Memuru Kaldır",
+                    "DESCRIPTION": "Memuru dosyadan kaldırmak istediğinize emin misiniz?"
+                },
+                "CIVILLIANS_INVOLVED": "Olayda Yer Alan Siviller",
+                "NO_CIVILLIANS_INVOLVED": "Olayda Yer Alan Sivil Yok",
+                "REMOVE_CIVILIAN": {
+                    "TITLE": "Sivili Kaldır",
+                    "DESCRIPTION": "Sivili dosyadan kaldırmak istediğinize emin misiniz?"
+                },
+                "CRIMINALS_INVOLVED": "Olayda Yer Alan Suçlular",
+                "NO_CRIMINALS_INVOLVED": "Olayda Yer Alan Suçlu Yok",
+                "REMOVE_CRIMINAL": {
+                    "TITLE": "Suçluyu Kaldır",
+                    "DESCRIPTION": "Suçluyu dosyadan kaldırmak istediğinize emin misiniz?"
+                },
+                "ADD_CHARGE": "Suç Ekle",
+                "FINE": "Ceza ({amount} önerilen)",
+                "SENTENCE": "Hapis Cezası ({amount} ay önerilen)",
+                "SEND_FINE": {
+                    "TITLE": "Ceza Gönder",
+                    "DESCRIPTION": "{name} kişisine {fine} para cezası göndermek istiyor musunuz?"
+                },
+                "JAIL_PLAYER": {
+                    "TITLE": "Oyuncuyu Hapse At",
+                    "DESCRIPTION": "{name} kişisini {sentence} ay boyunca hapse göndermek istiyor musunuz?",
+                    "JAILED_DESCRIPTION": "{charges} suçlamaya bağlı olarak otomatik hapse gönderildi"
+                },
+                "DELETE_CASE": {
+                    "TITLE": "Dosyayı Sil",
+                    "DESCRIPTION": "Bu dosyayı silmek istediğinize emin misiniz?"
+                },
 
-            "ERROR": {
-                "TITLE": "Hata",
-                "TITLE_LENGTH": "Başlık en az 3 karakter uzunluğunda olmalıdır",
-                "DESCRIPTION_LENGTH": "Açıklama en az 10 karakter uzunluğunda olmalıdır",
-                "OK": "Tamam"
-            }
-        },
+                "ERROR": {
+                    "TITLE": "Hata",
+                    "TITLE_LENGTH": "Başlık en az 3 karakter uzunluğunda olmalıdır",
+                    "DESCRIPTION_LENGTH": "Açıklama en az 10 karakter uzunluğunda olmalıdır",
+                    "OK": "Tamam"
+                }
+            },
 
             "WARRANTS": {
                 "TITLE": "Arama Emirleri",
@@ -860,21 +860,21 @@
                 "ACTIVE": "Aktif",
                 "INACTIVE": "Pasif",
                 "CLOSED": "Kapalı",
-            "REMOVE_REPORT": {
-                "TITLE": "Raporu Kaldır",
-                "DESCRIPTION": "Bu raporu arama emrinden kaldırmak istediğinize emin misiniz?"
-            },
-            "DELETE_WARRANT": {
-                "TITLE": "Arama Emrini Sil",
-                "DESCRIPTION": "Bu arama emrini silmek istediğinize emin misiniz?"
-            },
-            "ERROR": {
-                "TITLE": "Hata",
-                "TITLE_LENGTH": "Başlık en az 3 karakter uzunluğunda olmalıdır",
-                "DESCRIPTION_LENGTH": "Açıklama en az 10 karakter uzunluğunda olmalıdır",
-                "NO_TYPE": "Bir arama emri türü seçmelisiniz",
-                "NO_TARGET": "Arama emri için bir hedef seçmelisiniz",
-                "OK": "Tamam"
+                "REMOVE_REPORT": {
+                    "TITLE": "Raporu Kaldır",
+                    "DESCRIPTION": "Bu raporu arama emrinden kaldırmak istediğinize emin misiniz?"
+                },
+                "DELETE_WARRANT": {
+                    "TITLE": "Arama Emrini Sil",
+                    "DESCRIPTION": "Bu arama emrini silmek istediğinize emin misiniz?"
+                },
+                "ERROR": {
+                    "TITLE": "Hata",
+                    "TITLE_LENGTH": "Başlık en az 3 karakter uzunluğunda olmalıdır",
+                    "DESCRIPTION_LENGTH": "Açıklama en az 10 karakter uzunluğunda olmalıdır",
+                    "NO_TYPE": "Bir arama emri türü seçmelisiniz",
+                    "NO_TARGET": "Arama emri için bir hedef seçmelisiniz",
+                    "OK": "Tamam"
                 }
             },
             "EVIDENCE": {
@@ -887,51 +887,51 @@
                 "MONTHS": "{amount} Ay",
                 "FINE": "{amount} Para Cezası",
 
-            "SELECT_SEVERITY": "Ciddiyet Seviyesi Seç",
-            "SEVERITIES": {
-                "INFRACTION": "Kabahat",
-                "MISDEMEANOR": "Suç",
-                "FELONY": "Ağır Suç"
+                "SELECT_SEVERITY": "Ciddiyet Seviyesi Seç",
+                "SEVERITIES": {
+                    "INFRACTION": "Kabahat",
+                    "MISDEMEANOR": "Suç",
+                    "FELONY": "Ağır Suç"
                 },
-            "NO_OFFENCES_FOUND": "Hiçbir Suç Bulunamadı",
-            "ADD_OFFENCE": {
-                "TITLE": "Suç Ekle",
-                "DESCRIPTION": "Yeni bir suç oluştur",
-                "PLACEHOLDER": "Suç başlığını girin",
-                "DESCRIPTION_PLACEHOLDER": "Bir açıklama girin..."
+                "NO_OFFENCES_FOUND": "Hiçbir Suç Bulunamadı",
+                "ADD_OFFENCE": {
+                    "TITLE": "Suç Ekle",
+                    "DESCRIPTION": "Yeni bir suç oluştur",
+                    "PLACEHOLDER": "Suç başlığını girin",
+                    "DESCRIPTION_PLACEHOLDER": "Bir açıklama girin..."
                 },
-            "EDIT_OFFENCE": {
-                "TITLE": "Suçu Düzenle",
-                "DESCRIPTION": "Suç detaylarını düzenle"
+                "EDIT_OFFENCE": {
+                    "TITLE": "Suçu Düzenle",
+                    "DESCRIPTION": "Suç detaylarını düzenle"
                 },
-            "SET_JAILTIME": {
-                "TITLE": "Önerilen Hapis Süresi",
-                "DESCRIPTION": "Suç için önerilen hapis süresini belirle",
-                "PLACEHOLDER": "Önerilen hapis süresi (ay olarak) (sadece para cezası için 0)"
+                "SET_JAILTIME": {
+                    "TITLE": "Önerilen Hapis Süresi",
+                    "DESCRIPTION": "Suç için önerilen hapis süresini belirle",
+                    "PLACEHOLDER": "Önerilen hapis süresi (ay olarak) (sadece para cezası için 0)"
                 },
-            "SET_FINE": {
-                "TITLE": "Önerilen Para Cezası",
-                "DESCRIPTION": "Suç için önerilen para cezasını belirle",
-                "PLACEHOLDER": "Önerilen para cezası miktarı (sadece hapis cezası için 0)"
+                "SET_FINE": {
+                    "TITLE": "Önerilen Para Cezası",
+                    "DESCRIPTION": "Suç için önerilen para cezasını belirle",
+                    "PLACEHOLDER": "Önerilen para cezası miktarı (sadece hapis cezası için 0)"
                 },
 
-            "DELETE_OFFENCE": {
-                "TITLE": "Suçu Sil",
-                "DESCRIPTION": "Bu suçu silmek istediğinizden emin misiniz?"
+                "DELETE_OFFENCE": {
+                    "TITLE": "Suçu Sil",
+                    "DESCRIPTION": "Bu suçu silmek istediğinizden emin misiniz?"
                 },
-            "ADD_CATEGORY": {
-                "TITLE": "Kategori Ekle",
-                "DESCRIPTION": "Suç listesine yeni bir kategori ekle",
-                "PLACEHOLDER": "Kategori adını girin"
+                "ADD_CATEGORY": {
+                    "TITLE": "Kategori Ekle",
+                    "DESCRIPTION": "Suç listesine yeni bir kategori ekle",
+                    "PLACEHOLDER": "Kategori adını girin"
                 },
-            "EDIT_CATEGORY": {
-                "TITLE": "Kategoriyi Düzenle",
-                "DESCRIPTION": "Kategori detaylarını düzenle",
-                "PLACEHOLDER": "Yeni kategori adını girin"
+                "EDIT_CATEGORY": {
+                    "TITLE": "Kategoriyi Düzenle",
+                    "DESCRIPTION": "Kategori detaylarını düzenle",
+                    "PLACEHOLDER": "Yeni kategori adını girin"
                 },
-            "DELETE_CATEGORY": {
-                "TITLE": "Kategoriyi Sil",
-                "DESCRIPTION": "Bu kategoriyi silmek istediğinizden emin misiniz?"
+                "DELETE_CATEGORY": {
+                    "TITLE": "Kategoriyi Sil",
+                    "DESCRIPTION": "Bu kategoriyi silmek istediğinizden emin misiniz?"
                 }
             },
 
@@ -1014,28 +1014,28 @@
                     }
                 },
                 "CALLS": {
-                        "TITLE": "Aramalar",
-                        "CALL_HISTORY": "Arama Geçmişi",
-                        "CALL_STATUS": "Arama Durumu",
-                        "SEARCH": "Aramaları Ara",
-                        "NO_CALLER_ID": "Arayan ID Yok",
-                        "UNKNOWN": "Bilinmiyor",
-                        "IN_CALL": "Görüşmede",
-                        "NOT_IN_CALL": "Görüşmede Değil",
-                        "SUBSCRIBED": "Abone Olundu",
-                        "NOT_SUBSCRIBED": "Abone Değil",
-                        "YES": "Evet",
-                        "NO": "Hayır",
-                        "GET_NOTIFIED": "Bildirim Al",
-                        "LISTEN_TO_CALL": "Aramayı Dinle",
-                        "LISTEN_TO_CALL_DESCRIPTION": "Bu aramayı dinlemek istediğinizden emin misiniz?",
-                        "STOP_LISTENING": "Dinlemeyi Durdur",
-                        "STOP_LISTENING_DESCRIPTION": "Bu aramayı dinlemeyi durdurmak istediğinizden emin misiniz?",
-                        "SUBSCRIBE_TO_CALLS": "Aramalara Abone Ol",
-                        "SUBSCRIBE_TO_CALLS_DESCRIPTION": "Aramalara abone olmak istediğinizden emin misiniz?",
-                        "UNSUBSCRIBE_FROM_CALLS": "Aramalardan Aboneliği İptal Et",
-                        "UNSUBSCRIBE_FROM_CALLS_DESCRIPTION": "Aramalardan aboneliği iptal etmek istediğinizden emin misiniz?",
-                        "FOOTER": "{name} tarafından",
+                    "TITLE": "Aramalar",
+                    "CALL_HISTORY": "Arama Geçmişi",
+                    "CALL_STATUS": "Arama Durumu",
+                    "SEARCH": "Aramaları Ara",
+                    "NO_CALLER_ID": "Arayan ID Yok",
+                    "UNKNOWN": "Bilinmiyor",
+                    "IN_CALL": "Görüşmede",
+                    "NOT_IN_CALL": "Görüşmede Değil",
+                    "SUBSCRIBED": "Abone Olundu",
+                    "NOT_SUBSCRIBED": "Abone Değil",
+                    "YES": "Evet",
+                    "NO": "Hayır",
+                    "GET_NOTIFIED": "Bildirim Al",
+                    "LISTEN_TO_CALL": "Aramayı Dinle",
+                    "LISTEN_TO_CALL_DESCRIPTION": "Bu aramayı dinlemek istediğinizden emin misiniz?",
+                    "STOP_LISTENING": "Dinlemeyi Durdur",
+                    "STOP_LISTENING_DESCRIPTION": "Bu aramayı dinlemeyi durdurmak istediğinizden emin misiniz?",
+                    "SUBSCRIBE_TO_CALLS": "Aramalara Abone Ol",
+                    "SUBSCRIBE_TO_CALLS_DESCRIPTION": "Aramalara abone olmak istediğinizden emin misiniz?",
+                    "UNSUBSCRIBE_FROM_CALLS": "Aramalardan Aboneliği İptal Et",
+                    "UNSUBSCRIBE_FROM_CALLS_DESCRIPTION": "Aramalardan aboneliği iptal etmek istediğinizden emin misiniz?",
+                    "FOOTER": "{name} tarafından",
 
                     "WIRETAP_PHONENUMBER": {
                         "TITLE": "Telefon Dinlemesi",
@@ -1082,27 +1082,27 @@
             },
 
             "JAIL": {
-                    "TITLE": "Hapishane",
-                    "SEARCH": "Hapisteki Kişiyi Ara",
-                    "JAILED_PERSON": "Hapisteki Kişi",
-                    "JAILED_BY": "Hapise Veren",
-                    "JAILED_BY_NAME": "{name} tarafından hapise gönderildi",
-                    "REMAINING_TIME": "Kalan Süre",
-                    "REMAINING_TIME_DATE": "Kalan süre {time} ({date})",
-                    "ORIGINAL_SENTENCE": "Orijinal Ceza",
-                    "RELEASE_DATE": "Tahliye Tarihi",
-                    "DESCRIPTION": "Açıklama",
-                    "DESCRIPTION_PLACEHOLDER": "Açıklama girin...",
-                    "RELEASED": "Tahliye Edildi",
-                    "LESS_THAN_MINUTE": "Bir dakikadan az",
-                    "UNJAIL": "Tahliye Et",
-                    "PROFILE": "Profil",
-                    "JAILED_AT": "Hapise Gönderildiği Tarih",
-                    "LINKED_CASE": "Bağlantılı Dosya",
-                    "NO_LINKED_CASE": "Bağlantılı Dosya Yok",
-                    "REMOVE_LINKED_CASE": {
-                        "TITLE": "Bağlantılı Dosyayı Kaldır",
-                        "DESCRIPTION": "Bağlantılı dosyayı kaldırmak istediğinizden emin misiniz?"
+                "TITLE": "Hapishane",
+                "SEARCH": "Hapisteki Kişiyi Ara",
+                "JAILED_PERSON": "Hapisteki Kişi",
+                "JAILED_BY": "Hapise Veren",
+                "JAILED_BY_NAME": "{name} tarafından hapise gönderildi",
+                "REMAINING_TIME": "Kalan Süre",
+                "REMAINING_TIME_DATE": "Kalan süre {time} ({date})",
+                "ORIGINAL_SENTENCE": "Orijinal Ceza",
+                "RELEASE_DATE": "Tahliye Tarihi",
+                "DESCRIPTION": "Açıklama",
+                "DESCRIPTION_PLACEHOLDER": "Açıklama girin...",
+                "RELEASED": "Tahliye Edildi",
+                "LESS_THAN_MINUTE": "Bir dakikadan az",
+                "UNJAIL": "Tahliye Et",
+                "PROFILE": "Profil",
+                "JAILED_AT": "Hapise Gönderildiği Tarih",
+                "LINKED_CASE": "Bağlantılı Dosya",
+                "NO_LINKED_CASE": "Bağlantılı Dosya Yok",
+                "REMOVE_LINKED_CASE": {
+                    "TITLE": "Bağlantılı Dosyayı Kaldır",
+                    "DESCRIPTION": "Bağlantılı dosyayı kaldırmak istediğinizden emin misiniz?"
                 },
                 "JAIL_PERSON": {
                     "TITLE": "Hapishane",
@@ -1125,19 +1125,19 @@
             },
 
             "LOGS": {
-                    "TITLE": "Kayıtlar",
-                    "SEARCH": "Kayıtlarda Ara",
-                    "FILTER": "Filtrele",
-                    "CREATED": "Oluşturuldu",
-                    "UPDATED": "Güncellendi",
-                    "DELETED": "Silindi",
-                    "VIEW_FOOTER": "{type} Görüntüle ({id})",
-                    "TAG_TYPES": {
-                        "PROFILE": "profil",
-                        "VEHICLE": "araç",
-                        "REPORT": "rapor",
-                        "WARRANT": "tutuklama emri",
-                        "INCIDENT": "olay"
+                "TITLE": "Kayıtlar",
+                "SEARCH": "Kayıtlarda Ara",
+                "FILTER": "Filtrele",
+                "CREATED": "Oluşturuldu",
+                "UPDATED": "Güncellendi",
+                "DELETED": "Silindi",
+                "VIEW_FOOTER": "{type} Görüntüle ({id})",
+                "TAG_TYPES": {
+                    "PROFILE": "profil",
+                    "VEHICLE": "araç",
+                    "REPORT": "rapor",
+                    "WARRANT": "tutuklama emri",
+                    "INCIDENT": "olay"
                 },
 
                 "CREATE_TAG_TITLE": "Bir Etiket Oluşturuldu",
@@ -1351,7 +1351,7 @@
                     "PASTE_URL": "URL Yapıştır",
                     "PASTE_URL_DESCRIPTION": "Bir resim URL'si girin",
                     "PASTE_URL_PLACEHOLDER": "Resim URL'si",
-
+                    
                     "INVALID_URL": "Geçersiz URL",
                     "INVALID_URL_DESCRIPTION": "Girdiğiniz URL geçerli bir resim URL'si değil",
                     "OK": "Tamam"
@@ -1413,12 +1413,12 @@
                 "REMOVE_AVATAR": "Avatarı Kaldır",
                 "MANAGE": "Yönet",
                 "LEAVE": {
-                "TITLE": "Ayrıl",
-                "DESCRIPTION": "Sohbet odasından ayrılmak istediğinize emin misiniz?"
+                    "TITLE": "Ayrıl",
+                    "DESCRIPTION": "Sohbet odasından ayrılmak istediğinize emin misiniz?"
                 },
                 "KICK": {
-                "TITLE": "At",
-                "DESCRIPTION": "{name} kişisini sohbet odasından atmak istediğinize emin misiniz?"
+                    "TITLE": "At",
+                    "DESCRIPTION": "{name} kişisini sohbet odasından atmak istediğinize emin misiniz?"
                 },
 
                 "CREATE_CHATROOM": {
@@ -1550,8 +1550,8 @@
                 "ADDRESS": "Mülk Adresi"
             },
             "DELETE_PROPERTY_POPUP": {
-            "TITLE": "Mülkü Sil",
-            "DESCRIPTION": "Bu mülkü silmek istediğinizden emin misiniz?"
+                "TITLE": "Mülkü Sil",
+                "DESCRIPTION": "Bu mülkü silmek istediğinizden emin misiniz?"
             },
 
             "ERROR": {
@@ -1605,17 +1605,17 @@
             }
         },
         "AIRDROP": {
-                "TITLE": "AirShare",
-                "TEXT": "{sender} bir {type} paylaşmak istiyor",
-                "VIDEO": "video",
-                "PHOTO": "fotoğraf",
-                "CONTACT": "kişi",
-                "LOCATION": "konum",
-                "NOTE": "not",
-                "VOICEMEMO": "ses kaydı",
-                "PLAYLIST": "çalma listesi",
-                "DECLINE": "Reddet",
-                "ACCEPT": "Kabul Et"
+            "TITLE": "AirShare",
+            "TEXT": "{sender} bir {type} paylaşmak istiyor",
+            "VIDEO": "video",
+            "PHOTO": "fotoğraf",
+            "CONTACT": "kişi",
+            "LOCATION": "konum",
+            "NOTE": "not",
+            "VOICEMEMO": "ses kaydı",
+            "PLAYLIST": "çalma listesi",
+            "DECLINE": "Reddet",
+            "ACCEPT": "Kabul Et"
         },
 
         "BATTERY": {
@@ -1629,14 +1629,14 @@
         }
     },
     "SETUP": {
-            "HELLO": "Merhaba",
-            "SELECT_LANGUAGE": "Dil seçin",
-            "NEXT": "Açmak için tıklayın",
-            "APPEARANCE": "Tema",
-            "APPEARANCE_TEXT": "Cihazınız için koyu veya açık tema seçin",
-            "CONTINUE": "Devam et",
-            "WELCOME_TO": "Hoş geldiniz",
-            "CLICK": "Başlamak için tıklayın"
+        "HELLO": "Merhaba",
+        "SELECT_LANGUAGE": "Dil seçin",
+        "NEXT": "Açmak için tıklayın",
+        "APPEARANCE": "Tema",
+        "APPEARANCE_TEXT": "Cihazınız için koyu veya açık tema seçin",
+        "CONTINUE": "Devam et",
+        "WELCOME_TO": "Hoş geldiniz",
+        "CLICK": "Başlamak için tıklayın"
     },
     "HOMESCREEN": {
         "DONE": "Tamamlandı",
@@ -1828,8 +1828,8 @@
                 }
             },
             "WIRETAP_NOTIFICATION": {
-                    "TITLE": "Dinlenen Arama",
-                    "CONTENT": "Dinlenen telefon numarası {number} bir aramada."
+                "TITLE": "Dinlenen Arama",
+                "CONTENT": "Dinlenen telefon numarası {number} bir aramada."
             }
         },
         "AMBULANCE": {
