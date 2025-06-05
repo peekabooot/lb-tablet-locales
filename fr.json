@@ -975,7 +975,7 @@
                 },
                 "JOIN_CHAT": {
                     "TITLE": "Rejoindre le Chat",
-                    "DESCRIPTION": "Êtes-vous sur de rejoindre ce Chat?",
+                    "DESCRIPTION": "Êtes-vous sur de rejoindre {channel}?",
                     "JOIN": "Rejoindre"
                 },
                 "ERROR": {
@@ -1432,7 +1432,7 @@
                 },
                 "JOIN_CHAT": {
                     "TITLE": "Rejoindre le Chat",
-                    "DESCRIPTION": "Êtes-vous sur de rejoindre ce Chat?",
+                    "DESCRIPTION": "Êtes-vous sur de rejoindre {channel}?",
                     "JOIN": "Rejoindre"
                 },
                 "ERROR": {
