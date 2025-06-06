@@ -1020,6 +1020,8 @@
                     "SEARCH": "Recherche d'appels",
                     "NO_CALLER_ID": "Pas d'identification de l'appelant",
                     "UNKNOWN": "Inconnu",
+                    "INCOMING": "Rentrant",
+                    "OUTGOING": "Sortant",
                     "IN_CALL": "Appel en cours",
                     "NOT_IN_CALL": "Pas en appel",
                     "SUBSCRIBED": "Abonné",
