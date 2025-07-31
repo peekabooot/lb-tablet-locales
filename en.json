@@ -118,7 +118,9 @@
             "DELETE_TITLE": "Delete {title}",
             "DELETE_TEXT": "Are you sure you want to delete '{title}'?",
             "BUTTON_CANCEL": "Cancel",
-            "BUTTON_DELETE": "Delete"
+            "BUTTON_DELETE": "Delete",
+            "PHONE": "Phone",
+            "TABLET": "Tablet"
         },
         "CLOCK": {
             "WORLDCLOCK": {
@@ -219,6 +221,7 @@
             "GALLERY": "Gallery",
             "MY_ALBUMS": "My Albums",
             "MEDIA_TYPES": "Media Types",
+            "FROM_MY_PHONE": "From my phone",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "New Album",
                 "DESCRIPTION": "Enter a name for this album",
@@ -622,7 +625,23 @@
                 "ACTIVE_WARRANTS": "Active Warrants",
                 "INVOLVED": "Involved",
                 "CHARGES": "Charges",
-                "NO_CHARGES": "No Charges"
+                "NO_CHARGES": "No Charges",
+                "FINE_PLAYER": {
+                    "TITLE": "Fine Player",
+                    "DESCRIPTION": "Would you like to fine {name}?",
+                    "DESCRIPTION_DETAILS": "Please fill in the amount and description",
+                    "FINE_WITH_OFFENCE": "Fine with offence",
+                    "FINE_WITHOUT_OFFENCE": "Fine without offence",
+                    "CANCEL": "Cancel",
+                    "PROCEED": "Proceed",
+                    "FINE": "Fine",
+                    "AMOUNT_PLACEHOLDER": "Amount",
+                    "DESCRIPTION_PLACEHOLDER": "Description",
+                    "SEND_FINE": "Send Fine",
+                    "SUCCESS": "Success",
+                    "FINE_SENT": "Fine sent to {name}",
+                    "OK": "OK"
+                }
             },
 
             "VEHICLES": {
@@ -1356,6 +1375,20 @@
 
                     "INVALID_URL": "Invalid URL",
                     "INVALID_URL_DESCRIPTION": "The URL you entered is not a valid image URL",
+                    "OK": "OK"
+                },
+
+                "BILL_PLAYER": {
+                    "TITLE": "Bill Player",
+                    "DESCRIPTION": "Would you like to bill {name}?",
+                    "BILL": "Bill",
+                    "DESCRIPTION_DETAILS": "Please fill in the amount and description",
+                    "AMOUNT_PLACEHOLDER": "Amount",
+                    "DESCRIPTION_PLACEHOLDER": "Description",
+                    "CANCEL": "Cancel",
+                    "PROCEED": "Proceed",
+                    "SUCCESS": "Success",
+                    "BILL_SENT": "Bill sent to {name}",
                     "OK": "OK"
                 }
             },
