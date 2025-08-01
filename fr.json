@@ -118,7 +118,9 @@
             "DELETE_TITLE": "Supprimer {title}",
             "DELETE_TEXT": "Êtes-vous sur de vouloir supprimer '{title}'?",
             "BUTTON_CANCEL": "Annuler",
-            "BUTTON_DELETE": "Supprimer"
+            "BUTTON_DELETE": "Supprimer",
+            "PHONE": "Téléphone",
+            "TABLET": "Tablette"
         },
         "CLOCK": {
             "WORLDCLOCK": {
@@ -219,6 +221,7 @@
             "GALLERY": "Gallerie",
             "MY_ALBUMS": "Mes Albums",
             "MEDIA_TYPES": "Types de média",
+            "FROM_MY_PHONE": "Depuis mon téléphone",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Nouveau Album",
                 "DESCRIPTION": "Saisir un nom pour cet album",
@@ -622,7 +625,23 @@
                 "ACTIVE_WARRANTS": "Mandat Actifs",
                 "INVOLVED": "Impliqué",
                 "CHARGES": "Infractions",
-                "NO_CHARGES": "Aucune Infraction"
+                "NO_CHARGES": "Aucune Infraction",
+                "FINE_PLAYER": {
+                    "TITLE": "Amender Joueur",
+                    "DESCRIPTION": "Voulez-vous amender {name}?",
+                    "DESCRIPTION_DETAILS": "Merci de renseigner la somme et la raison.",
+                    "FINE_WITH_OFFENCE": "Amender avec infraction",
+                    "FINE_WITHOUT_OFFENCE": "Amender sans infraction",
+                    "CANCEL": "Annuler",
+                    "PROCEED": "Valider",
+                    "FINE": "Amende",
+                    "AMOUNT_PLACEHOLDER": "Somme",
+                    "DESCRIPTION_PLACEHOLDER": "Description",
+                    "SEND_FINE": "Envoyer l'Amende",
+                    "SUCCESS": "Succès",
+                    "FINE_SENT": "Amende envoyée à {name}",
+                    "OK": "OK"
+                }
             },
 
             "VEHICLES": {
@@ -1356,6 +1375,20 @@
 
                     "INVALID_URL": "URL Invalide",
                     "INVALID_URL_DESCRIPTION": "L'URL que vous avez saisi n'est pas valid",
+                    "OK": "OK"
+                },
+
+                "BILL_PLAYER": {
+                    "TITLE": "Facturer le Joueur",
+                    "DESCRIPTION": "Voulez-vous facturer {name}?",
+                    "BILL": "Facturer",
+                    "DESCRIPTION_DETAILS": "Merci de renseigner la somme et la raison.",
+                    "AMOUNT_PLACEHOLDER": "Somme",
+                    "DESCRIPTION_PLACEHOLDER": "Description",
+                    "CANCEL": "Annuler",
+                    "PROCEED": "Valider",
+                    "SUCCESS": "Succès",
+                    "BILL_SENT": "Facture envoyéà {name}",
                     "OK": "OK"
                 }
             },
