@@ -8,7 +8,7 @@ Discord: https://discord.gg/zKfDSem4Sj
 
 
 ## Locales Status:
-*1/15 locales up to date*
+*2/15 locales up to date*
 - ✅ **en.json** (Base Locale)
 - ❌ **ar.json**
 - ❌ **ba.json**
@@ -16,7 +16,7 @@ Discord: https://discord.gg/zKfDSem4Sj
 - ❌ **cs.json**
 - ❌ **de.json**
 - ❌ **es.json**
-- ❌ **fr.json**
+- ✅ **fr.json**
 - ❌ **nl.json**
 - ❌ **no.json**
 - ❌ **pt-br.json**
