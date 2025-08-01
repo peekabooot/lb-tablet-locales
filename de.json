@@ -221,6 +221,7 @@
             "GALLERY": "Galerie",
             "MY_ALBUMS": "Meine Alben",
             "MEDIA_TYPES": "Medientypen",
+            "FROM_MY_PHONE": "Von meinem Handy aus",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Neues Album",
                 "DESCRIPTION": "Gib einen Namen für dieses Album ein",
@@ -1379,7 +1380,7 @@
 
                 "BILL_PLAYER": {
                     "TITLE": "Rechnung ausstellen",
-                    "DESCRIPTION": "Möchten Sie {Breze} eine Rechnung stellen?",
+                    "DESCRIPTION": "Möchten Sie {name} eine Rechnung stellen?",
                     "BILL": "Rechnung",
                     "DESCRIPTION_DETAILS": "Bitte Betrag und Beschreibung eintragen.",
                     "AMOUNT_PLACEHOLDER": "Betrag",
