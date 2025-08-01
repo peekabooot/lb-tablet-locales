@@ -118,7 +118,9 @@
             "DELETE_TITLE": "{title} löschen",
             "DELETE_TEXT": "Bist du sicher, dass du '{title}' löschen möchtest?",
             "BUTTON_CANCEL": "Abbrechen",
-            "BUTTON_DELETE": "Löschen"
+            "BUTTON_DELETE": "Löschen",
+            "PHONE": "Telefon",
+            "TABLET": "Tablette"
         },
         "CLOCK": {
             "WORLDCLOCK": {
@@ -622,7 +624,23 @@
                 "ACTIVE_WARRANTS": "Aktive Haftbefehle",
                 "INVOLVED": "Involviert",
                 "CHARGES": "Anklagen",
-                "NO_CHARGES": "Keine Anklagen"
+                "NO_CHARGES": "Keine Anklagen",
+                "FINE_PLAYER": {
+                    "TITLE": "Spieler bestrafen",
+                    "DESCRIPTION": "Möchten Sie {name} bestrafen?",
+                    "DESCRIPTION_DETAILS": "Bitte geben Sie den Betrag und die Beschreibung ein.",
+                    "FINE_WITH_OFFENCE": "Mit Verstoß bestrafen",
+                    "FINE_WITHOUT_OFFENCE": "Bestrafen ohne Verstoß",
+                    "CANCEL": "Abbrechen",
+                    "PROCEED": "Fortfahren",
+                    "FINE": "Strafe",
+                    "AMOUNT_PLACEHOLDER": "Betrag",
+                    "DESCRIPTION_PLACEHOLDER": "Beschreibung",
+                    "SEND_FINE": "Geldstrafe senden",
+                    "SUCCESS": "Erfolg",
+                    "FINE_SENT": "Geldstrafe an {name} geschickt",
+                    "OK": "OK"
+                }
             },
 
             "VEHICLES": {
@@ -1356,6 +1374,20 @@
 
                     "INVALID_URL": "Ungültige URL",
                     "INVALID_URL_DESCRIPTION": "Die eingegebene URL ist keine gültige Bild-URL",
+                    "OK": "OK"
+                },
+
+                "BILL_PLAYER": {
+                    "TITLE": "Rechnung ausstellen",
+                    "DESCRIPTION": "Möchten Sie {Breze} eine Rechnung stellen?",
+                    "BILL": "Rechnung",
+                    "DESCRIPTION_DETAILS": "Bitte Betrag und Beschreibung eintragen.",
+                    "AMOUNT_PLACEHOLDER": "Betrag",
+                    "DESCRIPTION_PLACEHOLDER": "Beschreibung",
+                    "CANCEL": "Abbrechen",
+                    "PROCEED": "Fortfahren",
+                    "SUCCESS": "Erfolg",
+                    "BILL_SENT": "Rechnung an {name} gesendet",
                     "OK": "OK"
                 }
             },
